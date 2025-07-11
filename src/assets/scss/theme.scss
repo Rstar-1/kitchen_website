@@ -1,0 +1,43 @@
+/* ======================= Start-Font-size ======================= */
+.head-text {
+  font-size: 20px !important;
+  margin: 0px !important;
+  font-weight: 500 !important;
+}
+.mid-text {
+  font-size: 16px !important;
+  margin: 0px !important;
+  font-weight: 400 !important;
+}
+.para-text {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+/* ======================= End-Font-size ======================= */
+
+/* ======================= Start-Table ======================= */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  border: 1px solid #ececec;
+  text-align: left;
+  padding: 10px;
+}
+th {
+  background: var(--primary2);
+  border: 1px solid #ececec;
+  text-align: left;
+  padding: 8px;
+  @media (max-width: 640px) {
+    padding: 8px;
+  }
+}
+tr {
+  background: var(--white);
+}
+tr:nth-child(even):hover {
+  background: var(--tertiary);
+}
+/* ======================= End-Table ======================= */

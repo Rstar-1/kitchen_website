@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import "./assets/scss/structure.scss";
+import "./assets/scss/theme.scss";
 import "./assets/scss/global.scss";
 import App from "./App";
 
