@@ -1,18 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap");
 
 /* ======================= Start-Color ======================= */
 :root {
-  --primary: #00fffe !important;
-  --secondary: #1e4a5d !important;
-  --tertiary: #091a2d !important;
-  --forth: #2fa2ad !important;
+  --primary: #f7c532 !important;
+  --secondary: #ea462b !important;
+  --tertiary: #dae0e7 !important;
+  --forth: #231e41 !important;
   --success: #4bb543 !important;
   --warning: #ff5722 !important;
   --danger: #d91831 !important;
   --info: #2196f3 !important;
   --white: #fff !important;
   --dark: #000 !important;
-  --gray: #74767e !important;
+  --gray: #686a70 !important;
 }
 .dark-mode {
   --primary: #00fffe !important;
@@ -30,37 +30,37 @@
 /* ======================= End-Color ======================= */
 
 /* ======================= Start-BgColor ======================= */
-.bgprimary {
+.bg-primary {
   background: var(--primary);
 }
-.bgsecondary {
+.bg-secondary {
   background: var(--secondary);
 }
-.bgtertiary {
+.bg-tertiary {
   background: var(--tertiary);
 }
-.bgforth {
+.bg-forth {
   background: var(--forth);
 }
-.bgsuccess {
+.bg-success {
   background: var(--success);
 }
-.bgwarning {
+.bg-warning {
   background: var(--warning);
 }
-.bgdanger {
+.bg-danger {
   background: var(--danger);
 }
-.bginfo {
+.bg-info {
   background: var(--info);
 }
-.bgwhite {
+.bg-white {
   background: var(--white);
 }
-.bggray {
+.bg-gray {
   background: var(--gray);
 }
-.bgdark {
+.bg-dark {
   background: var(--dark);
 }
 .bg-light-primary {
@@ -81,37 +81,37 @@
 /* ======================= Start-BgColor ======================= */
 
 /* ======================= Start-TextColor ======================= */
-.textprimary {
+.text-primary {
   color: var(--primary);
 }
-.textsecondary {
+.text-secondary {
   color: var(--secondary);
 }
-.texttertiary {
+.text-tertiary {
   color: var(--tertiary);
 }
-.textforth {
+.text-forth {
   color: var(--forth);
 }
-.textsuccess {
+.text-success {
   color: var(--success);
 }
-.textwarning {
+.text-warning {
   color: var(--warning);
 }
-.textdanger {
+.text-danger {
   color: var(--danger);
 }
-.textinfo {
+.text-info {
   color: var(--info);
 }
-.textwhite {
+.text-white {
   color: var(--white);
 }
-.textgray {
+.text-gray {
   color: var(--gray);
 }
-.textdark {
+.text-dark {
   color: var(--dark);
 }
 /* ======================= End-TextColor ======================= */
@@ -160,7 +160,7 @@ input,
 textarea,
 select,
 button {
-  font-family: "Outfit", sans-serif !important;
+  font-family: 'Rubik', sans-serif !important;
 }
 h1,
 h2,
@@ -174,7 +174,7 @@ td,
 tr,
 li,
 a {
-  font-family: "Outfit", sans-serif !important;
+  font-family: 'Rubik', sans-serif !important;
 }
 p {
   line-height: 26px !important;
