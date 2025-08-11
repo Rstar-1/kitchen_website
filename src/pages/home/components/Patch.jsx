@@ -27,7 +27,7 @@ const Patch = () => {
   return (
     <div className="grid-cols-4 gap-12 w-full">
       {patchData.map((item, index) => (
-        <div key={index} className="text-center">
+        <div key={index} className="text-center px-20">
           <img
             src={item?.image}
             alt={item?.title}

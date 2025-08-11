@@ -9498,7 +9498,12 @@ input,
 
 /* ======================= Start-Fontsize ======================= */
 .head-text {
-  font-size: 72px !important;
+  font-size: 60px !important;
+  margin: 0px !important;
+  font-weight: 600 !important;
+}
+.title-text {
+  font-size: 40px !important;
   margin: 0px !important;
   font-weight: 600 !important;
 }
