@@ -1,24 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
-  return (
-    <div className="bg-tertiary py-50 w-full">
-      <div className="container2">
-        <div className="flex items-center w-full justify-between">
-          <div className="w-20">
-            <h1 className="my-1 mid-text text-forth font-500">Kitchen</h1>
-          </div>
-          <div className="flex items-center justify-center w-60">
-            
-          </div>
-          <div className="flex items-center justify-end w-20">
-            <div className="center-div border-0 rounded-full bg-secondary mx-14"></div>
-            <div className="center-div border-0 rounded-full bg-secondary"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+  return <div className="py-65 bg-white"></div>;
+};
 
-export default Footer
+export default Footer;

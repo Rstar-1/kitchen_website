@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Raj",
+    "email": "raj@gmail.com",
+    "mobile": "8977654321",
+    "password": "Admin1234",
+    "investors": ["Nikhil", "Govind"],
+    "networks": ["Govind Kohad", "Nikhil Jaiswal"],
+    "customers": ["PLEXIFYER"],
+    "role": "Dev-Admin",
+    "vip": true,
+    "status": true
+  },
+  {
+    "name": "Govind",
+    "email": "kohad@gmail.com",
+    "mobile": "8987654321",
+    "password": "Admin1234",
+    "investors": ["Virendar"],
+    "networks": ["Jai Prakash"],
+    "customers": ["MSSP", "PLEXIFYER"],
+    "role": "Tier-1",
+    "vip": false,
+    "status": true
+  },
+  {
+    "name": "Shubham",
+    "email": "shubham@gmail.com",
+    "mobile": "8998876543",
+    "password": "Admin1234",
+    "investors": ["Raj", "Nikhil"],
+    "networks": ["Govind Kohad"],
+    "customers": ["TechMatrix"],
+    "role": "Manager",
+    "vip": true,
+    "status": true
+  },
+  {
+    "name": "Bhakti",
+    "email": "bhakti@gmail.com",
+    "mobile": "9876534765",
+    "password": "Admin1234",
+    "investors": ["Sneha", "Kiran"],
+    "networks": ["neha", "Sharma"],
+    "customers": ["NovaEdge"],
+    "role": "Tier-2",
+    "vip": false,
+    "status": true
+  },
+  {
+    "name": "Bhakti",
+    "email": "bhakti@gmail.com",
+    "mobile": "9876534765",
+    "password": "Admin1234",
+    "investors": ["Sneha", "Kiran"],
+    "networks": ["neha", "Sharma"],
+    "customers": ["NovaEdge"],
+    "role": "Tier-2",
+    "vip": false,
+    "status": true
+  },
+  {
+    "name": "Bhakti",
+    "email": "bhakti@gmail.com",
+    "mobile": "9876534765",
+    "password": "Admin1234",
+    "investors": ["Sneha", "Kiran"],
+    "networks": ["neha", "Sharma"],
+    "customers": ["NovaEdge"],
+    "role": "Tier-2",
+    "vip": false,
+    "status": true
+  },
+  {
+    "name": "Aarti",
+    "email": "aarti@gmail.com",
+    "mobile": "9090909090",
+    "password": "Admin1234",
+    "investors": ["Govind", "Nikhil"],
+    "networks": ["Raj Shetye"],
+    "customers": ["Flexora"],
+    "role": "Executive",
+    "vip": false,
+    "status": false
+  },
+  {
+    "name": "Virendar",
+    "email": "virendar@gmail.com",
+    "mobile": "9876501234",
+    "password": "Admin1234",
+    "investors": ["Nikhil", "Raj"],
+    "networks": ["Shubham Kale", "Govind Kohad"],
+    "customers": ["TechMatrix", "MSSP"],
+    "role": "Manager",
+    "vip": true,
+    "status": true
+  },
+  {
+    "name": "Pooja",
+    "email": "pooja@gmail.com",
+    "mobile": "9876598765",
+    "password": "Admin1234",
+    "investors": ["Sneha", "Kiran"],
+    "networks": ["Aarti Sharma"],
+    "customers": ["NovaEdge"],
+    "role": "Tier-2",
+    "vip": false,
+    "status": true
+  },
+  {
+    "name": "Amit Sharma",
+    "email": "amitsharma@gmail.com",
+    "mobile": "9122233445",
+    "password": "Admin1234",
+    "investors": ["Raj", "Deepak"],
+    "networks": ["Virendar"],
+    "customers": ["PLEXIFYER", "FinCorp"],
+    "role": "Dev-Admin",
+    "vip": true,
+    "status": false
+  }
+]

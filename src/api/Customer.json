@@ -1,0 +1,38 @@
+[
+  {
+    "name": "PLEXIFYER",
+    "email": "nikhil@gmail.com",
+    "mobile": "8977654321",
+    "code": "P0644",
+    "category": "Rolling",
+    "vip": true,
+    "status": true
+  },
+  {
+    "name": "MSSP",
+    "email": "nikhil@gmail.com",
+    "mobile": "8977654321",
+    "code": "M43f",
+    "category": "Rolling",
+    "vip": true,
+    "status": true
+  },
+  {
+    "name": "Jagdesh",
+    "email": "nikhil@gmail.com",
+    "mobile": "8977654321",
+    "code": "J778d",
+    "category": "Bussiness",
+    "vip": true,
+    "status": true
+  },
+  {
+    "name": "Jay",
+    "email": "nikhil@gmail.com",
+    "mobile": "8977654321",
+    "code": "Jew90",
+    "category": "Rolling",
+    "vip": true,
+    "status": true
+  }
+]

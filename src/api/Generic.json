@@ -1,0 +1,35 @@
+{
+  "userhead": [
+    { "name": "Name", "feilds": "name" },
+    { "name": "Email", "feilds": "email" },
+    { "name": "Mobile", "feilds": "mobile" },
+    { "name": "Role", "feilds": "role" },
+    { "name": "Network", "feilds": "networks" },
+    { "name": "Customers", "feilds": "customers" },
+    { "name": "Investors", "feilds": "investors" },
+    { "name": "Status", "feilds": "status" },
+    { "name": "Actions", "feilds": "actions" }
+  ],
+  "header2": [
+    { "name": "Name", "feilds": "Name" },
+    { "name": "Email", "feilds": "Email" },
+    { "name": "Mobile", "feilds": "Mobile" },
+    { "name": "Category", "feilds": "category" },
+    { "name": "Code", "feilds": "code" },
+    { "name": "Status", "feilds": "Status" }
+  ],
+  "colorMap": {
+    "warning": "var(--warning)",
+    "secondary": "var(--secondary)",
+    "success": "var(--success)",
+    "tertiary": "var(--tertiary)",
+    "forth": "var(--forth)",
+    "danger": "var(--danger)",
+    "white": "var(--white)",
+    "gray": "var(--gray)",
+    "info": "var(--info)",
+    "dark": "var(--dark)",
+    "primary": "var(--primarytext)",
+    "transparent": "transparent"
+  }
+}
