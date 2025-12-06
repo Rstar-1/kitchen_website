@@ -9282,26 +9282,14 @@
 
 /* ======================= Start-Color ======================= */
 :root {
-  --primary: linear-gradient(
-    270deg,
-    rgba(115, 103, 240, 0.7) 0%,
-    #7367f0 100%
-  ) !important;
-  --primarytext: #8178c1 !important;
-  --secondary: #f7f1f17b !important;
+  --primary: linear-gradient(145.27deg, rgba(255, 2, 154, .17) 15.55%, rgba(159, 114, 144, .024) 86.81%) !important;
+  --primarytext: #625AFA !important;
+  --secondary: #ef4444 !important;
   --tertiary: #e7e6ec !important;
-  --forth: #ececec !important;
-  --success: linear-gradient(
-    270deg,
-    #77cc70bc 0%,
-    #25771fbc 100%
-  ) !important;
+  --forth: #f0f2ee  !important;
+  --success: linear-gradient(145deg, rgba(0, 236, 9, .14) 15.55%, rgba(29, 227, 73, 0) 86.81%) !important;
   --successtext: #25771fbc !important;
-  --warning: linear-gradient(
-    270deg,
-    #e6a794 0%,
-    #ff5722 100%
-  ) !important;
+  --warning: linear-gradient(145deg, rgba(255, 74, 17, .14) 15.55%, hsla(16, 80%, 86%, .14) 86.81%) !important;
   --warningtext: #ff5722 !important;
   --danger: #c21b1bdb !important;
   --info: #2378bdb7 !important;
@@ -9500,17 +9488,19 @@ input,
 
 /* ======================= Start-Fontsize ======================= */
 .large-text {
-  font-size: 42px !important;
+  font-size: 64px !important;
   margin: 0px !important;
+  line-height: 70px !important;
   font-weight: 500 !important;
 }
 .head-text {
-  font-size: 22px !important;
+  font-size: 30px !important;
+  line-height: 40px !important;
   margin: 0px !important;
   font-weight: 500 !important;
 }
 .title-text {
-  font-size: 16px !important;
+  font-size: 22px !important;
   margin: 0px !important;
   font-weight: 500 !important;
 }
@@ -9523,9 +9513,13 @@ input,
   font-size: 24px !important;
   font-weight: 400 !important;
 }
+.midpara-text {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+}
 .para-text {
-  font-size: 14px !important;
-  line-height: 17px !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
   font-weight: 400 !important;
 }
 .small-text {

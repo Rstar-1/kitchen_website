@@ -10783,7 +10783,7 @@
 /* ======================= End-Width ======================= */
 
 /* ======================= Start-Height ======================= */
-.h-100 {
+.h-100px {
   height: 100px !important;
 }
 .h-150 {
@@ -11139,62 +11139,62 @@
 /* ======================= Start-Clamp ======================= */
 .line-clamp1 {
   display: -webkit-box !important;
-  // -webkit-line-clamp: 1 !important;
+  -webkit-line-clamp: 1 !important;
   -webkit-box-orient: vertical !important;
   overflow: hidden !important;
 }
 .line-clamp2 {
   display: -webkit-box !important;
-  // -webkit-line-clamp: 2 !important;
+  -webkit-line-clamp: 2 !important;
   -webkit-box-orient: vertical !important;
   overflow: hidden !important;
 }
 .line-clamp3 {
   display: -webkit-box;
-  // -webkit-line-clamp: 3;
+  -webkit-line-clamp: 3 !important;
   -webkit-box-orient: vertical !important;
   overflow: hidden !important;
 }
 .line-clamp4 {
   display: -webkit-box;
-  // -webkit-line-clamp: 4;
+  -webkit-line-clamp: 4 !important;
   -webkit-box-orient: vertical !important;
   overflow: hidden !important;
 }
 .line-clamp5 {
   display: -webkit-box !important;
-  // -webkit-line-clamp: 5 !important;
+  -webkit-line-clamp: 5 !important;
   -webkit-box-orient: vertical !important;
   overflow: hidden !important;
 }
 @media (max-width: 1224px) and (min-width: 913px) {
   .lp-line-clamp1 {
     display: -webkit-box !important;
-    // -webkit-line-clamp: 1 !important;
+    -webkit-line-clamp: 1 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
   }
   .lp-line-clamp2 {
     display: -webkit-box !important;
-    // -webkit-line-clamp: 2 !important;
+    -webkit-line-clamp: 2 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
   }
   .lp-line-clamp3 {
     display: -webkit-box !important;
-    // -webkit-line-clamp: 3 !important;
+    -webkit-line-clamp: 3 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
   }
   .lp-line-clamp4 {
     display: -webkit-box !important;
-    // -webkit-line-clamp: 4 !important;
+    -webkit-line-clamp: 4 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
   }
   .lp-line-clamp5 {
     display: -webkit-box !important;
-    // -webkit-line-clamp: 5 !important;
+    -webkit-line-clamp: 5 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
   }
@@ -11202,31 +11202,31 @@
 @media (max-width: 912px) and (min-width: 641px) {
   .md-line-clamp1 {
     display: -webkit-box !important;
-    // -webkit-line-clamp: 1 !important;
+    -webkit-line-clamp: 1 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
   }
   .md-line-clamp2 {
     display: -webkit-box !important;
-    // -webkit-line-clamp: 2 !important;
+    -webkit-line-clamp: 2 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
   }
   .md-line-clamp3 {
     display: -webkit-box !important;
-    // -webkit-line-clamp: 3 !important;
+    -webkit-line-clamp: 3 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
   }
   .md-line-clamp4 {
     display: -webkit-box !important;
-    // -webkit-line-clamp: 4 !important;
+    -webkit-line-clamp: 4 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
   }
   .md-line-clamp5 {
     display: -webkit-box !important;
-    // -webkit-line-clamp: 5 !important;
+    -webkit-line-clamp: 5 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
   }
@@ -11234,31 +11234,31 @@
 @media (max-width: 640px) {
   .sm-line-clamp1 {
     display: -webkit-box !important;
-    // -webkit-line-clamp: 1 !important;
+    -webkit-line-clamp: 1 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
   }
   .sm-line-clamp2 {
     display: -webkit-box !important;
-    // -webkit-line-clamp: 2 !important;
+    -webkit-line-clamp: 2 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
   }
   .sm-line-clamp3 {
     display: -webkit-box !important;
-    // -webkit-line-clamp: 3 !important;
+    -webkit-line-clamp: 3 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
   }
   .sm-line-clamp4 {
     display: -webkit-box !important;
-    // -webkit-line-clamp: 4 !important;
+    -webkit-line-clamp: 4 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
   }
   .sm-line-clamp5 {
     display: -webkit-box !important;
-    // -webkit-line-clamp: 5 !important;
+    -webkit-line-clamp: 5 !important;
     -webkit-box-orient: vertical !important;
     overflow: hidden !important;
   }
@@ -11443,7 +11443,7 @@ body {
   box-sizing: border-box;
   word-wrap: break-word !important;
   width: 100% !important;
-  background: var(--tertiary) !important;
+  background: var(--white) !important;
 }
 a {
   text-decoration: none !important;
@@ -11537,8 +11537,9 @@ input:focus{
   border-right: 1px solid var(--tertiary) !important;
 }
 input[type="checkbox"] {
-  width: 10px !important;
-  height: 10px !important;
+  width: 14px !important;
+  height: 14px !important;
+  margin: 0px !important;
   cursor: pointer;
   accent-color: var(--primarytext);
   margin: 0 !important;
