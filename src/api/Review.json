@@ -1,38 +1,32 @@
 [
   {
-    "name": "PLEXIFYERSS",
-    "email": "nikhil@gmail.com",
-    "mobile": "8977654321",
-    "code": "P0644",
-    "category": "Rolling",
-    "vip": true,
-    "status": true
+    "id": 1,
+    "review": "The ink quality is top-notch. Prints look sharp, vibrant, and professional every single time!",
+    "name": "John Carter",
+    "role": "Product Designer"
   },
   {
-    "name": "MSSPSS",
-    "email": "nikhil@gmail.com",
-    "mobile": "8977654321",
-    "code": "M43f",
-    "category": "Stocks",
-    "vip": true,
-    "status": true
+    "id": 2,
+    "review": "Reliable ink and ultra-fast delivery. Perfect for my studio needs!",
+    "name": "Priya Sharma",
+    "role": "Studio Owner"
   },
   {
-    "name": "Raju",
-    "email": "nikhil@gmail.com",
-    "mobile": "8977654321",
-    "code": "J778d",
-    "category": "Bussiness",
-    "vip": true,
-    "status": true
+    "id": 3,
+    "review": "Excellent print clarity and long-lasting cartridges. Highly recommended.",
+    "name": "Michael Green",
+    "role": "Photographer"
   },
   {
-    "name": "Kay",
-    "email": "nikhil@gmail.com",
-    "mobile": "8977654321",
-    "code": "Jew90",
-    "category": "Rolling",
-    "vip": true,
-    "status": true
+    "id": 4,
+    "review": "Affordable cartridges with consistent performance. My office runs smoothly thanks to them!",
+    "name": "Sara Williams",
+    "role": "Office Manager"
+  },
+  {
+    "id": 5,
+    "review": "Customer support is amazing and always ready to help. I trust this brand completely.",
+    "name": "David Lee",
+    "role": "Freelance Graphic Designer"
   }
 ]

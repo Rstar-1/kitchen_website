@@ -51,7 +51,7 @@ const Section5 = () => {
         </div>
         <div className="flex sm-block gap-12 py-20">
           <div className="w-70 sm-w-full">
-            <div className="w-full grid-cols-2 md-grid-cols-2 sm-grid-cols-1">
+            <div className="w-full grid-cols-2 md-grid-cols-2 sm-grid-cols-1 sm-gap-12">
               {galleryImages
                 .slice(3, 7)
                 .map((item, index) =>
@@ -66,7 +66,7 @@ const Section5 = () => {
                 )}
             </div>
           </div>
-          <div className="w-30 sm-w-full">
+          <div className="w-30 sm-w-full sm-mt-6">
             {galleryImages
               .slice(7, 8)
               .map((item, index) =>
@@ -75,26 +75,12 @@ const Section5 = () => {
                     key={index}
                     src={item.src}
                     alt={`gallery-${index + 1}`}
-                    className="w-full h-600 object-cover flex"
+                    className="w-full h-600 sm-h-300 object-cover flex"
                   />
                 ) : null
               )}
           </div>
         </div>
-        {/* <div className="w-full grid-cols-3 gap-12">
-          {galleryImages
-            .slice(0, 3)
-            .map((item, index) =>
-              item.isImage ? (
-                <img
-                  key={index}
-                  src={item.src}
-                  alt={`gallery-${index + 1}`}
-                  className="w-full h-250 object-cover flex"
-                />
-              ) : null
-            )}
-        </div> */}
       </div>
     </Container>
   );

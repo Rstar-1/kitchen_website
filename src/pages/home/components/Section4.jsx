@@ -1,51 +1,16 @@
 import React from "react";
 import Container from "../../../utility/Container";
+import Review from "../../../api/Review.json";
 
 const Section4 = () => {
-  const testimonials = [
-    {
-      id: 1,
-      review:
-        "The ink quality is top-notch. Prints look sharp, vibrant, and professional every single time!",
-      name: "John Carter",
-      role: "Product Designer",
-    },
-    {
-      id: 2,
-      review:
-        "Reliable ink and ultra-fast delivery. Perfect for my studio needs!",
-      name: "Priya Sharma",
-      role: "Studio Owner",
-    },
-    {
-      id: 3,
-      review:
-        "Excellent print clarity and long-lasting cartridges. Highly recommended.",
-      name: "Michael Green",
-      role: "Photographer",
-    },
-    {
-      id: 4,
-      review:
-        "The ink quality is top-notch. Prints look sharp, vibrant, and professional every single time!",
-      name: "John Carter",
-      role: "Product Designer",
-    },
-    {
-      id: 5,
-      review:
-        "Reliable ink and ultra-fast delivery. Perfect for my studio needs!",
-      name: "Priya Sharma",
-      role: "Studio Owner",
-    }
-  ];
+ const testimonials = Review || [];
 
   return (
     <Container version="v2" className="bg-forth">
       <div className="w-full py-30">
         <div className="flex md-grid-cols-2 sm-grid-cols-1 justify-center flex-wrap gap-12">
-          {testimonials.map((item) => (
-            <div key={item.id} className="bg-white rounded-10 w-30 sm-w-full">
+          {testimonials?.map((item) => (
+            <div key={item.id} className="bg-white rounded-10 w-30 md-w-full sm-w-full">
               <div className="p-20">
                 <svg
                   className="flex text-primary"
@@ -61,7 +26,7 @@ const Section4 = () => {
                     fill="currentColor"
                   ></path>
                 </svg>
-                <p className="para-text text-gray mt-10">"{item.review}"</p>
+                <p className="para-text text-gray line-clamp2 mt-10">"{item.review}"</p>
                 <div className="mt-20">
                   <h5 className="title-text font-600 text-dark">{item.name}</h5>
                   <p className="small-text text-gray mt-2">{item.role}</p>

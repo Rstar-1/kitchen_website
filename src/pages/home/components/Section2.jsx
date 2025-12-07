@@ -42,7 +42,7 @@ const Section2 = () => {
 
   const FeaturedGrid = ({ title, list }) => (
     <div className="py-30 bordb">
-      <div className="flex items-center justify-between w-full">
+      <div className="flex flex-wrap items-center justify-between w-full">
         <h2 className="title-text text-dark font-600">{title}</h2>
         <p className="text-primary para-text">View More</p>
       </div>
@@ -56,7 +56,7 @@ const Section2 = () => {
                 alt={item.title}
               />
             </div>
-            <p className="para-text text-gray font-400 mt-8 px-2">
+            <p className="para-text text-gray font-400 mt-12 sm-mt-10 px-2">
               {item.title}
             </p>
           </div>

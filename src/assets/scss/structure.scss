@@ -9505,7 +9505,7 @@ input,
   line-height: 70px !important;
   font-weight: 500 !important;
   @media (max-width: 640px) {
-    font-size: 44px !important;
+    font-size: 40px !important;
     margin: 0px !important;
     line-height: 56px !important;
     font-weight: 500 !important;
@@ -9516,11 +9516,21 @@ input,
   line-height: 40px !important;
   margin: 0px !important;
   font-weight: 500 !important;
+  @media (max-width: 640px) {
+    font-size: 24px !important;
+    margin: 0px !important;
+    line-height: 36px !important;
+    font-weight: 500 !important;
+  }
 }
 .title-text {
   font-size: 22px !important;
   margin: 0px !important;
   font-weight: 500 !important;
+  @media (max-width: 640px) {
+    font-size: 20px !important;
+    margin: 0px !important;
+  }
 }
 .mid-text {
   font-size: 14px !important;
@@ -9530,15 +9540,28 @@ input,
 .headpara-text {
   font-size: 24px !important;
   font-weight: 400 !important;
+   @media (max-width: 640px) {
+    font-size: 20px !important;
+    line-height: 22px !important;
+    font-weight: 500 !important;
+  }
 }
 .midpara-text {
   font-size: 18px !important;
   font-weight: 400 !important;
+   @media (max-width: 640px) {
+    font-size: 16px !important;
+    line-height: 22px !important;
+    font-weight: 500 !important;
+  }
 }
 .para-text {
   font-size: 16px !important;
   line-height: 22px !important;
   font-weight: 400 !important;
+  @media (max-width: 640px) {
+    font-size: 16px !important;
+  }
 }
 .small-text {
   font-size: 13px !important;

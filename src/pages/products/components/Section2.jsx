@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Container from "../../../utility/Container";
 import Pagination from "../../../utility/Pagination";
 import product from "../../../api/Product.json";
@@ -6,6 +7,7 @@ import product from "../../../api/Product.json";
 const Section2 = () => {
  const products = product || [];
 
+ const navigate = useNavigate();
   const itemsPerPage = 9;
   const categories = [...new Set(products?.map((p) => p.category.title))];
   const [selectedCategories, setSelectedCategories] = React.useState([]);
@@ -35,10 +37,14 @@ const Section2 = () => {
     setCurrentPage(selected);
   };
 
+    const handleProductClick = (product) => {
+      navigate("/product-detail", { state: { product } });
+    };
+
   return (
     <Container version="v2" className="bg-white">
       <div className="w-full py-30 flex md-flex sm-block items-start gap-12">
-        <div className="w-20 md-w-25 sm-w-full p-14 border-forth rounded-5">
+        <div className="w-20 md-w-25 sm-hidden p-14 border-forth rounded-5">
           <p className="para-text bordb pb-10">Filter By Category</p>
           <div className="mt-12 grid-cols-1 gap-12">
             {categories.map((cat) => (
@@ -61,17 +67,20 @@ const Section2 = () => {
         <div className="w-80 md-w-75 sm-w-full">
           <input
             placeholder="Search..."
-            className="border-forth rounded-5 w-60 h-input"
+            className="border-forth rounded-5 w-60 md-w-80 sm-w-full h-input"
             value={search}
             onChange={(e) => {
               setSearch(e.target.value);
               setCurrentPage(0);
             }}
           />
-
-          <div className="w-full grid-cols-3 gap-12 mt-16">
+          <div className="w-full grid-cols-3 md-grid-cols-2 sm-grid-cols-1 gap-12 mt-16">
             {currentItems.map((item, index) => (
-              <div key={index} className="bg-forth p-10 rounded-5">
+              <div
+                key={index}
+                className="bg-forth p-10 rounded-5 cursor-pointer"
+                onClick={() => handleProductClick(item)}
+              >
                 <img
                   src={item.img}
                   className="w-full h-250 object-contain bg-white rounded-5"
@@ -90,7 +99,6 @@ const Section2 = () => {
               </div>
             ))}
           </div>
-
           <Pagination
             pageCount={pageCount}
             forcePage={currentPage}

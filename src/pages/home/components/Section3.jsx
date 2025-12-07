@@ -4,24 +4,24 @@ import Container from "../../../utility/Container";
 const Section3 = () => {
   const stats = [
     {
-      value: "240 +",
+      value: "10+",
       label: "Years of Experience",
       bg: "bg-secondary",
     },
     {
-      value: "150 +",
-      label: "Trusted Brands",
+      value: "150+",
+      label: "Trusted Brands Worldwide",
       bg: "bg-warning",
     },
     {
-      value: "100 %",
-      label: "Satisfaction Rate",
-      bg: "bg-secondary",
+      value: "100%",
+      label: "Customer Satisfaction Rate",
+      bg: "bg-success",
     },
     {
-      value: "100 %",
-      label: "Satisfaction Rate",
-      bg: "bg-success",
+      value: "50K+",
+      label: "Products Sold",
+      bg: "bg-warning",
     },
   ];
 

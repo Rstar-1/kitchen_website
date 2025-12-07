@@ -6,9 +6,9 @@ const Products = () => {
   return (
     <>
       <Banner
-        title="Banner"
-        description="Bring your documents and photos to life. Vibrant colors, deep blacks, and flawless print clarity."
-        widthClass="w-50"
+        title="Explore Our Products"
+        description="Discover high-quality printing solutions and accessories designed to bring your documents and photos to life. Enjoy vibrant colors, deep blacks, and flawless print clarity with every product."
+        widthClass="w-70"
       />
       <Section2 />
     </>

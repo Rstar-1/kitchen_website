@@ -21,14 +21,14 @@ const Navbar = () => {
         }
       >
         <div className="bg-white b-shadow w-full h-100 absolute right-0 top-0">
-          <div className="bg-dark p-10">
+          <div className="bg-warning p-10 sm-p-16">
             <div className="flex items-center justify-end gap-4 pl-10 pr-10">
               <div onClick={() => setsidebarshow(false)}>
                 <svg
                   viewBox="0 0 24 24"
                   width="24"
                   height="24"
-                  stroke="white"
+                  stroke="gray"
                   strokeWidth="2"
                   fill="none"
                   className="flex cursor-pointer"

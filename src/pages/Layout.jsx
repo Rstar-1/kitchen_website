@@ -39,7 +39,7 @@ const Layout = () => {
   };
 
   return (
-    <>
+    <div className="relative">
       <Navbar />
       <Outlet />
       <Footer />
@@ -62,7 +62,7 @@ const Layout = () => {
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 };
 

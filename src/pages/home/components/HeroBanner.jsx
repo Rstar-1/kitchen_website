@@ -20,7 +20,7 @@ const HeroBanner = () => {
           </div>
           <img
             src="https://prinoz-next.vercel.app/images/hero/hero-1.jpg"
-            className="object-cover h-500 sm-h-300 flex w-50 sm-w-full sm-mt-20 rounded-10"
+            className="object-cover h-500 sm-h-250 flex w-50 sm-w-full sm-mt-20 rounded-10"
           />
         </div>
         <div className="absolute bottom-0 flex justify-center w-full">

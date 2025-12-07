@@ -1,11 +1,12 @@
 import React, { Suspense, lazy } from "react";
 import { Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
+import ScrollToTop from "./utility/ScrollToTop";
 
-// Lazy-loaded pages
 const Home = lazy(() => import("./pages/home/Home"));
 const Products = lazy(() => import("./pages/products/Products"));
 const Overview = lazy(() => import("./pages/overview/Overview"));
+const Category = lazy(() => import("./pages/category/Category"));
 const Connect = lazy(() => import("./pages/connect/Connect"));
 
 function App() {
@@ -17,12 +18,14 @@ function App() {
         </div>
       }
     >
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="home" element={<Home />} />
           <Route path="product" element={<Products />} />
           <Route path="product-detail" element={<Overview />} />
+          <Route path="category" element={<Category />} />
           <Route path="connect" element={<Connect />} />
         </Route>
       </Routes>
