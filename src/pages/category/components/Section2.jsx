@@ -1,8 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Container from "../../../utility/Container";
 import products from "../../../api/Product.json";
 
 const Section2 = () => {
+  const navigate = useNavigate();
   const categories = Array.from(
     new Map(products.map((p) => [p.category.title, p.category])).values()
   );
@@ -11,7 +13,11 @@ const Section2 = () => {
     <div className="py-10 bordb">
       <div className="w-full grid-cols-4 md-grid-cols-2 sm-grid-cols-1 gap-12">
         {list.map((item, index) => (
-          <div key={index}>
+          <div
+            key={index}
+            className="cursor-pointer"
+            onClick={() => navigate("/product")}
+          >
             <div className="bg-forth rounded-5 p-10">
               <img
                 src={item.img}

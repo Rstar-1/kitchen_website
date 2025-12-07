@@ -5,14 +5,15 @@ import Pagination from "../../../utility/Pagination";
 import product from "../../../api/Product.json";
 
 const Section2 = () => {
- const products = product || [];
+  const products = product || [];
 
- const navigate = useNavigate();
+  const navigate = useNavigate();
   const itemsPerPage = 9;
   const categories = [...new Set(products?.map((p) => p.category.title))];
   const [selectedCategories, setSelectedCategories] = React.useState([]);
   const [search, setSearch] = React.useState("");
   const [currentPage, setCurrentPage] = React.useState(0);
+  const [showCategories, setShowCategories] = React.useState(false);
 
   const handleCategory = (cat) => {
     setCurrentPage(0); // Reset page on filter
@@ -26,7 +27,9 @@ const Section2 = () => {
         selectedCategories.length === 0 ||
         selectedCategories.includes(item.category.title)
     )
-    ?.filter((item) => item?.title?.toLowerCase()?.includes(search?.toLowerCase()));
+    ?.filter((item) =>
+      item?.title?.toLowerCase()?.includes(search?.toLowerCase())
+    );
 
   const pageCount = Math.ceil(filteredProducts?.length / itemsPerPage);
   const currentItems = filteredProducts?.slice(
@@ -37,9 +40,9 @@ const Section2 = () => {
     setCurrentPage(selected);
   };
 
-    const handleProductClick = (product) => {
-      navigate("/product-detail", { state: { product } });
-    };
+  const handleProductClick = (product) => {
+    navigate("/product-detail", { state: { product } });
+  };
 
   return (
     <Container version="v2" className="bg-white">
@@ -64,7 +67,60 @@ const Section2 = () => {
             ))}
           </div>
         </div>
-        <div className="w-80 md-w-75 sm-w-full">
+        <div className="justify-end hidden sm-flex w-full">
+          <div onClick={() => setShowCategories(!showCategories)}>
+            {showCategories ? (
+              <svg
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                stroke="gray"
+                strokeWidth="2"
+                fill="none"
+                className="flex cursor-pointer"
+              >
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            ) : (
+              <svg
+                viewBox="0 0 26 26"
+                width="26"
+                height="26"
+                stroke="gray"
+                strokeWidth="2"
+                fill="none"
+                className="cursor-pointer"
+              >
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            )}
+          </div>
+        </div>
+        {showCategories && (
+          <div className="mt-4 border-forth rounded-5 w-full bg-white hidden sm-flex">
+            <div className="p-8">
+              {categories.map((cat) => (
+                <div
+                  key={cat}
+                  className="flex items-center gap-8 mt-8 cursor-pointer"
+                  onClick={() => handleCategory(cat)}
+                >
+                  <input
+                    type="checkbox"
+                    checked={selectedCategories.includes(cat)}
+                    onChange={() => handleCategory(cat)}
+                    onClick={(e) => e.stopPropagation()}
+                  />
+                  <p className="small-text text-gray">{cat}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+        <div className="w-80 md-w-75 sm-w-full sm-mt-10">
           <input
             placeholder="Search..."
             className="border-forth rounded-5 w-60 md-w-80 sm-w-full h-input"

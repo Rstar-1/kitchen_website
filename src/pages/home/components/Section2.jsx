@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "../../../utility/Container";
+import { NavLink } from "react-router-dom";
 
 const Section2 = () => {
   const laserToner = [
@@ -44,7 +45,12 @@ const Section2 = () => {
     <div className="py-30 bordb">
       <div className="flex flex-wrap items-center justify-between w-full">
         <h2 className="title-text text-dark font-600">{title}</h2>
-        <p className="text-primary para-text">View More</p>
+        <NavLink
+          to="/product"
+          className="text-primary para-text"
+        >
+          View More
+        </NavLink>
       </div>
       <div className="w-full grid-cols-4 md-grid-cols-2 sm-grid-cols-1 gap-12 mt-20">
         {list.map((item, index) => (
