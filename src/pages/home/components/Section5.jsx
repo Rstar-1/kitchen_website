@@ -39,8 +39,8 @@ const Section5 = () => {
 
   return (
     <Container version="v2" className="bg-white">
-      <div className="py-50">
-        <div className="w-50">
+      <div className="py-50 sm-py-20">
+        <div className="w-50 sm-w-full">
           <h6 className="head-text text-dark font-600">
             Quality Prints Start Here.
           </h6>
@@ -49,9 +49,9 @@ const Section5 = () => {
             blacks, and flawless print clarity.
           </p>
         </div>
-        <div className="flex gap-12 py-20">
-          <div className="w-70">
-            <div className="w-full grid-cols-2">
+        <div className="flex sm-block gap-12 py-20">
+          <div className="w-70 sm-w-full">
+            <div className="w-full grid-cols-2 md-grid-cols-2 sm-grid-cols-1">
               {galleryImages
                 .slice(3, 7)
                 .map((item, index) =>
@@ -66,7 +66,7 @@ const Section5 = () => {
                 )}
             </div>
           </div>
-          <div className="w-30">
+          <div className="w-30 sm-w-full">
             {galleryImages
               .slice(7, 8)
               .map((item, index) =>

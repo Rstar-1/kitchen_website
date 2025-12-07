@@ -9282,14 +9282,26 @@
 
 /* ======================= Start-Color ======================= */
 :root {
-  --primary: linear-gradient(145.27deg, rgba(255, 2, 154, .17) 15.55%, rgba(159, 114, 144, .024) 86.81%) !important;
-  --primarytext: #625AFA !important;
-  --secondary: #ef4444 !important;
+  --primary: #5b53f5 !important;
+  --primarytext: #625afa !important;
+  --secondary: linear-gradient(
+    145.27deg,
+    rgba(255, 2, 154, 0.17) 15.55%,
+    rgba(159, 114, 144, 0.024) 86.81%
+  ) !important;
   --tertiary: #e7e6ec !important;
-  --forth: #f0f2ee  !important;
-  --success: linear-gradient(145deg, rgba(0, 236, 9, .14) 15.55%, rgba(29, 227, 73, 0) 86.81%) !important;
+  --forth: #f0f2ee !important;
+  --success: linear-gradient(
+    145deg,
+    rgba(0, 236, 9, 0.14) 15.55%,
+    rgba(29, 227, 73, 0) 86.81%
+  ) !important;
   --successtext: #25771fbc !important;
-  --warning: linear-gradient(145deg, rgba(255, 74, 17, .14) 15.55%, hsla(16, 80%, 86%, .14) 86.81%) !important;
+  --warning: linear-gradient(
+    145deg,
+    rgba(255, 74, 17, 0.14) 15.55%,
+    hsla(16, 80%, 86%, 0.14) 86.81%
+  ) !important;
   --warningtext: #ff5722 !important;
   --danger: #c21b1bdb !important;
   --info: #2378bdb7 !important;
@@ -9401,7 +9413,7 @@
 
 /* ======================= Start-Border ======================= */
 .border-primary {
-  border: 1px solid var(--primary);
+  border: 1px solid var(--primarytext);
 }
 .border-secondary {
   border: 1px solid var(--secondary);
@@ -9492,6 +9504,12 @@ input,
   margin: 0px !important;
   line-height: 70px !important;
   font-weight: 500 !important;
+  @media (max-width: 640px) {
+    font-size: 44px !important;
+    margin: 0px !important;
+    line-height: 56px !important;
+    font-weight: 500 !important;
+  }
 }
 .head-text {
   font-size: 30px !important;

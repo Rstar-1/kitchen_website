@@ -46,7 +46,7 @@ const Section2 = () => {
         <h2 className="title-text text-dark font-600">{title}</h2>
         <p className="text-primary para-text">View More</p>
       </div>
-      <div className="w-full grid-cols-4 gap-12 mt-20">
+      <div className="w-full grid-cols-4 md-grid-cols-2 sm-grid-cols-1 gap-12 mt-20">
         {list.map((item, index) => (
           <div key={index}>
             <div className="bg-forth rounded-5 p-10">

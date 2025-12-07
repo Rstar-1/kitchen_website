@@ -43,9 +43,9 @@ const Section4 = () => {
   return (
     <Container version="v2" className="bg-forth">
       <div className="w-full py-30">
-        <div className="flex justify-center flex-wrap gap-12">
+        <div className="flex md-grid-cols-2 sm-grid-cols-1 justify-center flex-wrap gap-12">
           {testimonials.map((item) => (
-            <div key={item.id} className="bg-white rounded-10 w-30">
+            <div key={item.id} className="bg-white rounded-10 w-30 sm-w-full">
               <div className="p-20">
                 <svg
                   className="flex text-primary"

@@ -1,38 +1,38 @@
 [
   {
-    "name": "PLEXIFYERSS",
-    "email": "nikhil@gmail.com",
-    "mobile": "8977654321",
-    "code": "P0644",
-    "category": "Rolling",
-    "vip": true,
-    "status": true
+    "img": "https://image2.jdomni.in/banner/11012020/76/FF/01/9CEADAE456395F429B509C5ACC_1578737405258.jpg?output-format=webp",
+    "title": "Ink Bottle Premium",
+    "category": {
+      "img": "https://image2.jdomni.in/banner/11012020/76/FF/01/9CEADAE456395F429B509C5ACC_1578737405258.jpg?output-format=webp",
+      "title": "Ink Bottle"
+    },
+    "price": 1200
   },
   {
-    "name": "MSSPSS",
-    "email": "nikhil@gmail.com",
-    "mobile": "8977654321",
-    "code": "M43f",
-    "category": "Stocks",
-    "vip": true,
-    "status": true
+    "img": "https://image3.jdomni.in/banner/11012020/43/B5/56/F0735B138A50B52F5DD9BD79D1_1578737259380.jpg?output-format=webp",
+    "title": "Standard Toner Cartridge",
+    "category": {
+      "img": "https://image3.jdomni.in/banner/11012020/43/B5/56/F0735B138A50B52F5DD9BD79D1_1578737259380.jpg?output-format=webp",
+      "title": "Toner Cartridge"
+    },
+    "price": 2700
   },
   {
-    "name": "Raju",
-    "email": "nikhil@gmail.com",
-    "mobile": "8977654321",
-    "code": "J778d",
-    "category": "Bussiness",
-    "vip": true,
-    "status": true
+    "img": "https://image3.jdomni.in/banner/11012020/BC/46/30/BA6E37F264A005E32578352B79_1578737150798.jpg?output-format=webp",
+    "title": "High-Quality Ink Cartridge",
+    "category": {
+      "img": "https://image3.jdomni.in/banner/11012020/BC/46/30/BA6E37F264A005E32578352B79_1578737150798.jpg?output-format=webp",
+      "title": "Ink Cartridge"
+    },
+    "price": 1600
   },
   {
-    "name": "Kay",
-    "email": "nikhil@gmail.com",
-    "mobile": "8977654321",
-    "code": "Jew90",
-    "category": "Rolling",
-    "vip": true,
-    "status": true
+    "img": "https://image3.jdomni.in/banner/11012020/79/61/5A/0F7CF49026FBA1F5312B16C2E3_1578737848608.jpg?output-format=webp",
+    "title": "Ribbon Cartridge Premium",
+    "category": {
+      "img": "https://image3.jdomni.in/banner/11012020/79/61/5A/0F7CF49026FBA1F5312B16C2E3_1578737848608.jpg?output-format=webp",
+      "title": "Ribbon Cartridge"
+    },
+    "price": 2100
   }
 ]
