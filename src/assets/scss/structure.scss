@@ -9282,14 +9282,10 @@
 
 /* ======================= Start-Color ======================= */
 :root {
-  --primary: #5b53f5 !important;
-  --primarytext: #625afa !important;
-  --secondary: linear-gradient(
-    145.27deg,
-    rgba(255, 2, 154, 0.17) 15.55%,
-    rgba(159, 114, 144, 0.024) 86.81%
-  ) !important;
-  --tertiary: #e7e6ec !important;
+  --primary: #9c5fff !important;
+  --primarytext: #9c5fff !important;
+  --secondary: #271e32 !important;
+  --tertiary: #f3efee !important;
   --forth: #f0f2ee !important;
   --success: linear-gradient(
     145deg,
@@ -9297,16 +9293,12 @@
     rgba(29, 227, 73, 0) 86.81%
   ) !important;
   --successtext: #25771fbc !important;
-  --warning: linear-gradient(
-    145deg,
-    rgba(255, 74, 17, 0.14) 15.55%,
-    hsla(16, 80%, 86%, 0.14) 86.81%
-  ) !important;
+  --warning: #fb5711 !important;
   --warningtext: #ff5722 !important;
   --danger: #c21b1bdb !important;
   --info: #2378bdb7 !important;
   --white: #fff !important;
-  --dark: #373737 !important;
+  --dark: #0e0e0e !important;
   --gray: #585a63 !important;
 }
 .dark-mode {
@@ -9499,10 +9491,22 @@ input,
 /* ======================= End-scrollbar ======================= */
 
 /* ======================= Start-Fontsize ======================= */
-.large-text {
-  font-size: 64px !important;
+.largehead-text {
+  font-size: 84px !important;
   margin: 0px !important;
-  line-height: 70px !important;
+  line-height: 90px !important;
+  font-weight: 500 !important;
+  @media (max-width: 640px) {
+    font-size: 40px !important;
+    margin: 0px !important;
+    line-height: 56px !important;
+    font-weight: 500 !important;
+  }
+}
+.large-text {
+  font-size: 52px !important;
+  margin: 0px !important;
+  line-height: 65px !important;
   font-weight: 500 !important;
   @media (max-width: 640px) {
     font-size: 40px !important;
@@ -9512,8 +9516,8 @@ input,
   }
 }
 .head-text {
-  font-size: 30px !important;
-  line-height: 40px !important;
+  font-size: 34px !important;
+  line-height: 44px !important;
   margin: 0px !important;
   font-weight: 500 !important;
   @media (max-width: 640px) {
@@ -9538,7 +9542,8 @@ input,
   font-weight: 500 !important;
 }
 .headpara-text {
-  font-size: 24px !important;
+  font-size: 22px !important;
+  line-height: 30px !important;
   font-weight: 400 !important;
    @media (max-width: 640px) {
     font-size: 20px !important;

@@ -5,77 +5,54 @@ import { NavLink } from "react-router-dom";
 const Section2 = () => {
   const laserToner = [
     {
-      img: "https://image3.jdomni.in/banner/11012020/EF/BD/28/4C4AF35220C924CBD9B56122F9_1578734578596.jpg?output-format=webp",
-      title: "Samsung Cartridge",
+      img: "https://printshop.tokotema.com/wp-content/uploads/2023/08/T-shirt-Mockup.jpg",
+      title: "Samsung Cartridge ⟶",
     },
     {
-      img: "https://image3.jdomni.in/banner/11012020/54/F2/20/0F6ECD6CE218C46FCABA6C0BCD_1578734962215.jpg?output-format=webp",
-      title: "HP Cartridge",
+      img: "https://printshop.tokotema.com/wp-content/uploads/2023/08/Business-Card-Mockup-White.jpg",
+      title: "HP Cartridge ⟶",
     },
     {
-      img: "https://image2.jdomni.in/banner/11012020/60/7C/82/C53DE2D8510194FF9F5FEB236C_1578735334533.jpeg?output-format=webp",
-      title: "Canon Cartridge",
+      img: "https://printshop.tokotema.com/wp-content/uploads/2023/08/Post-Card-Mockup.jpg",
+      title: "Canon Cartridge ⟶",
     },
     {
-      img: "https://image3.jdomni.in/banner/11012020/F2/B7/01/BC9EA4A4CA18DE24E4B51EDE91_1578735459236.jpg?output-format=webp",
-      title: "Brother Cartridge",
+      img: "https://printshop.tokotema.com/wp-content/uploads/2023/08/Bucket-Hat-Mockups.jpg",
+      title: "Brother Cartridge ⟶",
+    },
+    {
+      img: "https://printshop.tokotema.com/wp-content/uploads/2023/08/Bend-Sticker-Mockup.jpg",
+      title: "Canon Cartridge ⟶",
     },
   ];
 
-  const consumables = [
-    {
-      img: "https://image3.jdomni.in/banner/11012020/BC/46/30/BA6E37F264A005E32578352B79_1578737150798.jpg?output-format=webp",
-      title: "Ink Cartridge",
-    },
-    {
-      img: "https://image3.jdomni.in/banner/11012020/43/B5/56/F0735B138A50B52F5DD9BD79D1_1578737259380.jpg?output-format=webp",
-      title: "Toner Cartridge",
-    },
-    {
-      img: "https://image2.jdomni.in/banner/11012020/76/FF/01/9CEADAE456395F429B509C5ACC_1578737405258.jpg?output-format=webp",
-      title: "Ink Bottle",
-    },
-    {
-      img: "https://image3.jdomni.in/banner/11012020/79/61/5A/0F7CF49026FBA1F5312B16C2E3_1578737848608.jpg?output-format=webp",
-      title: "Ribbon Cartridge",
-    },
-  ];
-
-  const FeaturedGrid = ({ title, list }) => (
-    <div className="py-30 bordb">
-      <div className="flex flex-wrap items-center justify-between w-full">
-        <h2 className="title-text text-dark font-600">{title}</h2>
-        <NavLink
-          to="/product"
-          className="text-primary para-text"
-        >
-          View More
-        </NavLink>
-      </div>
-      <div className="w-full grid-cols-4 md-grid-cols-2 sm-grid-cols-1 gap-12 mt-20">
-        {list.map((item, index) => (
-          <div key={index}>
-            <div className="bg-forth rounded-5 p-10">
-              <img
-                src={item.img}
-                className="w-full h-200 object-contain flex rounded-5 bg-white"
-                alt={item.title}
-              />
-            </div>
-            <p className="para-text text-gray font-400 mt-12 sm-mt-10 px-2">
+  const FeaturedGrid = ({ list }) => (
+    <div className="w-full grid-cols-5 md-grid-cols-2 sm-grid-cols-1 gap-12 mt-20">
+      {list.map((item, index) => (
+        <div key={index}>
+          <div className="">
+            <img
+              src={item.img}
+              className="w-full h-200 object-cover flex rounded-5 bg-white"
+              alt={item.title}
+            />
+            <p className="small-text text-dark font-500 mt-10 px-1">
               {item.title}
             </p>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   );
 
   return (
-    <Container version="v2" className="bg-white">
-      <div className="w-full py-10">
-        <FeaturedGrid title="Laser Toner Cartridge" list={laserToner} />
-        <FeaturedGrid title="Printer Consumables" list={consumables} />
+    <Container version="v3" className="bg-white">
+      <div className="w-full py-50">
+        <div className="px-15">
+          <p className="text-gray midpara-text">Category</p>
+          <h4 className="head-text text-darkk font-500 pt-8">Products</h4>
+          <FeaturedGrid list={laserToner} />
+        </div>
       </div>
     </Container>
   );

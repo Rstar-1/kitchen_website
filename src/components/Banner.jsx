@@ -7,7 +7,7 @@ const Banner = ({
   widthClass = "w-50",
 }) => {
   return (
-    <Container version="v2" className="bg-warning">
+    <Container version="v2" className="bg-forth">
       <div className="w-full py-80 sm-py-50">
         <div className={`${widthClass} sm-w-full`}>
           {title && <h2 className="head-text text-dark">{title}</h2>}
