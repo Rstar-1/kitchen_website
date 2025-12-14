@@ -47,13 +47,19 @@ const Section4 = ({ addToRef }) => {
           <div className="flex sm-grid-cols-1 px-30 sm-px-15 items-center gap-12">
             <div>
               <h4 className="title-text text-dark font-500">Contact Us</h4>
-              <p className="para-text text-gray mt-6">+91-9867264193</p>
+              <a href="tel:+919867264193" className="para-text text-gray mt-6">
+                +91-9867264193
+              </a>
             </div>
             <div className="mx-20 sm-mx-1">
               <h4 className="title-text text-dark font-500">Email Us</h4>
-              <p className="para-text text-gray mt-6">
+              <a
+                href="mailto:mayur.computers2012@gmail.com"
+                aria-label="Send email to mayur.computers2012@gmail.com"
+                className="para-text text-gray mt-6"
+              >
                 mayur.computers2012@gmail.com
-              </p>
+              </a>
             </div>
           </div>
         </div>

@@ -55,7 +55,7 @@ const Layout = () => {
         {isVisible && (
           <div
             style={{ transition: "1s ease-in" }}
-            className="mb-10 up-box bg-dark rounded-full flex items-center justify-center cursor-pointer"
+            className="mb-10 up-box bg-warning rounded-full flex items-center justify-center cursor-pointer"
             onClick={scrollToTop}
           >
             <img src={arrow} alt="arrow" className="up-img object-contain" />

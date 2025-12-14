@@ -150,9 +150,11 @@ const Navbar = () => {
               {item.label}
             </NavLink>
           ))}
-          <button className="cursor-pointer px-25 py-12 para-text font-400 text-white bg-warning border-0 rounded-5 ml-12">
-            Get A Quote
-          </button>
+          <a href="tel:+919867264193">
+            <button className="cursor-pointer px-25 py-12 para-text font-400 text-white bg-warning border-0 rounded-5 ml-12">
+              Get A Quote
+            </button>
+          </a>
         </div>
         <svg
           viewBox="0 0 26 26"

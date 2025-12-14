@@ -1,22 +1,23 @@
 import React from "react";
 import Container from "../../../utility/Container";
+import CountUp from "../../../utility/Countup";
 
 const Section5 = ({ addToRef }) => {
   const stats = [
     {
-      value: "10+",
+      value: 10,
       label: "Years of Experience",
     },
     {
-      value: "10+",
+      value: 100,
       label: "Trusted Brands Worldwide",
     },
     {
-      value: "99%",
+      value: 100,
       label: "Customer Satisfaction Rate",
     },
     {
-      value: "50K",
+      value: 50,
       label: "Products Sold",
     },
   ];
@@ -41,15 +42,12 @@ const Section5 = ({ addToRef }) => {
               </p>
             </div>
           </div>
-          <div
-            className="grid-cols-4 md-grid-cols-2 sm-grid-cols-2 gap-12 mt-60 sm-mt-30"
-            ref={addToRef}
-          >
+          <div className="grid-cols-4 md-grid-cols-2 sm-grid-cols-2 gap-12 mt-60 sm-mt-30">
             {stats.map((item, index) => (
               <div key={index}>
                 <div className="sm-mb-20">
                   <h4 className="large-text font-500 text-dark">
-                    {item.value}
+                    <CountUp end={item.value} duration={2000} />+
                   </h4>
                   <p className="para-text mt-4 text-gray">{item.label}</p>
                 </div>

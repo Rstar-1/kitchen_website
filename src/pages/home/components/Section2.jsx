@@ -1,6 +1,6 @@
 import React from "react";
-import Container from "../../../utility/Container";
 import useFadeReveal from "../../../utility/Fade";
+import Container from "../../../utility/Container";
 import { NavLink } from "react-router-dom";
 
 const Section2 = () => {
@@ -32,7 +32,7 @@ const Section2 = () => {
   const FeaturedGrid = ({ list }) => (
     <div className="w-full grid-cols-5 md-grid-cols-2 sm-grid-cols-2 gap-12 mt-20">
       {list.map((item, index) => (
-        <div key={index}>
+        <NavLink to="/product" key={index}>
           <div className="sm-mb-14" ref={catToRef}>
             <img
               src={item.img}
@@ -43,7 +43,7 @@ const Section2 = () => {
               {item.title}
             </p>
           </div>
-        </div>
+        </NavLink>
       ))}
     </div>
   );
