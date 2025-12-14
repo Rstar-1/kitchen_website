@@ -89,10 +89,10 @@ const Details = () => {
               ₹ {product?.price}
             </h3>
             <div className="grid-cols-2 w-80 sm-w-full gap-12 mt-20">
-              <button className="cursor-pointer w-full py-8 para-text font-400 text-white bg-primary border-0">
+              <button className="cursor-pointer w-full py-10 sm-py-9 para-text font-400 text-white bg-primary border-0">
                 Call Now
               </button>
-              <button className="cursor-pointer w-full py-8 para-text font-400 text-primary border-primary">
+              <button className="cursor-pointer w-full py-10 sm-py-9 para-text font-400 text-primary border-primary bg-white">
                 Message
               </button>
             </div>
