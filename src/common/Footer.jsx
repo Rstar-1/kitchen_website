@@ -5,9 +5,10 @@ import Container from "../utility/Container";
 const Footer = () => {
   const footData = [
     { href: "/home", label: "Home" },
+    { href: "/about-us", label: "About Us" },
     { href: "/product", label: "Products" },
     { href: "/category", label: "Category" },
-    { href: "/connect", label: "Connect" }
+    { href: "/connect", label: "Connect" },
   ];
   return (
     <Container version="v2" className="bg-dark">

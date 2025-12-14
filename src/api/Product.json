@@ -6,13 +6,14 @@
       "title": "Ink Bottle",
       "img": "https://image2.jdomni.in/banner/11012020/76/FF/01/9CEADAE456395F429B509C5ACC_1578737405258.jpg?output-format=webp"
     },
-    "img": "https://image2.jdomni.in/banner/11012020/76/FF/01/9CEADAE456395F429B509C5ACC_1578737405258.jpg?output-format=webp",
+    "img": "https://i.ibb.co/F3hPQMP/product-2.jpg",
     "price": 1200,
     "description": "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
     "stock": 40,
     "images": [
-      "https://image2.jdomni.in/banner/11012020/76/FF/01/9CEADAE456395F429B509C5ACC_1578737405258.jpg?output-format=webp",
-      "https://image3.jdomni.in/banner/11012020/43/B5/56/F0735B138A50B52F5DD9BD79D1_1578737259380.jpg?output-format=webp"
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
     ],
     "specs": [
       { "label": "Operating Range", "value": "10–80% RH" },
@@ -27,13 +28,13 @@
       "title": "Toner Cartridge",
       "img": "https://image3.jdomni.in/banner/11012020/43/B5/56/F0735B138A50B52F5DD9BD79D1_1578737259380.jpg?output-format=webp"
     },
-    "img": "https://image3.jdomni.in/banner/11012020/43/B5/56/F0735B138A50B52F5DD9BD79D1_1578737259380.jpg?output-format=webp",
+    "img": "https://i.ibb.co/FhzmCxJ/product-3.jpg",
     "price": 2700,
     "description": "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
     "stock": 30,
     "images": [
-      "https://image2.jdomni.in/banner/11012020/76/FF/01/9CEADAE456395F429B509C5ACC_1578737405258.jpg?output-format=webp",
-      "https://image3.jdomni.in/banner/11012020/43/B5/56/F0735B138A50B52F5DD9BD79D1_1578737259380.jpg?output-format=webp"
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
     ],
     "specs": [
       { "label": "Operating Temperature", "value": "5–35°C" },
@@ -48,13 +49,13 @@
       "title": "Ink Cartridge",
       "img": "https://image3.jdomni.in/banner/11012020/BC/46/30/BA6E37F264A005E32578352B79_1578737150798.jpg?output-format=webp"
     },
-    "img": "https://image3.jdomni.in/banner/11012020/BC/46/30/BA6E37F264A005E32578352B79_1578737150798.jpg?output-format=webp",
+    "img": "https://i.ibb.co/ncm9NFx/product-6.jpg",
     "price": 1600,
     "description": "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
     "stock": 25,
     "images": [
-      "https://image2.jdomni.in/banner/11012020/76/FF/01/9CEADAE456395F429B509C5ACC_1578737405258.jpg?output-format=webp",
-      "https://image3.jdomni.in/banner/11012020/43/B5/56/F0735B138A50B52F5DD9BD79D1_1578737259380.jpg?output-format=webp"
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
     ],
     "specs": [
       { "label": "Duty Cycle", "value": "10,000 pages" },
@@ -69,14 +70,79 @@
       "title": "Ribbon Cartridge",
       "img": "https://image3.jdomni.in/banner/11012020/79/61/5A/0F7CF49026FBA1F5312B16C2E3_1578737848608.jpg?output-format=webp"
     },
-    "img": "https://image3.jdomni.in/banner/11012020/79/61/5A/0F7CF49026FBA1F5312B16C2E3_1578737848608.jpg?output-format=webp",
+    "img": "https://i.ibb.co/FWFHb8W/product-9.jpg",
     "price": 2100,
     "description": "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
     "stock": 20,
     "images": [
-      "https://image3.jdomni.in/banner/11012020/79/61/5A/0F7CF49026FBA1F5312B16C2E3_1578737848608.jpg?output-format=webp",
-      "https://image2.jdomni.in/banner/11012020/76/FF/01/9CEADAE456395F429B509C5ACC_1578737405258.jpg?output-format=webp",
-      "https://image3.jdomni.in/banner/11012020/43/B5/56/F0735B138A50B52F5DD9BD79D1_1578737259380.jpg?output-format=webp"
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Ribbon Cartridge Premium",
+    "category": {
+      "title": "Ribbon Cartridge",
+      "img": "https://image3.jdomni.in/banner/11012020/79/61/5A/0F7CF49026FBA1F5312B16C2E3_1578737848608.jpg?output-format=webp"
+    },
+    "img": "https://i.ibb.co/x81YysG/product-5.jpg",
+    "price": 2100,
+    "description": "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Ribbon Cartridge Premium",
+    "category": {
+      "title": "Ribbon Cartridge",
+      "img": "https://image3.jdomni.in/banner/11012020/79/61/5A/0F7CF49026FBA1F5312B16C2E3_1578737848608.jpg?output-format=webp"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2100,
+    "description": "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Ribbon Cartridge Premium",
+    "category": {
+      "title": "Ribbon Cartridge",
+      "img": "https://image3.jdomni.in/banner/11012020/79/61/5A/0F7CF49026FBA1F5312B16C2E3_1578737848608.jpg?output-format=webp"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
     ],
     "specs": [
       { "label": "Print Technology", "value": "Laser" },

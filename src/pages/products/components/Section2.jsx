@@ -39,7 +39,6 @@ const Section2 = () => {
   const handlePageChange = ({ selected }) => {
     setCurrentPage(selected);
   };
-
   const handleProductClick = (product) => {
     navigate("/product-detail", { state: { product } });
   };
@@ -130,19 +129,21 @@ const Section2 = () => {
               setCurrentPage(0);
             }}
           />
-          <div className="w-full grid-cols-3 md-grid-cols-2 sm-grid-cols-1 gap-12 mt-16">
+          <div className="w-full grid-cols-3 md-grid-cols-2 sm-grid-cols-2 gap-12 mt-16">
             {currentItems.map((item, index) => (
               <div
                 key={index}
-                className="bg-forth p-10 rounded-5 cursor-pointer"
+                className="cursor-pointer mb-10"
                 onClick={() => handleProductClick(item)}
               >
-                <img
-                  src={item.img}
-                  className="w-full h-250 object-contain bg-white rounded-5"
-                  alt={item.title}
-                />
-                <div className="mt-10 px-5">
+                <div className="bg-tertiary">
+                  <img
+                    src={item.img}
+                    className="w-full h-300 sm-h-200 object-cover flex"
+                    alt={item.title}
+                  />
+                </div>
+                <div className="mt-10 px-1">
                   <p className="para-text text-dark font-500">{item.title}</p>
                   <p className="small-text text-gray mt-5">
                     Category:{" "}

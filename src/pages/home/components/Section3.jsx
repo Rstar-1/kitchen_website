@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "../../../utility/Container";
 
-const Section3 = () => {
+const Section3 = ({ addToRef }) => {
   const workSteps = [
     {
       aboutText:
@@ -25,12 +25,11 @@ const Section3 = () => {
     "APPAREL PRINTING",
   ];
 
-
   return (
     <Container version="v3" className="bg-white">
-      <div className="w-full py-60">
-        <div className="flex sm-block px-15">
-          <div className="w-30 sm-w-full pr-20">
+      <div className="w-full py-60 sm-py-30">
+        <div className="flex sm-block px-15 sm-px-5">
+          <div className="w-30 sm-w-85 pr-20 sm-pr-1">
             <div
               className="bg-secondary w-full h-400 relative overflow-hidden rounded-5"
               style={{
@@ -43,16 +42,24 @@ const Section3 = () => {
               <img
                 src="https://printshop.tokotema.com/wp-content/uploads/2023/08/man-close-up-with-headphones-smiling-2021-08-26-20-17-00-utc-1-1.png"
                 alt="arrow"
-                className="w-full absolute top-0 right-0 h-500 object-contain flex"
+                className="w-full absolute top-0 right-0 h-500 sm-h-550 object-contain flex"
               />
             </div>
           </div>
-          <div className="w-70 sm-w-full pl-20">
-            <p className="text-gray headpara-text">About Us</p>
-            <h4 className="large-text text-darkk font-600 pt-10">Excellence</h4>
-            <div className="grid-cols-1 gap-12 mt-40 pl-30">
+          <div className="w-70 sm-w-full pl-20 sm-pl-1 sm-mt-30">
+            <p className="text-gray headpara-text" ref={addToRef}>
+              About Us
+            </p>
+            <h4 className="large-text text-darkk font-600 pt-10" ref={addToRef}>
+              Excellence
+            </h4>
+            <div className="grid-cols-1 gap-12 mt-40 sm-mt-30 pl-30 sm-pl-1">
               {workSteps?.map((item, index) => (
-                <div className="flex items-start w-full mb-16" key={index}>
+                <div
+                  className="flex items-start w-full mb-16"
+                  ref={addToRef}
+                  key={index}
+                >
                   <svg
                     viewBox="0 0 24 24"
                     width="24"
@@ -74,10 +81,13 @@ const Section3 = () => {
             </div>
           </div>
         </div>
-        <div className="mt-28 w-90">
-          <div className="px-15">
+        <div className="mt-28 w-90 sm-w-full">
+          <div className="px-15 sm-px-10">
             <h4 className="head-text text-gray font-500">Category</h4>
-            <div className="flex items-center gap-12 flex-wrap mt-26">
+            <div
+              className="flex items-center gap-12 flex-wrap mt-26"
+              ref={addToRef}
+            >
               {printItems.map((item, index) => (
                 <React.Fragment key={index}>
                   <p className="midpara-text text-gray rounded-20 px-20 py-6 border-forth mb-8">

@@ -11490,11 +11490,11 @@ p {
   width: 38px !important;
   height: 38px !important;
 }
-.h-select{
+.h-select {
   height: 33px !important;
   background: var(--white);
 }
-.h-input{
+.h-input {
   height: 33px !important;
   background: var(--white);
   text-indent: 12px !important;
@@ -11516,8 +11516,8 @@ p {
     height: 16px !important;
   }
 }
-input:focus{
- outline: 0px !important;
+input:focus {
+  outline: 0px !important;
 }
 .h-100 {
   height: 100vh !important;
@@ -11601,3 +11601,27 @@ tr:nth-child(even):hover {
   transition: all 0.3s ease-in 0s;
 }
 /* ======================= End-NavFoot ======================= */
+
+/* ======================= Start-Generic ======================= */
+.abs-hero {
+  position: absolute !important;
+  top: 8% !important;
+  left: -40% !important;
+  @media (max-width: 640px) {
+    top: 5% !important;
+    left: -34% !important;
+  }
+}
+.mb-minus {
+  margin-bottom: -40% !important;
+  @media (max-width: 640px) {
+    margin-bottom: 0% !important;
+  }
+}
+@media (max-width:640px) {
+  .sm-col-reverse{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+}
+/* ======================= End-Generic ======================= */

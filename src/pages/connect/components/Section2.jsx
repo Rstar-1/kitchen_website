@@ -1,16 +1,16 @@
 import React from "react";
 import Container from "../../../utility/Container";
 
-const Section2 = () => {
+const Section2 = ({ addToRef }) => {
   return (
-    <Container version="v2" className="bg-white">
-      <div className="w-full py-30">
-        <div className="pb-20 grid-cols-1 gap-12 w-50 md-w-80 sm-w-full">
-          <div className="flex items-start gap-6 mt-8">
+    <Container version="v3" className="bg-white">
+      <div className="w-full py-40 sm-py-30">
+        <div className="pb-40 grid-cols-1 gap-12 w-80 md-w-80 sm-w-full px-15 sm-px-5">
+          <div className="flex items-start gap-6" ref={addToRef}>
             <svg
               viewBox="0 0 24 24"
-              width="16"
-              height="16"
+              width="20"
+              height="20"
               stroke="gray"
               strokeWidth="2"
               fill="none"
@@ -20,16 +20,16 @@ const Section2 = () => {
               <line x1="8" y1="2" x2="8" y2="18"></line>
               <line x1="16" y1="6" x2="16" y2="22"></line>
             </svg>
-            <p className="ml-3 small-text text-dark w-95">
+            <p className="ml-3 midpara-text text-gray w-95">
               Shop No 17/D, Bahubali Building,Cawasji Patel Street, Opp Akbar
               Ali Furniture Center, Fort, Mumbai, Maharashtra 400001,
             </p>
           </div>
-          <div className="flex items-start gap-6 mt-8">
+          <div className="flex items-start gap-6 mt-10 sm-mt-15" ref={addToRef}>
             <svg
               viewBox="0 0 24 24"
-              width="16"
-              height="16"
+              width="20"
+              height="20"
               stroke="gray"
               strokeWidth="2"
               fill="none"
@@ -39,16 +39,16 @@ const Section2 = () => {
               <polyline points="22,6 12,13 2,6"></polyline>
             </svg>
             <a href="mailto:mayur.computers2012@gmail.com" className="w-95">
-              <p className="ml-3 small-text text-dark">
+              <p className="ml-3 midpara-text text-gray">
                 mayur.computers2012@gmail.com
               </p>
             </a>
           </div>
-          <div className="flex items-start gap-6 mt-8">
+          <div className="flex items-start gap-6 mt-10 sm-mt-15" ref={addToRef}>
             <svg
               viewBox="0 0 24 24"
-              width="16"
-              height="16"
+              width="20"
+              height="20"
               stroke="gray"
               strokeWidth="2"
               fill="none"
@@ -57,16 +57,16 @@ const Section2 = () => {
               <circle cx="12" cy="12" r="10"></circle>
               <polyline points="12 6 12 12 16 14"></polyline>
             </svg>
-            <p className="ml-3 small-text text-dark w-95">
+            <p className="ml-3 midpara-text text-gray w-95">
               Mon - Sat : 09:00 AM - 09:00 PM / 12:00 AM - 12:00 AM Sun : Closed
               / 12:00 AM - 12:00 AM
             </p>
           </div>
-          <div className="flex items-start gap-6 mt-8">
+          <div className="flex items-start gap-6 mt-10 sm-mt-15" ref={addToRef}>
             <svg
               viewBox="0 0 24 24"
-              width="16"
-              height="16"
+              width="20"
+              height="20"
               stroke="gray"
               strokeWidth="2"
               fill="none"
@@ -76,21 +76,21 @@ const Section2 = () => {
             </svg>
             <div className="w-95 flex sm-grid-cols-1 items-center gap-12">
               <a href="tel:9867264193">
-                <p className="ml-3 small-text text-dark">+91-9867264193</p>
+                <p className="ml-3 midpara-text text-gray">+91-9867264193</p>
               </a>
               <a href="tel:+9987566345">
-                <p className="ml-3 small-text text-dark">+91-9987566345</p>
+                <p className="ml-3 midpara-text text-gray">+91-9987566345</p>
               </a>
               <a href="tel:022-66389848">
-                <p className="ml-3 small-text text-dark">022-66389848</p>
+                <p className="ml-3 midpara-text text-gray">022-66389848</p>
               </a>
               <a href="tel:022-66366199">
-                <p className="ml-3 small-text text-dark">022-66366199</p>
+                <p className="ml-3 midpara-text text-gray">022-66366199</p>
               </a>
             </div>
           </div>
         </div>
-        <div>
+        <div className="px-15 sm-px-5" ref={addToRef}>
           <iframe
             className="w-full border-0 mt-8"
             title="map"

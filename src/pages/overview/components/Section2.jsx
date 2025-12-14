@@ -1,52 +1,60 @@
 import React from "react";
+import useFadeReveal from "../../../utility/Fade";
 import Container from "../../../utility/Container";
 
 const Section2 = () => {
+  const simiToRef = useFadeReveal({ delay: 150, y: 30 });
   const laserToner = [
     {
-      img: "https://image3.jdomni.in/banner/11012020/EF/BD/28/4C4AF35220C924CBD9B56122F9_1578734578596.jpg?output-format=webp",
-      title: "Samsung Cartridge",
+      img: "https://printshop.tokotema.com/wp-content/uploads/2023/08/T-shirt-Mockup.jpg",
+      title: "Samsung Cartridge ⟶",
     },
     {
-      img: "https://image3.jdomni.in/banner/11012020/54/F2/20/0F6ECD6CE218C46FCABA6C0BCD_1578734962215.jpg?output-format=webp",
-      title: "HP Cartridge",
+      img: "https://printshop.tokotema.com/wp-content/uploads/2023/08/Business-Card-Mockup-White.jpg",
+      title: "HP Cartridge ⟶",
     },
     {
-      img: "https://image2.jdomni.in/banner/11012020/60/7C/82/C53DE2D8510194FF9F5FEB236C_1578735334533.jpeg?output-format=webp",
-      title: "Canon Cartridge",
+      img: "https://printshop.tokotema.com/wp-content/uploads/2023/08/Post-Card-Mockup.jpg",
+      title: "Canon Cartridge ⟶",
     },
     {
-      img: "https://image3.jdomni.in/banner/11012020/F2/B7/01/BC9EA4A4CA18DE24E4B51EDE91_1578735459236.jpg?output-format=webp",
-      title: "Brother Cartridge",
+      img: "https://printshop.tokotema.com/wp-content/uploads/2023/08/Bucket-Hat-Mockups.jpg",
+      title: "Brother Cartridge ⟶",
+    },
+    {
+      img: "https://printshop.tokotema.com/wp-content/uploads/2023/08/Bend-Sticker-Mockup.jpg",
+      title: "Canon Cartridge ⟶",
     },
   ];
 
-  const DetailsGrid = ({ title, list }) => (
-    <div className="">
-      <h2 className="title-text text-dark font-600">{title}</h2>
-      <div className="w-full grid-cols-4 md-grid-cols-2 sm-grid-cols-1 gap-12 mt-16">
-        {list.map((item, index) => (
-          <div key={index}>
-            <div className="bg-forth rounded-5 p-10">
-              <img
-                src={item.img}
-                className="w-full h-200 object-contain flex rounded-5 bg-white"
-                alt={item.title}
-              />
-            </div>
-            <p className="para-text text-dark font-400 mt-8 px-2">
+  const DetailsGrid = ({ list }) => (
+    <div className="w-full grid-cols-5 md-grid-cols-2 sm-grid-cols-2 gap-12 mt-20">
+      {list.map((item, index) => (
+        <div key={index}>
+          <div className="sm-mb-14" ref={simiToRef}>
+            <img
+              src={item.img}
+              className="w-full h-200 sm-h-150 object-cover flex rounded-5 bg-white"
+              alt={item.title}
+            />
+            <p className="para-text text-gray font-500 mt-10 sm-mt-12 px-1">
               {item.title}
             </p>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   );
 
   return (
-    <Container version="v2" className="bg-white">
-      <div className="w-full py-40">
-        <DetailsGrid title="Similar Products" list={laserToner} />
+    <Container version="v3" className="bg-tertiary">
+      <div className="w-full py-40 sm-py-30 bordb">
+        <div className="px-15 sm-px-5">
+          <h4 className="head-text text-darkk font-500" ref={simiToRef}>
+            Similar Products
+          </h4>
+          <DetailsGrid title="Similar Products" list={laserToner} />
+        </div>
       </div>
     </Container>
   );
