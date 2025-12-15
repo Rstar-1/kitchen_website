@@ -11495,7 +11495,7 @@ p {
   background: var(--white);
 }
 .h-input {
-  height: 33px !important;
+  height: 38px !important;
   background: var(--white);
   text-indent: 12px !important;
   padding: 0px !important;
@@ -11623,5 +11623,8 @@ tr:nth-child(even):hover {
     display: flex !important;
     flex-direction: column-reverse !important;
   }
+}
+.minus-right-1 {
+  right: -1px !important;
 }
 /* ======================= End-Generic ======================= */

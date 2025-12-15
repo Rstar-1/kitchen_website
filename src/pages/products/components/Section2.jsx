@@ -120,15 +120,29 @@ const Section2 = () => {
           </div>
         )}
         <div className="w-80 md-w-75 sm-w-full sm-mt-10">
-          <input
-            placeholder="Search..."
-            className="border-forth rounded-5 w-60 md-w-80 sm-w-full h-input"
-            value={search}
-            onChange={(e) => {
-              setSearch(e.target.value);
-              setCurrentPage(0);
-            }}
-          />
+          <div className="relative w-60 md-w-80 sm-w-full">
+            <input
+              placeholder="Search..."
+              className="border-forth rounded-5 w-full h-input"
+              value={search}
+              onChange={(e) => {
+                setSearch(e.target.value);
+                setCurrentPage(0);
+              }}
+            />
+            <svg
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              stroke="var(--gray)"
+              strokeWidth="2"
+              fill="none"
+              className="flex absolute top-0 minus-right-1 my-10 px-6 bg-white"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </div>
           <div className="w-full grid-cols-3 md-grid-cols-2 sm-grid-cols-2 gap-12 mt-16">
             {currentItems.map((item, index) => (
               <div
