@@ -6,26 +6,26 @@ import what from "../assets/what.png";
 import arrow from "../assets/arrow.png";
 
 const Layout = () => {
-  const [isVisible, setIsVisible] = React.useState(false);
-  const toggleVisibility = () => {
-    if (window.pageYOffset > 200) {
-      setIsVisible(true);
-    } else {
-      setIsVisible(false);
-    }
-  };
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-  React.useEffect(() => {
-    window.addEventListener("scroll", toggleVisibility);
-    return () => {
-      window.removeEventListener("scroll", toggleVisibility);
-    };
-  }, []);
+  // const [isVisible, setIsVisible] = React.useState(false);
+  // const toggleVisibility = () => {
+  //   if (window.pageYOffset > 200) {
+  //     setIsVisible(true);
+  //   } else {
+  //     setIsVisible(false);
+  //   }
+  // };
+  // const scrollToTop = () => {
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: "smooth",
+  //   });
+  // };
+  // React.useEffect(() => {
+  //   window.addEventListener("scroll", toggleVisibility);
+  //   return () => {
+  //     window.removeEventListener("scroll", toggleVisibility);
+  //   };
+  // }, []);
 
   const message = `Discover the best deals with Mayur Computers! 🛒✨`;
   const encodedMessage = encodeURIComponent(message);
@@ -52,7 +52,7 @@ const Layout = () => {
             onClick={handleShare}
           />
         </div>
-        {isVisible && (
+        {/* {isVisible && (
           <div
             style={{ transition: "1s ease-in" }}
             className="mb-10 up-box bg-warning rounded-full flex items-center justify-center cursor-pointer"
@@ -60,7 +60,7 @@ const Layout = () => {
           >
             <img src={arrow} alt="arrow" className="up-img object-contain" />
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );

@@ -1,8 +1,12 @@
 import React from "react";
+import { NavLink, useNavigate } from "react-router-dom";
 import Container from "../utility/Container";
-import { NavLink } from "react-router-dom";
+import Modal from "../components/Modal";
+import product from "../api/Product.json";
 
 const Navbar = () => {
+  const products = product || [];
+  const navigate = useNavigate();
   const NavData = [
     { href: "/home", label: "Home" },
     { href: "/about-us", label: "About Us" },
@@ -11,9 +15,85 @@ const Navbar = () => {
     { href: "/connect", label: "Connect" },
   ];
   const [sidebarshow, setsidebarshow] = React.useState(false);
+  const [open, setOpen] = React.useState(false);
+  const [search, setSearch] = React.useState("");
+
+  const filteredProducts = React.useMemo(() => {
+    if (!search.trim()) return [];
+    return products?.filter((e) =>
+      e?.title?.toLowerCase().includes(search.toLowerCase())
+    );
+  }, [search, products]);
+
+  const handleProductClick = (product) => {
+    navigate("/product-detail", { state: { product } });
+    setOpen(false);
+  };
 
   return (
     <Container version="v0" className="bg-white relative navbar">
+      <Modal
+        open={open}
+        onClose={() => setOpen(false)}
+        category="modal"
+        title="Quick Search"
+      >
+        <div className="relative w-full">
+          <input
+            placeholder="Search..."
+            className="border-forth rounded-5 w-full h-input"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+          />
+          <svg
+            viewBox="0 0 24 24"
+            width="20"
+            height="20"
+            stroke="var(--gray)"
+            strokeWidth="2"
+            fill="none"
+            className="flex absolute top-0 minus-right-1 my-10 px-6 bg-white"
+          >
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </div>
+        <div className="h-400 sm-h-300 overflow-auto newscroll mt-8">
+          {!search.trim() ? (
+            <div className="flex mt-20 justify-center text-gray">
+              <p className="para-text">Please Search</p>
+            </div>
+          ) : filteredProducts.length === 0 ? (
+            <div className="h-full flex items-center justify-center text-gray">
+              <p className="para-text">No Products Found</p>
+            </div>
+          ) : (
+            filteredProducts.map((e, index) => (
+              <div
+                className="cursor-pointer mb-14 flex items-center gap-12"
+                key={index}
+                onClick={() => handleProductClick(e)}
+              >
+                <div className="bg-tertiary w-20">
+                  <img
+                    src={e?.img}
+                    className="w-full search-img object-cover flex"
+                    alt={e?.title}
+                  />
+                </div>
+                <div className="px-1 w-80">
+                  <p className="small-text text-dark font-400 line-clamp2">
+                    {e?.title}
+                  </p>
+                  <p className="mini-text text-gray">
+                    Price: <span className="font-600">₹{e?.price}</span>
+                  </p>
+                </div>
+              </div>
+            ))
+          )}
+        </div>
+      </Modal>
       <div
         className={
           sidebarshow === true
@@ -134,11 +214,13 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex items-center justify-between py-12 px-20">
-        <img
-          src="https://image1.jdomni.in/storeLogo/11012020/86/08/D1/E224BC336DAF85A7C455301446_1578736750581.png?output-format=webp"
-          className="object-cover flex"
-          style={{ height: "50px" }}
-        />
+        <NavLink to="/home">
+          <img
+            src="https://image1.jdomni.in/storeLogo/11012020/86/08/D1/E224BC336DAF85A7C455301446_1578736750581.png?output-format=webp"
+            className="object-cover flex"
+            style={{ height: "50px" }}
+          />
+        </NavLink>
         <div className="flex sm-hidden items-center gap-8">
           {NavData.map((item) => (
             <NavLink
@@ -151,25 +233,61 @@ const Navbar = () => {
             </NavLink>
           ))}
           <a href="tel:+919867264193">
-            <button className="cursor-pointer px-25 py-12 para-text font-400 text-white bg-warning border-0 rounded-5 ml-12">
+            <button className="cursor-pointer px-25 py-11 para-text font-400 text-white bg-warning border-0 rounded-5 ml-12">
               Get A Quote
             </button>
           </a>
+          {window.location.pathname !== "/product-detail" && (
+            <div
+              className="cursor-pointer py-12 px-16 bg-secondary rounded-5"
+              onClick={() => setOpen(true)}
+            >
+              <svg
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                stroke="var(--white)"
+                strokeWidth="2"
+                fill="none"
+                className="flex"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </div>
+          )}
         </div>
-        <svg
-          viewBox="0 0 26 26"
-          width="36"
-          height="36"
-          stroke="gray"
-          strokeWidth="2"
-          fill="none"
-          className="cursor-pointer hidden sm-flex"
-          onClick={() => setsidebarshow(true)}
-        >
-          <line x1="3" y1="12" x2="21" y2="12"></line>
-          <line x1="3" y1="6" x2="21" y2="6"></line>
-          <line x1="3" y1="18" x2="21" y2="18"></line>
-        </svg>
+        <div className="hidden sm-flex gap-12">
+          {window.location.pathname !== "/product-detail" && (
+            <svg
+              viewBox="0 0 24 24"
+              width="30"
+              height="30"
+              stroke="var(--gray)"
+              strokeWidth="2"
+              fill="none"
+              className="cursor-pointer flex"
+              onClick={() => setOpen(true)}
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          )}
+          <svg
+            viewBox="0 0 26 26"
+            width="36"
+            height="36"
+            stroke="var(--gray)"
+            strokeWidth="2"
+            fill="none"
+            className="cursor-pointer flex"
+            onClick={() => setsidebarshow(true)}
+          >
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </div>
       </div>
     </Container>
   );
