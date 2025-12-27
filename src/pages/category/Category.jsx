@@ -14,7 +14,7 @@ const Overview = () => {
         description="Bring your documents and photos to life. Vibrant colors, deep blacks, and flawless print clarity."
         widthClass="w-50"
       />
-      <Section2 />
+      <Section2 herocat={false} />
       <Section6 quantity={false} addToRef={addToRef} />
       <Section4 addToRef={addToRef} />
     </>

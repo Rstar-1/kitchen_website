@@ -30,14 +30,14 @@ const Section4 = ({ addToRef }) => {
               className="bg-secondary w-full h-450 sm-h-350 relative overflow-hidden rounded-5 mb-minus"
               style={{
                 backgroundImage:
-                  'url("https://printshop.tokotema.com/wp-content/uploads/2023/08/Hero-Line-Bg.png")',
+                  'url("https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/side1.png")',
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "right bottom",
               }}
             >
               <img
-                src="https://printshop.tokotema.com/wp-content/uploads/2023/08/Mockup-of-a-Smiling-Woman-Wearing-an-Embroidered-768x951.png"
-                alt="arrow"
+                src="https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/connect1.png"
+                alt="arrow" 
                 className="w-full absolute top-0 right-0 h-600 sm-h-450 object-contain flex"
               />
             </div>

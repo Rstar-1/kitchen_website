@@ -34,13 +34,13 @@ const Section3 = ({ addToRef }) => {
               className="bg-secondary w-full h-400 relative overflow-hidden rounded-5"
               style={{
                 backgroundImage:
-                  'url("https://printshop.tokotema.com/wp-content/uploads/2023/08/Hero-Line-Bg.png")',
+                  'url("https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/side1.png")',
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "right bottom",
               }}
             >
               <img
-                src="https://printshop.tokotema.com/wp-content/uploads/2023/08/man-close-up-with-headphones-smiling-2021-08-26-20-17-00-utc-1-1.png"
+                src="https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/about1.png"
                 alt="arrow"
                 className="w-full absolute top-0 right-0 h-500 sm-h-550 object-contain flex"
               />
@@ -95,10 +95,10 @@ const Section3 = ({ addToRef }) => {
                   </p>
                   {index !== printItems.length - 1 && (
                     <img
-                      src="https://printshop.tokotema.com/wp-content/uploads/2023/08/Icon-1.png"
+                      src="https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/side3.png"
                       alt="star"
                       className="flex object-contain mb-8"
-                      style={{ width: "35px", height: "35px" }}
+                      style={{ width: "45px", height: "45px" }}
                     />
                   )}
                 </React.Fragment>

@@ -1,19 +1,21 @@
 [
   {
-    "id": 1,
-    "title": "Ink Bottle Premium",
+    "id": 1001,
+    "title": "HP Q2612A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
     "category": {
-      "title": "Ink Bottle",
-      "img": "https://image2.jdomni.in/banner/11012020/76/FF/01/9CEADAE456395F429B509C5ACC_1578737405258.jpg?output-format=webp"
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
     },
-    "img": "https://i.ibb.co/F3hPQMP/product-2.jpg",
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
     "price": 1200,
-    "description": "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
+    "description": "HP Q2612A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
     "stock": 40,
     "images": [
-      "https://i.ibb.co/FY0k703/product-4.jpg",
-      "https://i.ibb.co/qdks33N/product-11.jpg",
-      "https://i.ibb.co/x81YysG/product-5.jpg"
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
     ],
     "specs": [
       { "label": "Operating Range", "value": "10–80% RH" },
@@ -22,57 +24,1463 @@
     ]
   },
   {
-    "id": 2,
-    "title": "Standard Toner Cartridge",
+    "id": 1002,
+    "title": "HP CC388A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
     "category": {
-      "title": "Toner Cartridge",
-      "img": "https://image3.jdomni.in/banner/11012020/43/B5/56/F0735B138A50B52F5DD9BD79D1_1578737259380.jpg?output-format=webp"
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 1300,
+    "description": "HP CC388A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1003,
+    "title": "HP CF218A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 1400,
+    "description": "HP CF218A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1004,
+    "title": "HP CF230A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 1500,
+    "description": "HP CF230A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1005,
+    "title": "HP W1370A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 1550,
+    "description": "HP W1370A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1006,
+    "title": "HP CE278A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 1600,
+    "description": "HP CE278A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1007,
+    "title": "HP CF277A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 1650,
+    "description": "HP CF277A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1008,
+    "title": "HP CE505A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 1700,
+    "description": "HP CE505A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1009,
+    "title": "HP W1335X Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 1750,
+    "description": "HP W1335X black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1010,
+    "title": "HP W1460A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 1800,
+    "description": "HP W1460A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1011,
+    "title": "HP W1520A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 1850,
+    "description": "HP W1520A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1012,
+    "title": "HP W1580X Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 1900,
+    "description": "HP W1580X black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1013,
+    "title": "HP CF256A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 1950,
+    "description": "HP CF256A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1014,
+    "title": "HP CF256X Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 2100,
+    "description": "HP CF256X high-yield black toner cartridge for extended printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1015,
+    "title": "HP W1660A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 2000,
+    "description": "HP W1660A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1016,
+    "title": "HP CF287A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 2050,
+    "description": "HP CF287A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1017,
+    "title": "HP CF289A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 2100,
+    "description": "HP CF289A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1018,
+    "title": "HP W1103A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 1850,
+    "description": "HP W1103A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1019,
+    "title": "HP W1112A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 1900,
+    "description": "HP W1112A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1020,
+    "title": "HP W1470A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 2000,
+    "description": "HP W1470A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1021,
+    "title": "HP CF279A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 2050,
+    "description": "HP CF279A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1022,
+    "title": "HP CB436A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 2100,
+    "description": "HP CB436A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1023,
+    "title": "HP CF228A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 2150,
+    "description": "HP CF228A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1024,
+    "title": "HP CF226A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 2200,
+    "description": "HP CF226A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1025,
+    "title": "HP CF276A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 2250,
+    "description": "HP CF276A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1026,
+    "title": "HP CF219A Black Toner Cartridge DR",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 2300,
+    "description": "HP CF219A black drum toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1027,
+    "title": "HP CF232A Black Toner Cartridge DR",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 2350,
+    "description": "HP CF232A black drum toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 1028,
+    "title": "HP W1810A Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category1.png",
+      "title": "HP Black",
+      "color": "#f1f1f3"
+    },
+    "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+    "price": 2400,
+    "description": "HP W1810A black toner cartridge for consistent, high-quality printing in compatible HP printers.",
+    "stock": 40,
+    "images": [
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.1.png",
+      "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/product1.png"
+    ],
+    "specs": [
+      { "label": "Operating Range", "value": "10–80% RH" },
+      { "label": "Weight", "value": "1.2 kg" },
+      { "label": "Input Voltage", "value": "220–240V" }
+    ]
+  },
+  {
+    "id": 2001,
+    "title": "RICOH SP200 Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category2.png",
+      "title": "RICOH",
+      "color": "#f4f2f3"
     },
     "img": "https://i.ibb.co/FhzmCxJ/product-3.jpg",
     "price": 2700,
-    "description": "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
+    "description": "RICOH SP200 black toner cartridge designed for reliable performance and sharp text output in Ricoh SP200 series laser printers.",
     "stock": 30,
     "images": [
       "https://i.ibb.co/ncm9NFx/product-6.jpg",
       "https://i.ibb.co/qdks33N/product-11.jpg"
     ],
     "specs": [
-      { "label": "Operating Temperature", "value": "5–35°C" },
-      { "label": "Weight", "value": "0.9 kg" },
-      { "label": "Input Voltage", "value": "220–240V" }
+      {
+        "label": "Product Type",
+        "value": "Toner Cartridge"
+      },
+      {
+        "label": "Print Technology",
+        "value": "Laser"
+      },
+      {
+        "label": "Color",
+        "value": "Black"
+      },
+      {
+        "label": "Page Yield",
+        "value": "Up to 2,000 pages"
+      },
+      {
+        "label": "Compatibility",
+        "value": "Ricoh SP200 / SP210 / SP212 Series"
+      },
+      {
+        "label": "Warranty",
+        "value": "1 Year"
+      }
     ]
   },
   {
-    "id": 3,
-    "title": "High-Quality Ink Cartridge",
+    "id": 2002,
+    "title": "RICOH SP210 Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000"],
     "category": {
-      "title": "Ink Cartridge",
-      "img": "https://image3.jdomni.in/banner/11012020/BC/46/30/BA6E37F264A005E32578352B79_1578737150798.jpg?output-format=webp"
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category2.png",
+      "title": "RICOH",
+      "color": "#f4f2f3"
     },
-    "img": "https://i.ibb.co/ncm9NFx/product-6.jpg",
-    "price": 1600,
-    "description": "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
+    "img": "https://i.ibb.co/FhzmCxJ/product-3.jpg",
+    "price": 2700,
+    "description": "RICOH SP210 black toner cartridge designed for consistent print quality and dependable performance in Ricoh SP210 series laser printers.",
+    "stock": 30,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Product Type",
+        "value": "Toner Cartridge"
+      },
+      {
+        "label": "Print Technology",
+        "value": "Laser"
+      },
+      {
+        "label": "Color",
+        "value": "Black"
+      },
+      {
+        "label": "Page Yield",
+        "value": "Up to 2,000 pages"
+      },
+      {
+        "label": "Compatibility",
+        "value": "Ricoh SP210 / SP211 / SP212 Series"
+      },
+      {
+        "label": "Warranty",
+        "value": "1 Year"
+      }
+    ]
+  },
+  {
+    "id": 2003,
+    "title": "RICOH SP111 Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category2.png",
+      "title": "RICOH",
+      "color": "#f4f2f3"
+    },
+    "img": "https://i.ibb.co/FhzmCxJ/product-3.jpg",
+    "price": 2500,
+    "description": "RICOH SP111 black toner cartridge designed for clear text output and reliable everyday printing in Ricoh SP111 series laser printers.",
+    "stock": 30,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Product Type",
+        "value": "Toner Cartridge"
+      },
+      {
+        "label": "Print Technology",
+        "value": "Laser"
+      },
+      {
+        "label": "Color",
+        "value": "Black"
+      },
+      {
+        "label": "Page Yield",
+        "value": "Up to 1,500 pages"
+      },
+      {
+        "label": "Compatibility",
+        "value": "Ricoh SP111 / SP111SU Series"
+      },
+      {
+        "label": "Warranty",
+        "value": "1 Year"
+      }
+    ]
+  },
+  {
+    "id": 2004,
+    "title": "RICOH SP 1230D Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category2.png",
+      "title": "RICOH",
+      "color": "#f4f2f3"
+    },
+    "img": "https://i.ibb.co/FhzmCxJ/product-3.jpg",
+    "price": 2900,
+    "description": "RICOH SP 1230D black toner cartridge designed for fast, reliable printing and sharp text output in Ricoh SP 1230D laser printers.",
+    "stock": 30,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Product Type",
+        "value": "Toner Cartridge"
+      },
+      {
+        "label": "Print Technology",
+        "value": "Laser"
+      },
+      {
+        "label": "Color",
+        "value": "Black"
+      },
+      {
+        "label": "Page Yield",
+        "value": "Up to 2,600 pages"
+      },
+      {
+        "label": "Compatibility",
+        "value": "Ricoh SP 1230D Series"
+      },
+      {
+        "label": "Warranty",
+        "value": "1 Year"
+      }
+    ]
+  },
+  {
+    "id": 2005,
+    "title": "RICOH MP 2501 Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category2.png",
+      "title": "RICOH",
+      "color": "#f4f2f3"
+    },
+    "img": "https://i.ibb.co/FhzmCxJ/product-3.jpg",
+    "price": 3500,
+    "description": "RICOH MP 2501 black toner cartridge engineered for high-volume office printing with consistent output quality in Ricoh MP series multifunction printers.",
     "stock": 25,
     "images": [
       "https://i.ibb.co/ncm9NFx/product-6.jpg",
       "https://i.ibb.co/qdks33N/product-11.jpg"
     ],
     "specs": [
-      { "label": "Duty Cycle", "value": "10,000 pages" },
-      { "label": "Noise Level", "value": "48 dB" },
-      { "label": "Power Consumption", "value": "350W" }
+      {
+        "label": "Product Type",
+        "value": "Toner Cartridge"
+      },
+      {
+        "label": "Print Technology",
+        "value": "Laser"
+      },
+      {
+        "label": "Color",
+        "value": "Black"
+      },
+      {
+        "label": "Page Yield",
+        "value": "Up to 9,000 pages"
+      },
+      {
+        "label": "Compatibility",
+        "value": "Ricoh MP 2001 / MP 2501 Series"
+      },
+      {
+        "label": "Warranty",
+        "value": "1 Year"
+      }
     ]
   },
   {
-    "id": 4,
-    "title": "Ribbon Cartridge Premium",
+    "id": 2006,
+    "title": "RICOH SP 414 Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000"],
     "category": {
-      "title": "Ribbon Cartridge",
-      "img": "https://image3.jdomni.in/banner/11012020/79/61/5A/0F7CF49026FBA1F5312B16C2E3_1578737848608.jpg?output-format=webp"
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category2.png",
+      "title": "RICOH",
+      "color": "#f4f2f3"
+    },
+    "img": "https://i.ibb.co/FhzmCxJ/product-3.jpg",
+    "price": 4200,
+    "description": "RICOH SP 414 high-yield black toner cartridge designed for heavy-duty office printing with sharp, consistent output.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Product Type",
+        "value": "High Yield Toner Cartridge"
+      },
+      {
+        "label": "Print Technology",
+        "value": "Laser"
+      },
+      {
+        "label": "Color",
+        "value": "Black"
+      },
+      {
+        "label": "Page Yield",
+        "value": "Up to 17,500 pages"
+      },
+      {
+        "label": "Compatibility",
+        "value": "Ricoh SP 414 / SP 415 Series"
+      },
+      {
+        "label": "Warranty",
+        "value": "1 Year"
+      }
+    ]
+  },
+  {
+    "id": 2007,
+    "title": "RICOH SP 250 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category2.png",
+      "title": "RICOH",
+      "color": "#f4f2f3"
+    },
+    "img": "https://i.ibb.co/FhzmCxJ/product-3.jpg",
+    "price": 2800,
+    "description": "RICOH SP 250 black toner cartridge designed for sharp text and reliable everyday printing.",
+    "stock": 30,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Up to 2,000 pages" },
+      { "label": "Compatibility", "value": "Ricoh SP 250 Series" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 2008,
+    "title": "RICOH SP 250 Cyan Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#00bcd4"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category2.png",
+      "title": "RICOH",
+      "color": "#f4f2f3"
+    },
+    "img": "https://i.ibb.co/FhzmCxJ/product-3.jpg",
+    "price": 3000,
+    "description": "RICOH SP 250 cyan toner cartridge for vibrant color prints and smooth gradients.",
+    "stock": 25,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Cyan" },
+      { "label": "Page Yield", "value": "Up to 1,600 pages" },
+      { "label": "Compatibility", "value": "Ricoh SP 250 Series" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 2009,
+    "title": "RICOH SP 250 Magenta Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#e91e63"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category2.png",
+      "title": "RICOH",
+      "color": "#f4f2f3"
+    },
+    "img": "https://i.ibb.co/FhzmCxJ/product-3.jpg",
+    "price": 3000,
+    "description": "RICOH SP 250 magenta toner cartridge delivering rich color and accurate image reproduction.",
+    "stock": 25,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Magenta" },
+      { "label": "Page Yield", "value": "Up to 1,600 pages" },
+      { "label": "Compatibility", "value": "Ricoh SP 250 Series" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 2010,
+    "title": "RICOH SP 250 Yellow Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#ffeb3b"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category2.png",
+      "title": "RICOH",
+      "color": "#f4f2f3"
+    },
+    "img": "https://i.ibb.co/FhzmCxJ/product-3.jpg",
+    "price": 3000,
+    "description": "RICOH SP 250 yellow toner cartridge designed for bright, consistent color output.",
+    "stock": 25,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Yellow" },
+      { "label": "Page Yield", "value": "Up to 1,600 pages" },
+      { "label": "Compatibility", "value": "Ricoh SP 250 Series" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 2011,
+    "title": "RICOH C2510 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category2.png",
+      "title": "RICOH",
+      "color": "#f4f2f3"
+    },
+    "img": "https://i.ibb.co/FhzmCxJ/product-3.jpg",
+    "price": 5500,
+    "description": "RICOH C2510 black toner cartridge designed for sharp text and consistent printing in Ricoh C2510 series color laser printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Up to 6,000 pages" },
+      { "label": "Compatibility", "value": "Ricoh C2510 / C2500 Series" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 2012,
+    "title": "RICOH C2510 Cyan Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#00bcd4"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category2.png",
+      "title": "RICOH",
+      "color": "#f4f2f3"
+    },
+    "img": "https://i.ibb.co/FhzmCxJ/product-3.jpg",
+    "price": 5500,
+    "description": "RICOH C2510 cyan toner cartridge for vibrant color prints with smooth gradients and reliable performance.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Cyan" },
+      { "label": "Page Yield", "value": "Up to 5,000 pages" },
+      { "label": "Compatibility", "value": "Ricoh C2510 / C2500 Series" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 2013,
+    "title": "RICOH C2510 Magenta Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#e91e63"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category2.png",
+      "title": "RICOH",
+      "color": "#f4f2f3"
+    },
+    "img": "https://i.ibb.co/FhzmCxJ/product-3.jpg",
+    "price": 5500,
+    "description": "RICOH C2510 magenta toner cartridge delivering rich, accurate color for high-quality prints.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Magenta" },
+      { "label": "Page Yield", "value": "Up to 5,000 pages" },
+      { "label": "Compatibility", "value": "Ricoh C2510 / C2500 Series" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 2014,
+    "title": "RICOH C2510 Yellow Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#ffeb3b"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category2.png",
+      "title": "RICOH",
+      "color": "#f4f2f3"
+    },
+    "img": "https://i.ibb.co/FhzmCxJ/product-3.jpg",
+    "price": 5500,
+    "description": "RICOH C2510 yellow toner cartridge ensures bright, consistent color output for professional-quality prints.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Yellow" },
+      { "label": "Page Yield", "value": "Up to 5,000 pages" },
+      { "label": "Compatibility", "value": "Ricoh C2510 / C2500 Series" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 3001,
+    "title": "SHARP BP-AT 700 Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category3.png",
+      "title": "SHARP",
+      "color": "#f6f4f7"
+    },
+    "img": "https://i.ibb.co/ncm9NFx/product-6.jpg",
+    "price": 1600,
+    "description": "SHARP BP-AT 700 black toner cartridge designed for reliable performance and high-quality printing in SHARP BP-AT 700 series printers.",
+    "stock": 25,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Duty Cycle",
+        "value": "10,000 pages"
+      },
+      {
+        "label": "Noise Level",
+        "value": "48 dB"
+      },
+      {
+        "label": "Power Consumption",
+        "value": "350W"
+      },
+      {
+        "label": "Color",
+        "value": "Black"
+      },
+      {
+        "label": "Compatibility",
+        "value": "SHARP BP-AT 700 Series"
+      }
+    ]
+  },
+  {
+    "id": 3002,
+    "title": "SHARP BP-AT 700 Cyan Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#00bcd4"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category3.png",
+      "title": "SHARP",
+      "color": "#f6f4f7"
+    },
+    "img": "https://i.ibb.co/ncm9NFx/product-6.jpg",
+    "price": 1600,
+    "description": "SHARP BP-AT 700 cyan toner cartridge for vibrant, accurate color prints.",
+    "stock": 25,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Cyan" },
+      { "label": "Duty Cycle", "value": "10,000 pages" },
+      { "label": "Noise Level", "value": "48 dB" },
+      { "label": "Compatibility", "value": "SHARP BP-AT 700 Series" }
+    ]
+  },
+  {
+    "id": 3003,
+    "title": "SHARP BP-AT 700 Magenta Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#e91e63"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category3.png",
+      "title": "SHARP",
+      "color": "#f6f4f7"
+    },
+    "img": "https://i.ibb.co/ncm9NFx/product-6.jpg",
+    "price": 1600,
+    "description": "SHARP BP-AT 700 magenta toner cartridge for rich, accurate color reproduction.",
+    "stock": 25,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Magenta" },
+      { "label": "Duty Cycle", "value": "10,000 pages" },
+      { "label": "Noise Level", "value": "48 dB" },
+      { "label": "Compatibility", "value": "SHARP BP-AT 700 Series" }
+    ]
+  },
+  {
+    "id": 3004,
+    "title": "SHARP BP-AT 700 Yellow Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#ffeb3b"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category3.png",
+      "title": "SHARP",
+      "color": "#f6f4f7"
+    },
+    "img": "https://i.ibb.co/ncm9NFx/product-6.jpg",
+    "price": 1600,
+    "description": "SHARP BP-AT 700 yellow toner cartridge for bright and consistent color output.",
+    "stock": 25,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Yellow" },
+      { "label": "Duty Cycle", "value": "10,000 pages" },
+      { "label": "Noise Level", "value": "48 dB" },
+      { "label": "Compatibility", "value": "SHARP BP-AT 700 Series" }
+    ]
+  },
+  {
+    "id": 3005,
+    "title": "SHARP BP-AT20BA Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category3.png",
+      "title": "SHARP",
+      "color": "#f6f4f7"
+    },
+    "img": "https://i.ibb.co/ncm9NFx/product-6.jpg",
+    "price": 1700,
+    "description": "SHARP BP-AT20BA black toner cartridge for reliable, sharp text printing in SHARP BP-AT20BA series printers.",
+    "stock": 25,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Duty Cycle", "value": "8,000 pages" },
+      { "label": "Noise Level", "value": "50 dB" },
+      { "label": "Compatibility", "value": "SHARP BP-AT20BA Series" }
+    ]
+  },
+  {
+    "id": 3006,
+    "title": "SHARP BP-AT20BA Cyan Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#00bcd4"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category3.png",
+      "title": "SHARP",
+      "color": "#f6f4f7"
+    },
+    "img": "https://i.ibb.co/ncm9NFx/product-6.jpg",
+    "price": 1700,
+    "description": "SHARP BP-AT20BA cyan toner cartridge for vibrant, accurate color printing.",
+    "stock": 25,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Cyan" },
+      { "label": "Duty Cycle", "value": "8,000 pages" },
+      { "label": "Noise Level", "value": "50 dB" },
+      { "label": "Compatibility", "value": "SHARP BP-AT20BA Series" }
+    ]
+  },
+  {
+    "id": 3007,
+    "title": "SHARP BP-AT20BA Magenta Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#e91e63"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category3.png",
+      "title": "SHARP",
+      "color": "#f6f4f7"
+    },
+    "img": "https://i.ibb.co/ncm9NFx/product-6.jpg",
+    "price": 1700,
+    "description": "SHARP BP-AT20BA magenta toner cartridge for rich, accurate color reproduction.",
+    "stock": 25,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Magenta" },
+      { "label": "Duty Cycle", "value": "8,000 pages" },
+      { "label": "Noise Level", "value": "50 dB" },
+      { "label": "Compatibility", "value": "SHARP BP-AT20BA Series" }
+    ]
+  },
+  {
+    "id": 3008,
+    "title": "SHARP BP-AT20BA Yellow Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#ffeb3b"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category3.png",
+      "title": "SHARP",
+      "color": "#f6f4f7"
+    },
+    "img": "https://i.ibb.co/ncm9NFx/product-6.jpg",
+    "price": 1700,
+    "description": "SHARP BP-AT20BA yellow toner cartridge for bright, consistent color output.",
+    "stock": 25,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Yellow" },
+      { "label": "Duty Cycle", "value": "8,000 pages" },
+      { "label": "Noise Level", "value": "50 dB" },
+      { "label": "Compatibility", "value": "SHARP BP-AT20BA Series" }
+    ]
+  },
+  {
+    "id": 3009,
+    "title": "SHARP MX-500AT Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category3.png",
+      "title": "SHARP",
+      "color": "#f6f4f7"
+    },
+    "img": "https://i.ibb.co/ncm9NFx/product-6.jpg",
+    "price": 1800,
+    "description": "SHARP MX-500AT black toner cartridge designed for high-quality, reliable printing in SHARP MX-500AT series multifunction printers.",
+    "stock": 25,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Duty Cycle", "value": "10,000 pages" },
+      { "label": "Noise Level", "value": "48 dB" },
+      { "label": "Compatibility", "value": "SHARP MX-500AT Series" }
+    ]
+  },
+  {
+    "id": 3010,
+    "title": "SHARP MX-237AT Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category3.png",
+      "title": "SHARP",
+      "color": "#f6f4f7"
+    },
+    "img": "https://i.ibb.co/ncm9NFx/product-6.jpg",
+    "price": 1750,
+    "description": "SHARP MX-237AT black toner cartridge designed for reliable, high-quality printing in SHARP MX-237AT series multifunction printers.",
+    "stock": 25,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Duty Cycle", "value": "9,000 pages" },
+      { "label": "Noise Level", "value": "47 dB" },
+      { "label": "Compatibility", "value": "SHARP MX-237AT Series" }
+    ]
+  },
+  {
+    "id": 3011,
+    "title": "SHARP AR-202ST Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category3.png",
+      "title": "SHARP",
+      "color": "#f6f4f7"
+    },
+    "img": "https://i.ibb.co/ncm9NFx/product-6.jpg",
+    "price": 1650,
+    "description": "SHARP AR-202ST black toner cartridge designed for consistent, high-quality printing in SHARP AR-202ST series printers.",
+    "stock": 25,
+    "images": [
+      "https://i.ibb.co/ncm9NFx/product-6.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Product Type", "value": "Toner Cartridge" },
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Duty Cycle", "value": "8,500 pages" },
+      { "label": "Noise Level", "value": "48 dB" },
+      { "label": "Compatibility", "value": "SHARP AR-202ST Series" }
+    ]
+  },
+  {
+    "id": 4001,
+    "title": "XEROX 106R03520 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category4.png",
+      "title": "XEROX",
+      "color": "#ebf0fa"
     },
     "img": "https://i.ibb.co/FWFHb8W/product-9.jpg",
-    "price": 2100,
-    "description": "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
+    "price": 2200,
+    "description": "XEROX 106R03520 black toner cartridge for reliable, high-quality printing in compatible Xerox printers.",
     "stock": 20,
     "images": [
       "https://i.ibb.co/FY0k703/product-4.jpg",
@@ -81,20 +1489,418 @@
     ],
     "specs": [
       { "label": "Print Technology", "value": "Laser" },
-      { "label": "Duty Cycle", "value": "15,000 pages" },
-      { "label": "Warranty", "value": "1 Year" }
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "XEROX 106R03520 Series" }
     ]
   },
   {
-    "id": 5,
-    "title": "Ribbon Cartridge Premium",
+    "id": 4002,
+    "title": "XEROX 106R03521 Cyan Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#00bcd4"],
     "category": {
-      "title": "Ribbon Cartridge",
-      "img": "https://image3.jdomni.in/banner/11012020/79/61/5A/0F7CF49026FBA1F5312B16C2E3_1578737848608.jpg?output-format=webp"
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category4.png",
+      "title": "XEROX",
+      "color": "#ebf0fa"
+    },
+    "img": "https://i.ibb.co/FWFHb8W/product-9.jpg",
+    "price": 2200,
+    "description": "XEROX 106R03521 cyan toner cartridge for vibrant, accurate color printing in compatible Xerox printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Cyan" },
+      { "label": "Page Yield", "value": "Approx. 15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "XEROX 106R03521 Series" }
+    ]
+  },
+  {
+    "id": 4003,
+    "title": "XEROX 106R03522 Yellow Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#ffeb3b"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category4.png",
+      "title": "XEROX",
+      "color": "#ebf0fa"
+    },
+    "img": "https://i.ibb.co/FWFHb8W/product-9.jpg",
+    "price": 2200,
+    "description": "XEROX 106R03522 yellow toner cartridge for bright and consistent color output in compatible Xerox printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Yellow" },
+      { "label": "Page Yield", "value": "Approx. 15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "XEROX 106R03522 Series" }
+    ]
+  },
+  {
+    "id": 4004,
+    "title": "XEROX 106R03523 Magenta Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#e91e63"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category4.png",
+      "title": "XEROX",
+      "color": "#ebf0fa"
+    },
+    "img": "https://i.ibb.co/FWFHb8W/product-9.jpg",
+    "price": 2200,
+    "description": "XEROX 106R03523 magenta toner cartridge for rich, accurate color printing in compatible Xerox printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Magenta" },
+      { "label": "Page Yield", "value": "Approx. 15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "XEROX 106R03523 Series" }
+    ]
+  },
+  {
+    "id": 4005,
+    "title": "XEROX 006R01693 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category4.png",
+      "title": "XEROX",
+      "color": "#ebf0fa"
+    },
+    "img": "https://i.ibb.co/FWFHb8W/product-9.jpg",
+    "price": 2300,
+    "description": "XEROX 006R01693 black toner cartridge for high-quality, reliable printing in compatible Xerox printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 8,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "XEROX 006R01693 Series" }
+    ]
+  },
+  {
+    "id": 4006,
+    "title": "XEROX 006R01694 Cyan Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#00bcd4"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category4.png",
+      "title": "XEROX",
+      "color": "#ebf0fa"
+    },
+    "img": "https://i.ibb.co/FWFHb8W/product-9.jpg",
+    "price": 2300,
+    "description": "XEROX 006R01694 cyan toner cartridge for vibrant, accurate color printing in compatible Xerox printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Cyan" },
+      { "label": "Page Yield", "value": "Approx. 8,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "XEROX 006R01694 Series" }
+    ]
+  },
+  {
+    "id": 4007,
+    "title": "XEROX 006R01695 Yellow Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#ffeb3b"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category4.png",
+      "title": "XEROX",
+      "color": "#ebf0fa"
+    },
+    "img": "https://i.ibb.co/FWFHb8W/product-9.jpg",
+    "price": 2300,
+    "description": "XEROX 006R01695 yellow toner cartridge for bright, consistent color output in compatible Xerox printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Yellow" },
+      { "label": "Page Yield", "value": "Approx. 8,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "XEROX 006R01695 Series" }
+    ]
+  },
+  {
+    "id": 4008,
+    "title": "XEROX 006R01696 Magenta Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#e91e63"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category4.png",
+      "title": "XEROX",
+      "color": "#ebf0fa"
+    },
+    "img": "https://i.ibb.co/FWFHb8W/product-9.jpg",
+    "price": 2300,
+    "description": "XEROX 006R01696 magenta toner cartridge for rich, accurate color printing in compatible Xerox printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Magenta" },
+      { "label": "Page Yield", "value": "Approx. 8,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "XEROX 006R01696 Series" }
+    ]
+  },
+  {
+    "id": 4009,
+    "title": "XEROX 006R01646 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category4.png",
+      "title": "XEROX",
+      "color": "#ebf0fa"
+    },
+    "img": "https://i.ibb.co/FWFHb8W/product-9.jpg",
+    "price": 2300,
+    "description": "XEROX 006R01646 black toner cartridge for high-quality, reliable printing in compatible Xerox printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 8,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "XEROX 006R01646 Series" }
+    ]
+  },
+  {
+    "id": 4010,
+    "title": "XEROX 006R01647 Cyan Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#00bcd4"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category4.png",
+      "title": "XEROX",
+      "color": "#ebf0fa"
+    },
+    "img": "https://i.ibb.co/FWFHb8W/product-9.jpg",
+    "price": 2300,
+    "description": "XEROX 006R01647 cyan toner cartridge for vibrant, accurate color printing in compatible Xerox printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Cyan" },
+      { "label": "Page Yield", "value": "Approx. 8,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "XEROX 006R01647 Series" }
+    ]
+  },
+  {
+    "id": 4011,
+    "title": "XEROX 006R01648 Yellow Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#ffeb3b"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category4.png",
+      "title": "XEROX",
+      "color": "#ebf0fa"
+    },
+    "img": "https://i.ibb.co/FWFHb8W/product-9.jpg",
+    "price": 2300,
+    "description": "XEROX 006R01648 yellow toner cartridge for bright, consistent color output in compatible Xerox printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Yellow" },
+      { "label": "Page Yield", "value": "Approx. 8,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "XEROX 006R01648 Series" }
+    ]
+  },
+  {
+    "id": 4012,
+    "title": "XEROX 006R01649 Magenta Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#e91e63"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category4.png",
+      "title": "XEROX",
+      "color": "#ebf0fa"
+    },
+    "img": "https://i.ibb.co/FWFHb8W/product-9.jpg",
+    "price": 2300,
+    "description": "XEROX 006R01649 magenta toner cartridge for rich, accurate color printing in compatible Xerox printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Magenta" },
+      { "label": "Page Yield", "value": "Approx. 8,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "XEROX 006R01649 Series" }
+    ]
+  },
+  {
+    "id": 4013,
+    "title": "XEROX CT202798 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category4.png",
+      "title": "XEROX",
+      "color": "#ebf0fa"
+    },
+    "img": "https://i.ibb.co/FWFHb8W/product-9.jpg",
+    "price": 2500,
+    "description": "XEROX CT202798 black toner cartridge for high-quality, reliable printing in Xerox C500/C505 printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 7,500 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "XEROX C500/C505 Series" }
+    ]
+  },
+  {
+    "id": 4014,
+    "title": "XEROX CT202799 Cyan Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#00bcd4"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category4.png",
+      "title": "XEROX",
+      "color": "#ebf0fa"
+    },
+    "img": "https://i.ibb.co/FWFHb8W/product-9.jpg",
+    "price": 2500,
+    "description": "XEROX CT202799 cyan toner cartridge for vibrant, accurate color printing in Xerox C500/C505 printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Cyan" },
+      { "label": "Page Yield", "value": "Approx. 7,500 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "XEROX C500/C505 Series" }
+    ]
+  },
+  {
+    "id": 4015,
+    "title": "XEROX CT202800 Yellow Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#ffeb3b"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category4.png",
+      "title": "XEROX",
+      "color": "#ebf0fa"
+    },
+    "img": "https://i.ibb.co/FWFHb8W/product-9.jpg",
+    "price": 2500,
+    "description": "XEROX CT202800 yellow toner cartridge for bright, consistent color output in Xerox C500/C505 printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Yellow" },
+      { "label": "Page Yield", "value": "Approx. 7,500 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "XEROX C500/C505 Series" }
+    ]
+  },
+  {
+    "id": 4016,
+    "title": "XEROX CT202801 Magenta Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#e91e63"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category4.png",
+      "title": "XEROX",
+      "color": "#ebf0fa"
+    },
+    "img": "https://i.ibb.co/FWFHb8W/product-9.jpg",
+    "price": 2500,
+    "description": "XEROX CT202801 magenta toner cartridge for rich, accurate color printing in Xerox C500/C505 printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Magenta" },
+      { "label": "Page Yield", "value": "Approx. 7,500 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "XEROX C500/C505 Series" }
+    ]
+  },
+  {
+    "id": 5001,
+    "title": "KONIKA MINOLTA TN621K Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category5.png",
+      "title": "Konika Minolta",
+      "color": "#fdfafd"
     },
     "img": "https://i.ibb.co/x81YysG/product-5.jpg",
     "price": 2100,
-    "description": "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
+    "description": "KONIKA MINOLTA TN621K black toner cartridge designed for high-quality, consistent printing in Konica Minolta printers.",
     "stock": 20,
     "images": [
       "https://i.ibb.co/FY0k703/product-4.jpg",
@@ -103,20 +1909,322 @@
     ],
     "specs": [
       { "label": "Print Technology", "value": "Laser" },
-      { "label": "Duty Cycle", "value": "15,000 pages" },
-      { "label": "Warranty", "value": "1 Year" }
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "Konika Minolta TN621K Series" }
     ]
   },
   {
-    "id": 6,
-    "title": "Ribbon Cartridge Premium",
+    "id": 5002,
+    "title": "KONIKA MINOLTA TN621C Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#00bcd4"],
     "category": {
-      "title": "Ribbon Cartridge",
-      "img": "https://image3.jdomni.in/banner/11012020/79/61/5A/0F7CF49026FBA1F5312B16C2E3_1578737848608.jpg?output-format=webp"
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category5.png",
+      "title": "Konika Minolta",
+      "color": "#fdfafd"
+    },
+    "img": "https://i.ibb.co/x81YysG/product-5.jpg",
+    "price": 2100,
+    "description": "KONIKA MINOLTA TN621C cyan toner cartridge for vibrant, accurate color printing in Konica Minolta printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Cyan" },
+      { "label": "Page Yield", "value": "Approx. 15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "Konika Minolta TN621C Series" }
+    ]
+  },
+  {
+    "id": 5003,
+    "title": "KONIKA MINOLTA TN621Y Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#ffeb3b"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category5.png",
+      "title": "Konika Minolta",
+      "color": "#fdfafd"
+    },
+    "img": "https://i.ibb.co/x81YysG/product-5.jpg",
+    "price": 2100,
+    "description": "KONIKA MINOLTA TN621Y yellow toner cartridge for bright, consistent color output in Konica Minolta printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Yellow" },
+      { "label": "Page Yield", "value": "Approx. 15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "Konika Minolta TN621Y Series" }
+    ]
+  },
+  {
+    "id": 5004,
+    "title": "KONIKA MINOLTA TN621M Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#e91e63"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category5.png",
+      "title": "Konika Minolta",
+      "color": "#fdfafd"
+    },
+    "img": "https://i.ibb.co/x81YysG/product-5.jpg",
+    "price": 2100,
+    "description": "KONIKA MINOLTA TN621M magenta toner cartridge for rich, accurate color output in Konica Minolta printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Magenta" },
+      { "label": "Page Yield", "value": "Approx. 15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "Konika Minolta TN621M Series" }
+    ]
+  },
+  {
+    "id": 5005,
+    "title": "KONIKA MINOLTA TN228B Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category5.png",
+      "title": "Konika Minolta",
+      "color": "#fdfafd"
+    },
+    "img": "https://i.ibb.co/x81YysG/product-5.jpg",
+    "price": 2200,
+    "description": "KONIKA MINOLTA TN228B black toner cartridge for high-quality, reliable printing in Konica Minolta TN228 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 12,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "Konika Minolta TN228 Series" }
+    ]
+  },
+  {
+    "id": 5006,
+    "title": "KONIKA MINOLTA TN228C Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#00bcd4"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category5.png",
+      "title": "Konika Minolta",
+      "color": "#fdfafd"
+    },
+    "img": "https://i.ibb.co/x81YysG/product-5.jpg",
+    "price": 2200,
+    "description": "KONIKA MINOLTA TN228C cyan toner cartridge for vibrant, accurate color printing in Konica Minolta TN228 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Cyan" },
+      { "label": "Page Yield", "value": "Approx. 12,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "Konika Minolta TN228 Series" }
+    ]
+  },
+  {
+    "id": 5007,
+    "title": "KONIKA MINOLTA TN228Y Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#ffeb3b"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category5.png",
+      "title": "Konika Minolta",
+      "color": "#fdfafd"
+    },
+    "img": "https://i.ibb.co/x81YysG/product-5.jpg",
+    "price": 2200,
+    "description": "KONIKA MINOLTA TN228Y yellow toner cartridge for bright, consistent color output in Konica Minolta TN228 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Yellow" },
+      { "label": "Page Yield", "value": "Approx. 12,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "Konika Minolta TN228 Series" }
+    ]
+  },
+  {
+    "id": 5008,
+    "title": "KONIKA MINOLTA TN228M Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#e91e63"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category5.png",
+      "title": "Konika Minolta",
+      "color": "#fdfafd"
+    },
+    "img": "https://i.ibb.co/x81YysG/product-5.jpg",
+    "price": 2200,
+    "description": "KONIKA MINOLTA TN228M magenta toner cartridge for rich, accurate color output in Konica Minolta TN228 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Magenta" },
+      { "label": "Page Yield", "value": "Approx. 12,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "Konika Minolta TN228 Series" }
+    ]
+  },
+  {
+    "id": 5009,
+    "title": "KONIKA MINOLTA TN227B Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category5.png",
+      "title": "Konika Minolta",
+      "color": "#fdfafd"
+    },
+    "img": "https://i.ibb.co/x81YysG/product-5.jpg",
+    "price": 2000,
+    "description": "KONIKA MINOLTA TN227B black toner cartridge for high-quality, reliable printing in Konica Minolta TN227 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 10,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "Konika Minolta TN227 Series" }
+    ]
+  },
+  {
+    "id": 5010,
+    "title": "KONIKA MINOLTA TN227C Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#00bcd4"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category5.png",
+      "title": "Konika Minolta",
+      "color": "#fdfafd"
+    },
+    "img": "https://i.ibb.co/x81YysG/product-5.jpg",
+    "price": 2000,
+    "description": "KONIKA MINOLTA TN227C cyan toner cartridge for vibrant, accurate color printing in Konica Minolta TN227 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Cyan" },
+      { "label": "Page Yield", "value": "Approx. 10,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "Konika Minolta TN227 Series" }
+    ]
+  },
+  {
+    "id": 5011,
+    "title": "KONIKA MINOLTA TN227Y Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#ffeb3b"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category5.png",
+      "title": "Konika Minolta",
+      "color": "#fdfafd"
+    },
+    "img": "https://i.ibb.co/x81YysG/product-5.jpg",
+    "price": 2000,
+    "description": "KONIKA MINOLTA TN227Y yellow toner cartridge for bright, consistent color output in Konica Minolta TN227 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Yellow" },
+      { "label": "Page Yield", "value": "Approx. 10,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "Konika Minolta TN227 Series" }
+    ]
+  },
+  {
+    "id": 5012,
+    "title": "KONIKA MINOLTA TN227M Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#e91e63"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category5.png",
+      "title": "Konika Minolta",
+      "color": "#fdfafd"
+    },
+    "img": "https://i.ibb.co/x81YysG/product-5.jpg",
+    "price": 2000,
+    "description": "KONIKA MINOLTA TN227M magenta toner cartridge for rich, accurate color output in Konica Minolta TN227 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Magenta" },
+      { "label": "Page Yield", "value": "Approx. 10,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "Konika Minolta TN227 Series" }
+    ]
+  },
+  {
+    "id": 6001,
+    "title": "KYOCERA TK-8110 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
     },
     "img": "https://i.ibb.co/qdks33N/product-11.jpg",
     "price": 2100,
-    "description": "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
+    "description": "KYOCERA TK-8110 black toner cartridge for reliable, high-quality printing in KYOCERA printers.",
     "stock": 20,
     "images": [
       "https://i.ibb.co/FY0k703/product-4.jpg",
@@ -125,20 +2233,1424 @@
     ],
     "specs": [
       { "label": "Print Technology", "value": "Laser" },
-      { "label": "Duty Cycle", "value": "15,000 pages" },
-      { "label": "Warranty", "value": "1 Year" }
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-8110 Series" }
     ]
   },
   {
-    "id": 6,
-    "title": "Ribbon Cartridge Premium",
+    "id": 6002,
+    "title": "KYOCERA TK-8110 Cyan Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#00bcd4"],
     "category": {
-      "title": "Ribbon Cartridge",
-      "img": "https://image3.jdomni.in/banner/11012020/79/61/5A/0F7CF49026FBA1F5312B16C2E3_1578737848608.jpg?output-format=webp"
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2100,
+    "description": "KYOCERA TK-8110 cyan toner cartridge for vibrant, accurate color printing in KYOCERA printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Cyan" },
+      { "label": "Page Yield", "value": "Approx. 15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-8110 Series" }
+    ]
+  },
+  {
+    "id": 6003,
+    "title": "KYOCERA TK-8110 Magenta Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#e91e63"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2100,
+    "description": "KYOCERA TK-8110 magenta toner cartridge for rich, accurate color output in KYOCERA printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Magenta" },
+      { "label": "Page Yield", "value": "Approx. 15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-8110 Series" }
+    ]
+  },
+  {
+    "id": 6004,
+    "title": "KYOCERA TK-8110 Yellow Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#ffeb3b"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2100,
+    "description": "KYOCERA TK-8110 yellow toner cartridge for bright, consistent color output in KYOCERA printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Yellow" },
+      { "label": "Page Yield", "value": "Approx. 15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-8110 Series" }
+    ]
+  },
+  {
+    "id": 6005,
+    "title": "KYOCERA TK-8339B Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2500,
+    "description": "KYOCERA TK-8339B black toner cartridge for high-quality, reliable printing in KYOCERA TK-8339 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 20,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-8339 Series" }
+    ]
+  },
+  {
+    "id": 6006,
+    "title": "KYOCERA TK-8339C Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#00bcd4"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2500,
+    "description": "KYOCERA TK-8339C cyan toner cartridge for vibrant, accurate color printing in KYOCERA TK-8339 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Cyan" },
+      { "label": "Page Yield", "value": "Approx. 20,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-8339 Series" }
+    ]
+  },
+  {
+    "id": 6007,
+    "title": "KYOCERA TK-8339Y Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#ffeb3b"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2500,
+    "description": "KYOCERA TK-8339Y yellow toner cartridge for bright, consistent color output in KYOCERA TK-8339 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Yellow" },
+      { "label": "Page Yield", "value": "Approx. 20,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-8339 Series" }
+    ]
+  },
+  {
+    "id": 6008,
+    "title": "KYOCERA TK-8339M Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#e91e63"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2500,
+    "description": "KYOCERA TK-8339M magenta toner cartridge for rich, accurate color output in KYOCERA TK-8339 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Magenta" },
+      { "label": "Page Yield", "value": "Approx. 20,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-8339 Series" }
+    ]
+  },
+  {
+    "id": 6009,
+    "title": "KYOCERA TK-4140 Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2300,
+    "description": "KYOCERA TK-4140 black toner cartridge for reliable, high-quality printing in KYOCERA TK-4140 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 18,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-4140 Series" }
+    ]
+  },
+  {
+    "id": 6010,
+    "title": "KYOCERA TK-6110 Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2400,
+    "description": "KYOCERA TK-6110 black toner cartridge for reliable, high-quality printing in KYOCERA TK-6110 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 18,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-6110 Series" }
+    ]
+  },
+  {
+    "id": 6011,
+    "title": "KYOCERA TK-7220 Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2600,
+    "description": "KYOCERA TK-7220 black toner cartridge for reliable, high-quality printing in KYOCERA TK-7220 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 20,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-7220 Series" }
+    ]
+  },
+  {
+    "id": 6012,
+    "title": "KYOCERA TK-7120 Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2500,
+    "description": "KYOCERA TK-7120 black toner cartridge for high-quality and reliable printing in KYOCERA TK-7120 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 18,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-7120 Series" }
+    ]
+  },
+  {
+    "id": 6013,
+    "title": "KYOCERA TK-7130 Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2550,
+    "description": "KYOCERA TK-7130 black toner cartridge for reliable, high-quality printing in KYOCERA TK-7130 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg",
+      "https://i.ibb.co/x81YysG/product-5.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 18,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-7130 Series" }
+    ]
+  },
+  {
+    "id": 6014,
+    "title": "KYOCERA TK-1178 Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2400,
+    "description": "KYOCERA TK-1178 black toner cartridge for high-quality printing in KYOCERA TK-1178 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 12,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-1178 Series" }
+    ]
+  },
+  {
+    "id": 6015,
+    "title": "KYOCERA TK-4109 Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2300,
+    "description": "KYOCERA TK-4109 black toner cartridge for reliable printing in KYOCERA TK-4109 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 10,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-4109 Series" }
+    ]
+  },
+  {
+    "id": 6016,
+    "title": "KYOCERA TK-3405 Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2200,
+    "description": "KYOCERA TK-3405 black toner cartridge for high-quality printing in KYOCERA TK-3405 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 8,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-3405 Series" }
+    ]
+  },
+  {
+    "id": 6017,
+    "title": "KYOCERA TK-1245 Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2250,
+    "description": "KYOCERA TK-1245 black toner cartridge for consistent, high-quality printing in KYOCERA TK-1245 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 11,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-1245 Series" }
+    ]
+  },
+  {
+    "id": 6018,
+    "title": "KYOCERA TK-479 Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category6.png",
+      "title": "KYOCERA",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/qdks33N/product-11.jpg",
+    "price": 2100,
+    "description": "KYOCERA TK-479 black toner cartridge for reliable printing in KYOCERA TK-479 series printers.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Color", "value": "Black" },
+      { "label": "Page Yield", "value": "Approx. 9,000 pages" },
+      { "label": "Warranty", "value": "1 Year" },
+      { "label": "Compatibility", "value": "KYOCERA TK-479 Series" }
+    ]
+  },
+  {
+    "id": 7001,
+    "title": "PANTLUM CLT-1100K Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category7.png",
+      "title": "PANTLUM",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "PANTLUM CLT-1100K black toner cartridge designed for consistent, high-quality laser printing with reliable performance.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Print Technology",
+        "value": "Laser"
+      },
+      {
+        "label": "Color",
+        "value": "Black"
+      },
+      {
+        "label": "Page Yield",
+        "value": "Approx. 1,600 pages"
+      },
+      {
+        "label": "Compatibility",
+        "value": "Pantum Laser Printers"
+      },
+      {
+        "label": "Warranty",
+        "value": "1 Year"
+      }
+    ]
+  },
+  {
+    "id": 7002,
+    "title": "PANTLUM CLT-1100C Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#00bcd4"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category7.png",
+      "title": "PANTLUM",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "PANTLUM CLT-1100C cyan toner cartridge designed for consistent, high-quality laser printing with reliable performance.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Print Technology",
+        "value": "Laser"
+      },
+      {
+        "label": "Color",
+        "value": "Cyan"
+      },
+      {
+        "label": "Page Yield",
+        "value": "Approx. 1,600 pages"
+      },
+      {
+        "label": "Compatibility",
+        "value": "Pantum Laser Printers"
+      },
+      {
+        "label": "Warranty",
+        "value": "1 Year"
+      }
+    ]
+  },
+  {
+    "id": 7003,
+    "title": "PANTLUM CLT-1100Y Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#ffeb3b"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category7.png",
+      "title": "PANTLUM",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "PANTLUM CLT-1100Y yellow toner cartridge designed for consistent, high-quality laser printing with reliable performance.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Print Technology",
+        "value": "Laser"
+      },
+      {
+        "label": "Color",
+        "value": "Yellow"
+      },
+      {
+        "label": "Page Yield",
+        "value": "Approx. 1,600 pages"
+      },
+      {
+        "label": "Compatibility",
+        "value": "Pantum Laser Printers"
+      },
+      {
+        "label": "Warranty",
+        "value": "1 Year"
+      }
+    ]
+  },
+  {
+    "id": 7004,
+    "title": "PANTLUM CLT-1100M Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#e91e63"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category7.png",
+      "title": "PANTLUM",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "PANTLUM CLT-1100M magenta toner cartridge designed for consistent, high-quality laser printing with reliable performance.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Print Technology",
+        "value": "Laser"
+      },
+      {
+        "label": "Color",
+        "value": "Magenta"
+      },
+      {
+        "label": "Page Yield",
+        "value": "Approx. 1,600 pages"
+      },
+      {
+        "label": "Compatibility",
+        "value": "Pantum Laser Printers"
+      },
+      {
+        "label": "Warranty",
+        "value": "1 Year"
+      }
+    ]
+  },
+  {
+    "id": 7005,
+    "title": "PANTLUM DL-5120 Drum Unit",
+    "bgcolor": "#ececec",
+    "color": ["#000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category7.png",
+      "title": "PANTLUM",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 3200,
+    "description": "PANTLUM DL-5120 drum unit engineered for reliable performance and consistent print quality in Pantum laser printers.",
+    "stock": 15,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Product Type",
+        "value": "Drum Unit"
+      },
+      {
+        "label": "Print Technology",
+        "value": "Laser"
+      },
+      {
+        "label": "Color",
+        "value": "Black"
+      },
+      {
+        "label": "Page Yield",
+        "value": "Up to 12,000 pages"
+      },
+      {
+        "label": "Compatibility",
+        "value": "Pantum Laser Printers"
+      },
+      {
+        "label": "Warranty",
+        "value": "1 Year"
+      }
+    ]
+  },
+  {
+    "id": 7006,
+    "title": "PANTLUM P210 Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category7.png",
+      "title": "PANTLUM",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 1800,
+    "description": "PANTLUM P210 black toner cartridge designed for sharp text output and reliable performance in Pantum laser printers.",
+    "stock": 25,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Product Type",
+        "value": "Toner Cartridge"
+      },
+      {
+        "label": "Print Technology",
+        "value": "Laser"
+      },
+      {
+        "label": "Color",
+        "value": "Black"
+      },
+      {
+        "label": "Page Yield",
+        "value": "Up to 1,600 pages"
+      },
+      {
+        "label": "Compatibility",
+        "value": "Pantum P210 Series Printers"
+      },
+      {
+        "label": "Warranty",
+        "value": "1 Year"
+      }
+    ]
+  },
+  {
+    "id": 7007,
+    "title": "PANTLUM P412H Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category7.png",
+      "title": "PANTLUM",
+      "color": "#f8f6fa"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2600,
+    "description": "PANTLUM P412H high-yield black toner cartridge designed for efficient, long-lasting performance in Pantum laser printers.",
+    "stock": 18,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      {
+        "label": "Product Type",
+        "value": "High Yield Toner Cartridge"
+      },
+      {
+        "label": "Print Technology",
+        "value": "Laser"
+      },
+      {
+        "label": "Color",
+        "value": "Black"
+      },
+      {
+        "label": "Page Yield",
+        "value": "Up to 6,000 pages"
+      },
+      {
+        "label": "Compatibility",
+        "value": "Pantum P412 Series Printers"
+      },
+      {
+        "label": "Warranty",
+        "value": "1 Year"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Ribbon Cartridge Premium",
+    "color": "#f1f1f3",
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category8.png",
+      "title": "BROTHER",
+      "color": "#f8f6fa"
     },
     "img": "https://i.ibb.co/FY0k703/product-4.jpg",
     "price": 2100,
     "description": "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Ribbon Cartridge Premium",
+    "color": "#f1f1f3",
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category9.png",
+      "title": "Canon Color",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Lorem ipsum is a dummy or placeholder text commonly used in graphic design, publishing, and web development.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10001,
+    "title": "Canon 925 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Canon 925 black toner cartridge designed for consistent, high-quality laser printing with reliable performance.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10002,
+    "title": "Canon 303 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Canon 303 black toner cartridge designed for high-quality laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10003,
+    "title": "Canon 326 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Canon 326 black toner cartridge designed for high-quality laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10004,
+    "title": "Canon 328 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Canon 328 black toner cartridge designed for high-quality laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10005,
+    "title": "Canon 337 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Canon 337 black toner cartridge designed for high-quality laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10006,
+    "title": "Canon O51 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Canon O51 black toner cartridge designed for high-quality laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10007,
+    "title": "Canon O57 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Canon O57 black toner cartridge designed for high-quality laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10008,
+    "title": "Canon T06 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Canon T06 black toner cartridge designed for high-quality laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10009,
+    "title": "Canon O52 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Canon O52 black toner cartridge designed for high-quality laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10010,
+    "title": "Canon O71 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Canon O71 black toner cartridge designed for high-quality laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10011,
+    "title": "Canon O70 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Canon O70 black toner cartridge designed for high-quality laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10012,
+    "title": "Canon 333 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Canon 333 black toner cartridge designed for high-quality laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10013,
+    "title": "Canon O72 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Canon O72 black toner cartridge designed for high-quality laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10014,
+    "title": "Canon T13 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Canon T13 black toner cartridge designed for high-quality laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10015,
+    "title": "Canon T03 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Canon T03 black toner cartridge designed for high-quality laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10016,
+    "title": "Canon NPG 28 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2100,
+    "description": "Canon NPG 28 black toner cartridge for consistent, high-quality laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10017,
+    "title": "Canon NPG 36 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2150,
+    "description": "Canon NPG 36 black toner cartridge for reliable laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10018,
+    "title": "Canon NPG 50 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2200,
+    "description": "Canon NPG 50 black toner cartridge designed for high-volume printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10019,
+    "title": "Canon NPG 51 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2200,
+    "description": "Canon NPG 51 black toner cartridge for sharp, clear laser output.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10020,
+    "title": "Canon NPG 53 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2250,
+    "description": "Canon NPG 53 black toner cartridge for professional laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10021,
+    "title": "Canon NPG 59 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2300,
+    "description": "Canon NPG 59 black toner cartridge for efficient laser printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10022,
+    "title": "Canon NPG 68 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2350,
+    "description": "Canon NPG 68 black toner cartridge for consistent print quality.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10023,
+    "title": "Canon NPG 73 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2400,
+    "description": "Canon NPG 73 black toner cartridge for high-volume printing.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10024,
+    "title": "Canon NPG 84 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2450,
+    "description": "Canon NPG 84 black toner cartridge for professional laser output.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10025,
+    "title": "Canon NPG 87 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2500,
+    "description": "Canon NPG 87 black toner cartridge for sharp and durable prints.",
+    "stock": 20,
+    "images": [
+      "https://i.ibb.co/FY0k703/product-4.jpg",
+      "https://i.ibb.co/qdks33N/product-11.jpg"
+    ],
+    "specs": [
+      { "label": "Print Technology", "value": "Laser" },
+      { "label": "Duty Cycle", "value": "15,000 pages" },
+      { "label": "Warranty", "value": "1 Year" }
+    ]
+  },
+  {
+    "id": 10026,
+    "title": "Canon NPG 90 Black Toner Cartridge",
+    "bgcolor": "#ececec",
+    "color": ["#000000"],
+    "category": {
+      "img": "https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/category10.png",
+      "title": "Canon Use Black",
+      "color": "#faf8fb"
+    },
+    "img": "https://i.ibb.co/FY0k703/product-4.jpg",
+    "price": 2550,
+    "description": "Canon NPG 90 black toner cartridge for high-performance laser printing.",
     "stock": 20,
     "images": [
       "https://i.ibb.co/FY0k703/product-4.jpg",

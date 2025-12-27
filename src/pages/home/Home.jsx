@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <HeroBanner />
-      <Section2 addToRef={addToRef} />
+      <Section2 herocat={true} />
       <Section3 addToRef={addToRef} />
       <Section5 addToRef={addToRef} />
       <Section6 addToRef={addToRef} />

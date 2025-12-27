@@ -8,7 +8,7 @@ const Section2 = () => {
   const products = product || [];
 
   const navigate = useNavigate();
-  const itemsPerPage = 9;
+  const itemsPerPage = 15;
   const categories = [...new Set(products?.map((p) => p.category.title))];
   const [selectedCategories, setSelectedCategories] = React.useState([]);
   const [search, setSearch] = React.useState("");
@@ -70,19 +70,6 @@ const Section2 = () => {
           <div onClick={() => setShowCategories(!showCategories)}>
             {showCategories ? (
               <svg
-                viewBox="0 0 24 24"
-                width="24"
-                height="24"
-                stroke="gray"
-                strokeWidth="2"
-                fill="none"
-                className="flex cursor-pointer"
-              >
-                <line x1="18" y1="6" x2="6" y2="18"></line>
-                <line x1="6" y1="6" x2="18" y2="18"></line>
-              </svg>
-            ) : (
-              <svg
                 viewBox="0 0 26 26"
                 width="26"
                 height="26"
@@ -94,6 +81,26 @@ const Section2 = () => {
                 <line x1="3" y1="12" x2="21" y2="12"></line>
                 <line x1="3" y1="6" x2="21" y2="6"></line>
                 <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            ) : (
+              <svg
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                stroke="gray"
+                strokeWidth="2"
+                fill="none"
+                className="flex cursor-pointer"
+              >
+                <line x1="4" y1="21" x2="4" y2="14"></line>
+                <line x1="4" y1="10" x2="4" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12" y2="3"></line>
+                <line x1="20" y1="21" x2="20" y2="16"></line>
+                <line x1="20" y1="12" x2="20" y2="3"></line>
+                <line x1="1" y1="14" x2="7" y2="14"></line>
+                <line x1="9" y1="8" x2="15" y2="8"></line>
+                <line x1="17" y1="16" x2="23" y2="16"></line>
               </svg>
             )}
           </div>
@@ -153,7 +160,8 @@ const Section2 = () => {
                 <div className="bg-tertiary">
                   <img
                     src={item.img}
-                    className="w-full h-300 sm-h-200 object-cover flex"
+                    className="w-full h-300 sm-h-200 object-contain flex"
+                    style={{ background: item?.color }}
                     alt={item.title}
                   />
                 </div>

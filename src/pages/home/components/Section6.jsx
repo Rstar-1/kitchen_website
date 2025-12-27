@@ -28,13 +28,13 @@ const Section6 = ({ quantity = true, addToRef }) => {
               className="bg-secondary w-full h-500 sm-h-450 relative overflow-hidden rounded-5"
               style={{
                 backgroundImage:
-                  'url("https://printshop.tokotema.com/wp-content/uploads/2023/08/Hero-Line-Bg.png")',
+                  'url("https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/side1.png")',
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "right bottom",
               }}
             >
               <img
-                src="https://printshop.tokotema.com/wp-content/uploads/2023/08/T-Shirt-and-Dat-Hat-Mockup-Featuring-a-Smiling-768x861.png"
+                src="https://raw.githubusercontent.com/Rstar-1/generic/refs/heads/main/mayur/img/review1.png"
                 alt="arrow"
                 className="w-full absolute top-0 right-0 h-600 sm-h-500 object-contain flex"
               />
@@ -52,7 +52,7 @@ const Section6 = ({ quantity = true, addToRef }) => {
             </h4>
             <div className="flex items-center w-full gap-10 py-30 sm-py-24">
               <img
-                src="https://printshop.tokotema.com/wp-content/uploads/2023/08/a-men-look-back-before-driving-2022-11-03-05-19-05-utc-1.jpg"
+                src="https://ex-coders.com/php-template/digtek/assets/img/testimonial/10.png"
                 alt="testimonial"
                 className="flex object-contain w-15 sm-w-20 rounded-5"
                 style={{ height: "80px" }}
