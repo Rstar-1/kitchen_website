@@ -11,7 +11,7 @@ const Overview = () => {
     <>
       <Banner
         title="Product Details"
-        description="Bring your documents and photos to life. Vibrant colors, deep blacks, and flawless print clarity."
+        description="Detailed industrial specifications and feature overview of our PVC and fabric product line."
         widthClass="w-50"
       />
       <Details />

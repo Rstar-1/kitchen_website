@@ -9,8 +9,8 @@ const Connect = () => {
   return (
     <>
       <Banner
-        title="Connect Us"
-        description="We’re here to help! Whether you have questions, need support, or want more information about our products and services, reach out to us today. Our team is ready to assist you promptly."
+        title="Connect With Wadhumal & Sons"
+        description="Get in touch with Mumbai's trusted PVC product & fabric manufacturer. Contact us for product inquiries, catalogue requests, export detailing, or bulk pricing orders."
         widthClass="w-70"
       />
       <Section2 addToRef={addToRef} />

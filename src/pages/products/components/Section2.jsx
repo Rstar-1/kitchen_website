@@ -160,7 +160,7 @@ const Section2 = () => {
                 <div className="bg-tertiary">
                   <img
                     src={item.img}
-                    className="w-full h-300 sm-h-200 object-contain flex"
+                    className="w-full h-300 sm-h-200 object-cover flex"
                     style={{ background: item?.color }}
                     alt={item.title}
                   />

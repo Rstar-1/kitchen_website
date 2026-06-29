@@ -15,18 +15,16 @@ const Section2 = ({ herocat = true }) => {
 
   const FeaturedGrid = ({ list }) => (
     <div
-      className={`${
-        herocat ? "grid-cols-5" : "grid-cols-4"
-      } w-full md-grid-cols-2 sm-grid-cols-2 gap-12 mt-20`}
+      className={`${herocat ? "grid-cols-5" : "grid-cols-4"
+        } w-full md-grid-cols-2 sm-grid-cols-2 gap-12 mt-20`}
     >
       {list?.map((item, index) => (
         <NavLink to="/product" key={index}>
           <div className="sm-mb-14" ref={catToRef}>
             <img
               src={item.img}
-              className={`${
-                herocat ? "h-200" : "h-300"
-              } w-full sm-h-150 object-contain flex rounded-5`}
+              className={`${herocat ? "h-200" : "h-300"
+                } w-full sm-h-150 object-cover flex rounded-5`}
               style={{ background: item?.color }}
               alt={item.title}
             />

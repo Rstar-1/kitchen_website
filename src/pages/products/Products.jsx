@@ -6,8 +6,8 @@ const Products = () => {
   return (
     <>
       <Banner
-        title="Explore Our Products"
-        description="Discover high-quality printing solutions and accessories designed to bring your documents and photos to life. Enjoy vibrant colors, deep blacks, and flawless print clarity with every product."
+        title="Explore Our PVC & Fabric Products"
+        description="Discover Wadhumal & Sons comprehensive range of premium PVC coated tarpaulins, transparent sheeting, table covers, strip curtains, wall panels, and fabrics."
         widthClass="w-70"
       />
       <Section2 />

@@ -27,7 +27,7 @@ const Layout = () => {
   //   };
   // }, []);
 
-  const message = `Discover the best deals with Mayur Computers! 🛒✨`;
+  const message = `Discover premium PVC products & fabrics with Wadhumal & Sons! 🛒✨`;
   const encodedMessage = encodeURIComponent(message);
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   const whatsappUrl = isMobile

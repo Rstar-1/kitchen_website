@@ -14,15 +14,13 @@ const Section4 = ({ addToRef }) => {
               className="large-text text-dark font-600 w-90 pt-10"
               ref={addToRef}
             >
-              Let's Bring Your Ideas to Life
+              Partner with Wadhumal & Sons Today
             </h4>
             <p
               className="headpara-text text-gray font-400 sm-w-full w-90 mt-25 sm-mt-15"
               ref={addToRef}
             >
-              Scelerisque in dolor donec neque velit. Risus aenean integer
-              elementum odio sed adipiscing. Sem id scelerisque nunc quis.
-              Imperdiet nascetur consequat.
+              Contact our sales and manufacturing team for custom PVC dimensions, wholesale orders, and export inquiries worldwide.
             </p>
           </div>
           <div className="w-50 sm-w-full pl-20 sm-pl-1 sm-mt-25">
@@ -47,20 +45,20 @@ const Section4 = ({ addToRef }) => {
           <div className="flex sm-grid-cols-1 px-30 sm-px-15 items-center gap-12">
             <div>
               <h4 className="title-text text-dark font-500">Contact Us</h4>
-              <a href="tel:+919867264193" className="para-text text-gray mt-6">
-                +91-9867264193
+              <a href="tel:+918511700544" className="para-text text-gray mt-6">
+                +91 85117 00544
               </a>
             </div>
-            <div className="mx-20 sm-mx-1">
+            {/* <div className="mx-20 sm-mx-1">
               <h4 className="title-text text-dark font-500">Email Us</h4>
               <a
-                href="mailto:mayur.computers2012@gmail.com"
-                aria-label="Send email to mayur.computers2012@gmail.com"
+                href="mailto:info@wadhumal.com"
+                aria-label="Send email to info@wadhumal.com"
                 className="para-text text-gray mt-6"
               >
-                mayur.computers2012@gmail.com
+                info@wadhumal.com
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

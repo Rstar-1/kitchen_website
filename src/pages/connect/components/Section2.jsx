@@ -21,11 +21,10 @@ const Section2 = ({ addToRef }) => {
               <line x1="16" y1="6" x2="16" y2="22"></line>
             </svg>
             <p className="ml-3 midpara-text text-gray w-95">
-              Shop No 17/D, Bahubali Building,Cawasji Patel Street, Opp Akbar
-              Ali Furniture Center, Fort, Mumbai, Maharashtra 400001,
+              Shop No. 271, Next to State Bank of India, Mohammed Ali Road, Masjid Bunder, Mumbai – 400003, Maharashtra.
             </p>
           </div>
-          <div className="flex items-start gap-6 mt-10 sm-mt-15" ref={addToRef}>
+          {/* <div className="flex items-start gap-6 mt-10 sm-mt-15" ref={addToRef}>
             <svg
               viewBox="0 0 24 24"
               width="20"
@@ -38,12 +37,12 @@ const Section2 = ({ addToRef }) => {
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
               <polyline points="22,6 12,13 2,6"></polyline>
             </svg>
-            <a href="mailto:mayur.computers2012@gmail.com" className="w-95">
+            <a href="mailto:info@wadhumal.com" className="w-95">
               <p className="ml-3 midpara-text text-gray">
-                mayur.computers2012@gmail.com
+                info@wadhumal.com
               </p>
             </a>
-          </div>
+          </div> */}
           <div className="flex items-start gap-6 mt-10 sm-mt-15" ref={addToRef}>
             <svg
               viewBox="0 0 24 24"
@@ -58,8 +57,7 @@ const Section2 = ({ addToRef }) => {
               <polyline points="12 6 12 12 16 14"></polyline>
             </svg>
             <p className="ml-3 midpara-text text-gray w-95">
-              Mon - Sat : 09:00 AM - 09:00 PM / 12:00 AM - 12:00 AM Sun : Closed
-              / 12:00 AM - 12:00 AM
+              Monday – Saturday: 10:00 AM – 7:00 PM (Sunday Closed)
             </p>
           </div>
           <div className="flex items-start gap-6 mt-10 sm-mt-15" ref={addToRef}>
@@ -75,17 +73,8 @@ const Section2 = ({ addToRef }) => {
               <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
             </svg>
             <div className="w-95 flex sm-grid-cols-1 items-center gap-12">
-              <a href="tel:9867264193">
-                <p className="ml-3 midpara-text text-gray">+91-9867264193</p>
-              </a>
-              <a href="tel:+9987566345">
-                <p className="ml-3 midpara-text text-gray">+91-9987566345</p>
-              </a>
-              <a href="tel:022-66389848">
-                <p className="ml-3 midpara-text text-gray">022-66389848</p>
-              </a>
-              <a href="tel:022-66366199">
-                <p className="ml-3 midpara-text text-gray">022-66366199</p>
+              <a href="tel:+918511700544">
+                <p className="ml-3 midpara-text text-gray">+91 85117 00544</p>
               </a>
             </div>
           </div>

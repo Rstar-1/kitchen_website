@@ -21,7 +21,7 @@ const Section2 = () => {
             <div className="bg-forth rounded-5 p-10">
               <img
                 src={item.img}
-                className="w-full h-200 object-contain flex rounded-5 bg-white"
+                className="w-full h-200 object-cover flex rounded-5 bg-white"
                 alt={item.title}
               />
             </div>

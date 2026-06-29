@@ -10,8 +10,8 @@ const About = () => {
   return (
     <>
       <Banner
-        title="About Us"
-        description="Discover high-quality printing solutions and accessories designed to bring your documents and photos to life. Enjoy vibrant colors, deep blacks, and flawless print clarity with every product."
+        title="About Wadhumal & Sons"
+        description="Established in 1951, Wadhumal & Sons is a pioneer in manufacturing PVC coated tarpaulins, transparent sheeting, table covers, strip curtains, synthetic leather, and wall panels in Mumbai, serving clients across India and exporting to UAE, USA, and Bangladesh."
         widthClass="w-70"
       />
       <Section3 addToRef={addToRef} />

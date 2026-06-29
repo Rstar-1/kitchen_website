@@ -11,20 +11,19 @@ const HeroBanner = () => {
         <div className="flex sm-block items-center py-60 sm-py-40 px-15 sm-px-5">
           <div className="w-50 sm-w-full pr-20 sm-pr-1">
             <p className="text-warning headpara-text mb-15" ref={heroToRef}>
-              Bring Your Life.
+              Established 1951
             </p>
             <h1
               className="largehead-text text-dark font-600 uppercase"
               ref={heroToRef}
             >
-              Quality is Prints Start Here.
+              PVC & Fabric Products
             </h1>
             <p
               className="text-gray midpara-text mt-30 sm-mt-12"
               ref={heroToRef}
             >
-              Bring your documents and photos to life. Vibrant colors, deep
-              blacks, and flawless print clarity.
+              Premier manufacturer, fabric supplier, and dealer of high-quality PVC coated tarpaulins, wall panels, clear sheeting, table covers, and strip curtains.
             </p>
           </div>
           <div className="w-50 sm-w-full pl-20 sm-pl-1 sm-mt-20">
@@ -40,7 +39,7 @@ const HeroBanner = () => {
                   }}
                 >
                   <h4 className="head-text text-white font-600" ref={heroToRef}>
-                    Discover the Process Behind Our Work
+                    Explore Our PVC & Fabric Catalogue
                   </h4>
                 </div>
               </div>
@@ -51,14 +50,14 @@ const HeroBanner = () => {
                   className="h-400 sm-h-250 w-full object-cover flex rounded-5"
                 />
                 <div className="mt-20 text-center" ref={heroToRef}>
-                  <h4 className="head-text text-dark font-600">20K+</h4>
-                  <p className="para-text text-gray font-400">Items Deliver</p>
+                  <h4 className="head-text text-dark font-600">70+ Years</h4>
+                  <p className="para-text text-gray font-400">Of Industry Excellence</p>
                 </div>
                 <p
                   className="text-white bg-primary w-max px-25 py-6 rounded-20 midpara-text mb-15 abs-hero"
                   ref={heroToRef}
                 >
-                  Bring Your Life.
+                  Wadhumal & Sons
                 </p>
               </div>
             </div>

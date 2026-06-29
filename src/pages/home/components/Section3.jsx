@@ -5,24 +5,24 @@ const Section3 = ({ addToRef }) => {
   const workSteps = [
     {
       aboutText:
-        "Sociis varius nisl eu ipsum faucibus. Ac semper nisl turpis diam libero id ante nullam. Tellus. Sociis varius nisl eu ipsum faucibus. Ac semper nisl turpis diam libero id ante nullam. Tellus.",
+        "Established in 1951, Wadhumal & Sons is a premier manufacturer, fabric manufacturer, and PVC wall panel dealer based in Mumbai, Maharashtra.",
     },
     {
       aboutText:
-        "Sociis varius nisl eu ipsum faucibus. Ac semper nisl turpis diam libero id ante nullam. Tellus.",
+        "We specialize in manufacturing high-grade PVC coated tarpaulins, transparent sheeting, table covers, strip curtains, and non-woven backed printed fabrics.",
     },
     {
       aboutText:
-        "Sociis varius nisl eu ipsum faucibus. Ac semper nisl turpis diam libero id ante nullam. Tellus. Sociis varius nisl eu ipsum faucibus. Ac semper nisl turpis diam libero id ante nullam. Tellus.",
+        "With active export operations serving Bangladesh, UAE, and USA, our GST-registered facility (GSTIN: 27AAAFW5495M1ZG) delivers uncompromising quality and durability.",
     },
   ];
   const printItems = [
-    "Bussiness Card",
-    "POSTER & BANNER",
-    "BROCHURE",
-    "Card",
-    "CUSTOM INVITATION",
-    "APPAREL PRINTING",
+    "PVC TARPAULIN",
+    "TRANSPARENT SHEETING",
+    "TABLE COVERS",
+    "STRIP CURTAINS",
+    "ARTIFICIAL GRASS",
+    "PVC LEATHER",
   ];
 
   return (
@@ -48,10 +48,10 @@ const Section3 = ({ addToRef }) => {
           </div>
           <div className="w-70 sm-w-full pl-20 sm-pl-1 sm-mt-30">
             <p className="text-gray headpara-text" ref={addToRef}>
-              About Us
+              About Wadhumal & Sons
             </p>
             <h4 className="large-text text-darkk font-600 pt-10" ref={addToRef}>
-              Excellence
+              Manufacturing Excellence Since 1951
             </h4>
             <div className="grid-cols-1 gap-12 mt-40 sm-mt-30 pl-30 sm-pl-1">
               {workSteps?.map((item, index) => (

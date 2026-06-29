@@ -5,27 +5,27 @@ const Section3 = ({ addToRef }) => {
   const faqSteps = [
     {
       faqText:
-        "Sociis varius nisl eu ipsum faucibus. Ac semper nisl turpis diam libero id ante nullam. Tellus. Sociis varius nisl eu ipsum faucibus. Ac semper nisl turpis diam libero id ante nullam. Tellus.",
+        "What products does Wadhumal & Sons manufacture? We manufacture PVC coated tarpaulins, transparent sheeting, table covers, strip curtains, synthetic leather, wall panels, and artificial grass flooring.",
     },
     {
       faqText:
-        "Sociis varius nisl eu ipsum faucibus. Ac semper nisl turpis diam libero id ante nullam. Tellus.",
+        "Where is your manufacturing and store facility located? We are located at Shop No. 271, Next to State Bank of India, Mohammed Ali Road, Masjid Bunder, Mumbai – 400003, Maharashtra.",
     },
     {
       faqText:
-        "Sociis varius nisl eu ipsum faucibus. Ac semper nisl turpis diam libero id ante nullam. Tellus. Sociis varius nisl eu ipsum faucibus. Ac semper nisl turpis diam libero id ante nullam. Tellus.",
+        "Do you export products internationally? Yes, we regularly export high-grade PVC products and fabrics to Bangladesh, UAE, and the USA.",
     },
     {
       faqText:
-        "Sociis varius nisl eu ipsum faucibus. Ac semper nisl turpis diam libero id ante nullam. Tellus. Sociis varius nisl eu ipsum faucibus. Ac semper nisl turpis diam libero id ante nullam. Tellus.",
+        "What are your business operating hours? We operate Monday through Saturday from 10:00 AM to 7:00 PM (Closed on Sundays).",
     },
     {
       faqText:
-        "Sociis varius nisl eu ipsum faucibus. Ac semper nisl turpis diam libero id ante nullam. Tellus.",
+        "Do you provide tax invoices for bulk and corporate purchases? Yes, Wadhumal & Sons is GST registered (GSTIN: 27AAAFW5495M1ZG) and provides proper tax invoices.",
     },
     {
       faqText:
-        "Sociis varius nisl eu ipsum faucibus. Ac semper nisl turpis diam libero id ante nullam. Tellus. Sociis varius nisl eu ipsum faucibus. Ac semper nisl turpis diam libero id ante nullam. Tellus.",
+        "Can I request custom sizes for tarpaulins and strip curtains? Absolutely! We offer custom cutting and tailored manufacturing according to your industrial specifications.",
     },
   ];
   return (
@@ -33,10 +33,10 @@ const Section3 = ({ addToRef }) => {
       <div className="w-full py-40 sm-py-30">
         <div className="px-15 sm-px-5">
           <p className="text-gray headpara-text" ref={addToRef}>
-            FAQ
+            Frequently Asked Questions
           </p>
           <h4 className="large-text text-darkk font-600 pt-10" ref={addToRef}>
-            Excellence
+            Everything You Need To Know
           </h4>
           <div className="grid-cols-2 sm-grid-cols-1 gap-12 mt-40 sm-mt-25 sm-w-full w-90">
             {faqSteps?.map((item, index) => (

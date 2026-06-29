@@ -58,8 +58,8 @@ const Section6 = ({ quantity = true, addToRef }) => {
                 style={{ height: "80px" }}
               />
               <div className="w-85 sm-w-80">
-                <p className="small-text text-gray">3 days ago</p>
-                <h5 className="title-text font-600 text-dark">Angela Jones</h5>
+                <p className="small-text text-gray">Recently verified</p>
+                <h5 className="title-text font-600 text-dark">Rajesh Mehta</h5>
                 <div className="flex items-center gap-6 mt-4">
                   {[...Array(5)].map((_, index) => (
                     <svg
@@ -78,12 +78,10 @@ const Section6 = ({ quantity = true, addToRef }) => {
               </div>
             </div>
             <h6 className="title-text font-500 text-dark" ref={addToRef}>
-              Outstanding Print Quality
+              Outstanding PVC & Fabric Quality
             </h6>
             <p className="para-text text-gray w-90 mt-8" ref={addToRef}>
-              Scelerisque in dolor donec neque velit. Risus aenean integer
-              elementum odio sed adipiscing. Sem id scelerisque nunc quis.
-              Imperdiet nascetur consequat.
+              Wadhumal & Sons provides exceptional heavy-duty tarpaulins and table covers. Their attention to material strength and fast delivery makes them our top supplier in Mumbai!
             </p>
           </div>
         </div>

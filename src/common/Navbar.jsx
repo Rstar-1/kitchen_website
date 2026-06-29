@@ -104,7 +104,7 @@ const Navbar = () => {
         <div className="bg-white b-shadow w-80 h-100 absolute right-0 top-0">
           <div className="bg-secondary p-16">
             <div className="flex items-center justify-between gap-4">
-              <p className="headpara-text text-white">Mayur Computers</p>
+              <p className="headpara-text text-white">Wadhumal & Sons</p>
               <div onClick={() => setsidebarshow(false)}>
                 <svg
                   viewBox="0 0 24 24"
@@ -170,12 +170,12 @@ const Navbar = () => {
             <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
           </svg>
           <p className="text-white small-text flex items-center gap-8">
-            We Will Grow Your Small Business To The Next Level
+            Leading PVC Product & Fabric Manufacturer Since 1951
           </p>
         </div>
         <div className="flex sm-block gap-8 items-center">
           <a
-            href="tel:+919867264193"
+            href="tel:+918511700544"
             className="text-white para-text mr-12 sm-mr-1 flex items-center gap-8"
           >
             <svg
@@ -189,13 +189,13 @@ const Navbar = () => {
             >
               <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
             </svg>
-            +91-9867264193
+            +91 85117 00544
           </a>
-          <p className="text-white para-text sm-hidden">|</p>
+          {/* <p className="text-white para-text sm-hidden">|</p>
           <a
-            href="mailto:mayur.computers2012@gmail.com"
+            href="mailto:info@wadhumal.com"
             className="text-white para-text ml-12 sm-ml-1 sm-mt-12 flex items-center gap-8"
-            aria-label="Send email to mayur.computers2012@gmail.com"
+            aria-label="Send email to info@wadhumal.com"
           >
             <svg
               viewBox="0 0 24 24"
@@ -209,17 +209,13 @@ const Navbar = () => {
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
               <polyline points="22,6 12,13 2,6"></polyline>
             </svg>
-            mayur.computers2012@gmail.com
-          </a>
+            info@wadhumal.com
+          </a> */}
         </div>
       </div>
       <div className="flex items-center justify-between py-12 px-20">
         <NavLink to="/home">
-          <img
-            src="https://image1.jdomni.in/storeLogo/11012020/86/08/D1/E224BC336DAF85A7C455301446_1578736750581.png?output-format=webp"
-            className="object-cover flex"
-            style={{ height: "50px" }}
-          />
+          <h3 className="font-600 text-dark title-text">Wadhumal & <span className="text-warning">Sons</span></h3>
         </NavLink>
         <div className="flex sm-hidden items-center gap-8">
           {NavData.map((item) => (
@@ -232,7 +228,7 @@ const Navbar = () => {
               {item.label}
             </NavLink>
           ))}
-          <a href="tel:+919867264193">
+          <a href="tel:+918511700544">
             <button className="cursor-pointer px-25 py-11 para-text font-400 text-white bg-warning border-0 rounded-5 ml-12">
               Get A Quote
             </button>

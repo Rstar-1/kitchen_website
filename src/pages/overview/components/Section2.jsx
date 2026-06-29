@@ -20,7 +20,7 @@ const Section2 = () => {
           <div className="sm-mb-14" ref={simiToRef}>
             <img
               src={item.img}
-              className="w-full h-200 sm-h-150 object-contain flex rounded-5"
+              className="w-full h-200 sm-h-150 object-cover flex rounded-5"
               style={{ background: item?.color }}
               alt={item.title}
             />

@@ -60,9 +60,8 @@ const Details = () => {
                 <img
                   key={idx}
                   src={img}
-                  className={`w-full h-100px object-contain flex rounded-5 cursor-pointer bg-forth ${
-                    mainImg === img ? "border-warning" : "border-forth"
-                  }`}
+                  className={`w-full h-100px object-cover flex rounded-5 cursor-pointer bg-forth ${mainImg === img ? "border-warning" : "border-forth"
+                    }`}
                   alt={product?.title}
                   onClick={() => setMainImg(img)}
                 />
@@ -71,7 +70,7 @@ const Details = () => {
             <div className="w-80 sm-w-full sm-mt-12">
               <img
                 src={mainImg}
-                className="w-full h-450 sm-h-350 object-contain flex rounded-5 bg-white border-forth"
+                className="w-full h-450 sm-h-350 object-cover flex rounded-5 bg-white border-forth"
                 alt={product?.title}
               />
             </div>
@@ -89,12 +88,21 @@ const Details = () => {
               ₹ {product?.price}
             </h3>
             <div className="grid-cols-2 w-80 sm-w-full gap-12 mt-20">
-              <button className="cursor-pointer w-full py-10 sm-py-9 para-text font-400 text-white bg-secondary border-0">
-                Call Now
-              </button>
-              <button className="cursor-pointer w-full py-10 sm-py-9 para-text font-400 text-secondary border-secondary bg-white">
-                Message
-              </button>
+              <a href="tel:+918511700544" className="w-full">
+                <button className="cursor-pointer w-full py-10 sm-py-9 para-text font-400 text-white bg-secondary border-0">
+                  Call Now
+                </button>
+              </a>
+              <a
+                href={`https://api.whatsapp.com/send?phone=918511700544&text=${encodeURIComponent(`Hello Wadhumal & Sons, I am interested in ${product?.title || 'your product'}.`)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full"
+              >
+                <button className="cursor-pointer w-full py-10 sm-py-9 para-text font-400 text-secondary border-secondary bg-white">
+                  Message
+                </button>
+              </a>
             </div>
           </div>
         </div>
