@@ -5,15 +5,15 @@ const Section3 = ({ addToRef }) => {
   const faqSteps = [
     {
       faqText:
-        "What products does Wadhumal & Sons manufacture? We manufacture PVC coated tarpaulins, transparent sheeting, table covers, strip curtains, synthetic leather, wall panels, and artificial grass flooring.",
+        "What products does Ashmita Enterprises deal in? We deal in PVC Strip Curtains, PVC Printed Rolls, PVC Sheets, PVC Rolls, PVC Curtains, PVC Films, Mounting Brackets, PVC Clear Sheets, Soft PVC Rolls, Transparent PVC Rolls, PVC Rainbow Clear Sheets, Anti-Insect PVC Strip Curtains, Freezer Grade PVC Strip Curtains, Cold Storage Curtains, PVC Mattress Films, and Super Clear PVC Films.",
     },
     {
       faqText:
-        "Where is your manufacturing and store facility located? We are located at Shop No. 271, Next to State Bank of India, Mohammed Ali Road, Masjid Bunder, Mumbai – 400003, Maharashtra.",
+        "Where is your store facility located? We are located at Shop No. 271, Next to State Bank of India, Mohammed Ali Road, Masjid Bunder, Mumbai – 400003, Maharashtra.",
     },
     {
       faqText:
-        "Do you export products internationally? Yes, we regularly export high-grade PVC products and fabrics to Bangladesh, UAE, and the USA.",
+        "What is your business type? Ashmita Enterprises operates as a leading Importer, Wholesaler, Trader & Retailer, serving clients with premium-grade PVC rolls and curtains.",
     },
     {
       faqText:
@@ -21,11 +21,11 @@ const Section3 = ({ addToRef }) => {
     },
     {
       faqText:
-        "Do you provide tax invoices for bulk and corporate purchases? Yes, Wadhumal & Sons is GST registered (GSTIN: 27AAAFW5495M1ZG) and provides proper tax invoices.",
+        "Do you provide tax invoices for bulk and corporate purchases? Yes, Ashmita Enterprises provides proper tax invoices with GST compliance for all wholesale and retail orders.",
     },
     {
       faqText:
-        "Can I request custom sizes for tarpaulins and strip curtains? Absolutely! We offer custom cutting and tailored manufacturing according to your industrial specifications.",
+        "Can I request custom sizes for PVC strip curtains and sheets? Absolutely! We support custom dimensions and specific sizing to meet your unique storage, industrial, or domestic requirements.",
     },
   ];
   return (

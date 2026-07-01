@@ -1,450 +1,371 @@
 [
   {
     "id": 1001,
-    "title": "PVC Coated Tarpaulin",
-    "bgcolor": "#ececec",
-    "color": ["#1e3a8a", "#047857"],
-    "category": {
-      "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80",
-      "title": "PVC Product Manufacturer",
-      "color": "#f1f1f3"
-    },
-    "img": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=600&q=80",
-    "price": 2500,
-    "description": "Heavy-duty waterproof PVC coated tarpaulin designed for industrial covering, weather protection, and transportation uses.",
-    "stock": 150,
-    "images": [
-      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=600&q=80"
-    ],
-    "specs": [
-      { "label": "Material", "value": "Heavy Duty PVC Coated Fabric" },
-      { "label": "Thickness", "value": "0.5mm - 1.2mm" },
-      { "label": "Feature", "value": "100% Waterproof & UV Resistant" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
-    ]
-  },
-  {
-    "id": 1002,
-    "title": "PVC Planks",
-    "bgcolor": "#ececec",
-    "color": ["#78350f", "#451a03"],
-    "category": {
-      "img": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=400&q=80",
-      "title": "PVC Wall Panel Dealer",
-      "color": "#f1f1f3"
-    },
-    "img": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80",
-    "price": 850,
-    "description": "Durable and aesthetic PVC planks ideal for stylish wall paneling and modern interior architectural decoration.",
-    "stock": 300,
-    "images": [
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80"
-    ],
-    "specs": [
-      { "label": "Application", "value": "Wall Paneling & Flooring" },
-      { "label": "Durability", "value": "Termite & Water Proof" },
-      { "label": "Finish", "value": "Wood Grain / Embossed" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
-    ]
-  },
-  {
-    "id": 1003,
-    "title": "PVC Transparent Clear Sheeting (Regular)",
-    "bgcolor": "#ececec",
-    "color": ["#ffffff", "#e2e8f0"],
-    "category": {
-      "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80",
-      "title": "PVC Product Manufacturer",
-      "color": "#f1f1f3"
-    },
-    "img": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=600&q=80",
-    "price": 1200,
-    "description": "High-clarity flexible PVC clear sheet suitable for protective coverings, packaging, and general industrial applications.",
-    "stock": 200,
-    "images": [
-      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=600&q=80"
-    ],
-    "specs": [
-      { "label": "Clarity", "value": "High Transparency" },
-      { "label": "Thickness Range", "value": "0.15mm - 0.5mm" },
-      { "label": "Format", "value": "Roll / Sheet" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
-    ]
-  },
-  {
-    "id": 1004,
-    "title": "PVC Transparent Clear Sheeting (Super Clear)",
-    "bgcolor": "#ececec",
-    "color": ["#ffffff", "#cbd5e1"],
-    "category": {
-      "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80",
-      "title": "PVC Product Manufacturer",
-      "color": "#f1f1f3"
-    },
-    "img": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80",
-    "price": 1800,
-    "description": "Premium ultra-crystal super clear PVC sheeting providing exceptional glass-like visibility and supreme flexibility.",
-    "stock": 180,
-    "images": [
-      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80"
-    ],
-    "specs": [
-      { "label": "Grade", "value": "Super Clear Crystal Grade" },
-      { "label": "Thickness", "value": "0.5mm - 2.0mm" },
-      { "label": "Feature", "value": "Anti-UV, Flexible & Scratch Resistant" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
-    ]
-  },
-  {
-    "id": 1005,
-    "title": "Transparent Clear Table Covers",
-    "bgcolor": "#ececec",
-    "color": ["#ffffff"],
-    "category": {
-      "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80",
-      "title": "PVC Product Manufacturer",
-      "color": "#f1f1f3"
-    },
-    "img": "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=600&q=80",
-    "price": 450,
-    "description": "Protective transparent PVC table covers preserving furniture surfaces from spills, stains, and scratches.",
-    "stock": 250,
-    "images": [
-      "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=600&q=80"
-    ],
-    "specs": [
-      { "label": "Material", "value": "100% Virgin PVC" },
-      { "label": "Wipe-Clean", "value": "Easy to Clean & Maintain" },
-      { "label": "Shape", "value": "Rectangular / Square / Custom" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
-    ]
-  },
-  {
-    "id": 1006,
-    "title": "Transparent Embossed Table Covers",
-    "bgcolor": "#ececec",
-    "color": ["#f3f4f6"],
-    "category": {
-      "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80",
-      "title": "PVC Product Manufacturer",
-      "color": "#f1f1f3"
-    },
-    "img": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&w=600&q=80",
-    "price": 600,
-    "description": "Elegantly textured embossed clear table cover adding decorative flair while protecting dining and kitchen tables.",
-    "stock": 220,
-    "images": [
-      "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&w=600&q=80"
-    ],
-    "specs": [
-      { "label": "Pattern", "value": "Floral / Geometric Embossed" },
-      { "label": "Thickness", "value": "0.3mm" },
-      { "label": "Heat Resistance", "value": "Up to 70°C" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
-    ]
-  },
-  {
-    "id": 1007,
-    "title": "Printed Table Covers",
-    "bgcolor": "#ececec",
-    "color": ["#ef4444", "#3b82f6"],
-    "category": {
-      "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80",
-      "title": "PVC Product Manufacturer",
-      "color": "#f1f1f3"
-    },
-    "img": "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?auto=format&fit=crop&w=600&q=80",
-    "price": 550,
-    "description": "Vibrant printed PVC table covers designed with colorful motifs and patterns for modern home dining enhancement.",
-    "stock": 300,
-    "images": [
-      "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?auto=format&fit=crop&w=600&q=80"
-    ],
-    "specs": [
-      { "label": "Print Type", "value": "High Definition Multi-color Print" },
-      { "label": "Waterproof", "value": "Yes" },
-      { "label": "Edge Finish", "value": "Lace Trimmed / Plain Cut" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
-    ]
-  },
-  {
-    "id": 1008,
-    "title": "Printed Table Cloths",
-    "bgcolor": "#ececec",
-    "color": ["#10b981", "#f59e0b"],
-    "category": {
-      "img": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=400&q=80",
-      "title": "Fabric Manufacturer",
-      "color": "#f1f1f3"
-    },
-    "img": "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=600&q=80",
-    "price": 650,
-    "description": "Premium printed fabric and PVC table cloths blending elegant design aesthetics with daily spill resistance.",
-    "stock": 190,
-    "images": [
-      "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?auto=format&fit=crop&w=600&q=80"
-    ],
-    "specs": [
-      { "label": "Material Blend", "value": "PVC + Textile Backing" },
-      { "label": "Style", "value": "Traditional & Contemporary Designs" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
-    ]
-  },
-  {
-    "id": 1009,
-    "title": "PVC Printed Films",
-    "bgcolor": "#ececec",
-    "color": ["#8b5cf6"],
-    "category": {
-      "img": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=400&q=80",
-      "title": "PVC Wall Panel Dealer",
-      "color": "#f1f1f3"
-    },
-    "img": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=600&q=80",
-    "price": 750,
-    "description": "Versatile printed PVC thin films widely used for decorative lamination, stationery manufacturing, and wrapping.",
-    "stock": 400,
-    "images": [
-      "https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=600&q=80"
-    ],
-    "specs": [
-      { "label": "Roll Width", "value": "54 inches / Custom" },
-      { "label": "Features", "value": "Tear Resistant & Durable" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
-    ]
-  },
-  {
-    "id": 1010,
-    "title": "PVC Leather",
-    "bgcolor": "#ececec",
-    "color": ["#451a03", "#1c1917"],
-    "category": {
-      "img": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=400&q=80",
-      "title": "Fabric Manufacturer",
-      "color": "#f1f1f3"
-    },
-    "img": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=600&q=80",
-    "price": 1400,
-    "description": "High-grade artificial PVC leather fabric ideal for automotive upholstery, furniture seating, and luggage crafting.",
-    "stock": 250,
-    "images": [
-      "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=600&q=80"
-    ],
-    "specs": [
-      { "label": "Grade", "value": "Premium Upholstery Grade" },
-      { "label": "Backing", "value": "Knitted / Woven Polyester" },
-      { "label": "Application", "value": "Sofa, Auto Interiors & Bags" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
-    ]
-  },
-  {
-    "id": 1011,
     "title": "PVC Strip Curtains",
     "bgcolor": "#ececec",
     "color": ["#0284c7"],
     "category": {
       "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80",
-      "title": "PVC Product Manufacturer",
+      "title": "PVC Strip Curtains",
       "color": "#f1f1f3"
     },
     "img": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80",
     "price": 3200,
-    "description": "Industrial grade clear PVC strip curtains designed for energy saving, temperature control, and dust protection in warehouses.",
-    "stock": 120,
+    "description": "Standard transparent PVC strip curtains designed for energy conservation, dust prevention, and noise isolation in commercial doorways.",
+    "stock": 250,
     "images": [
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80"
     ],
     "specs": [
       { "label": "Strip Width", "value": "200mm / 300mm" },
       { "label": "Thickness", "value": "2.0mm - 3.0mm" },
-      { "label": "Benefit", "value": "Thermal Insulation & Insect Control" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Feature", "value": "High Transparency & Flexible" },
+      { "label": "Supplier", "value": "Ashmita Enterprises" }
     ]
   },
   {
-    "id": 1012,
-    "title": "PVC Air Curtain Strips",
+    "id": 1002,
+    "title": "PVC Printed Rolls",
     "bgcolor": "#ececec",
-    "color": ["#38bdf8"],
+    "color": ["#8b5cf6"],
     "category": {
-      "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80",
-      "title": "PVC Product Manufacturer",
+      "img": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=400&q=80",
+      "title": "PVC Rolls & Sheeting",
       "color": "#f1f1f3"
     },
-    "img": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80",
+    "img": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=600&q=80",
     "price": 2800,
-    "description": "Flexible replacement PVC strips engineered for doorways and air barrier systems in cold storage and commercial facilities.",
+    "description": "Premium printed PVC rolls available in a wide array of patterns for table covers, lamination, and decorative applications.",
+    "stock": 180,
+    "images": [
+      "https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": [
+      { "label": "Width", "value": "54 inches / Custom" },
+      { "label": "Patterns", "value": "Floral, Geometric, Clear-printed" },
+      { "label": "Supplier", "value": "Ashmita Enterprises" }
+    ]
+  },
+  {
+    "id": 1003,
+    "title": "PVC Sheets",
+    "bgcolor": "#ececec",
+    "color": ["#ffffff", "#e2e8f0"],
+    "category": {
+      "img": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=400&q=80",
+      "title": "PVC Rolls & Sheeting",
+      "color": "#f1f1f3"
+    },
+    "img": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=600&q=80",
+    "price": 950,
+    "description": "Industrial grade high-density PVC sheets offering excellent chemical resistance, durability, and easy fabrication.",
+    "stock": 320,
+    "images": [
+      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": [
+      { "label": "Density", "value": "High Density Rigid/Semi-Rigid" },
+      { "label": "Application", "value": "Industrial Lining & Fabrication" },
+      { "label": "Supplier", "value": "Ashmita Enterprises" }
+    ]
+  },
+  {
+    "id": 1004,
+    "title": "PVC Rolls",
+    "bgcolor": "#ececec",
+    "color": ["#ffffff", "#cbd5e1"],
+    "category": {
+      "img": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=400&q=80",
+      "title": "PVC Rolls & Sheeting",
+      "color": "#f1f1f3"
+    },
+    "img": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80",
+    "price": 4200,
+    "description": "Bulk commercial PVC rolls designed for heavy-duty protection, welding screen setups, and raw material wholesale supply.",
     "stock": 140,
     "images": [
-      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80"
+      "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80"
     ],
     "specs": [
-      { "label": "Temperature Range", "value": "-15°C to +50°C" },
-      { "label": "Transparency", "value": "Crystal Clear" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Roll Length", "value": "30m / 50m" },
+      { "label": "Width", "value": "1.2m / 1.37m" },
+      { "label": "Supplier", "value": "Ashmita Enterprises" }
     ]
   },
   {
-    "id": 1013,
-    "title": "PVC Mattress Films",
-    "bgcolor": "#ececec",
-    "color": ["#e2e8f0"],
-    "category": {
-      "img": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=400&q=80",
-      "title": "Fabric Manufacturer",
-      "color": "#f1f1f3"
-    },
-    "img": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=600&q=80",
-    "price": 950,
-    "description": "Protective hygienic PVC enclosure films engineered specifically for hospital and home mattress encasement.",
-    "stock": 350,
-    "images": [
-      "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=600&q=80"
-    ],
-    "specs": [
-      { "label": "Properties", "value": "Dust Mite Proof & Waterproof" },
-      { "label": "Feel", "value": "Soft & Non-Crackable" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
-    ]
-  },
-  {
-    "id": 1014,
-    "title": "PVC Plastic Bed Sheets",
-    "bgcolor": "#ececec",
-    "color": ["#06b6d4"],
-    "category": {
-      "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80",
-      "title": "PVC Product Manufacturer",
-      "color": "#f1f1f3"
-    },
-    "img": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80",
-    "price": 400,
-    "description": "Reusable liquid-proof plastic bed protector sheets providing ultimate bed hygiene and easy cleanup.",
-    "stock": 500,
-    "images": [
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80"
-    ],
-    "specs": [
-      { "label": "Washable", "value": "100% Washable & Reusable" },
-      { "label": "Use Case", "value": "Medical, Healthcare & Childcare" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
-    ]
-  },
-  {
-    "id": 1015,
-    "title": "PVC Soft Sheets",
-    "bgcolor": "#ececec",
-    "color": ["#cbd5e1"],
-    "category": {
-      "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80",
-      "title": "PVC Product Manufacturer",
-      "color": "#f1f1f3"
-    },
-    "img": "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?auto=format&fit=crop&w=600&q=80",
-    "price": 1100,
-    "description": "Ultra-pliable flexible PVC soft sheets utilized in crafting bags, clear pouches, and protective industrial linings.",
-    "stock": 260,
-    "images": [
-      "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?auto=format&fit=crop&w=600&q=80"
-    ],
-    "specs": [
-      { "label": "Elasticity", "value": "High Flexibility" },
-      { "label": "Surface Finish", "value": "Glossy / Semi-Matte" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
-    ]
-  },
-  {
-    "id": 1016,
-    "title": "Artificial Grass Flooring",
-    "bgcolor": "#ececec",
-    "color": ["#15803d", "#16a34a"],
-    "category": {
-      "img": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=400&q=80",
-      "title": "PVC Wall Panel Dealer",
-      "color": "#f1f1f3"
-    },
-    "img": "https://images.unsplash.com/photo-1584467735871-8e85353a8413?auto=format&fit=crop&w=600&q=80",
-    "price": 1600,
-    "description": "Realistic synthetic artificial grass flooring mats designed for balconies, gardens, sports lawns, and terrace setups.",
-    "stock": 210,
-    "images": [
-      "https://images.unsplash.com/photo-1584467735871-8e85353a8413?auto=format&fit=crop&w=600&q=80"
-    ],
-    "specs": [
-      { "label": "Pile Height", "value": "25mm / 35mm / 50mm" },
-      { "label": "UV Protection", "value": "Weatherproof Synthetic Yarn" },
-      { "label": "Maintenance", "value": "Zero Water & Low Maintenance" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
-    ]
-  },
-  {
-    "id": 1017,
-    "title": "Shower Curtains",
+    "id": 1005,
+    "title": "PVC Curtains",
     "bgcolor": "#ececec",
     "color": ["#0ea5e9"],
     "category": {
       "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80",
-      "title": "PVC Product Manufacturer",
+      "title": "PVC Strip Curtains",
       "color": "#f1f1f3"
     },
     "img": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=600&q=80",
-    "price": 350,
-    "description": "Water-repellent printed and clear PVC shower curtains with rust-proof grommets for modern bathroom aesthetics.",
+    "price": 1800,
+    "description": "Flexible and durable PVC curtains for home, office partitions, and bathroom shower protection from spills and drafts.",
     "stock": 400,
     "images": [
       "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=600&q=80"
     ],
     "specs": [
-      { "label": "Feature", "value": "Mold & Mildew Resistant" },
-      { "label": "Included", "value": "Curtain Rings & Reinforced Header" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Type", "value": "Full panel partitions" },
+      { "label": "Feature", "value": "100% Water Repellent" },
+      { "label": "Supplier", "value": "Ashmita Enterprises" }
     ]
   },
   {
-    "id": 1018,
+    "id": 1006,
+    "title": "PVC Films",
+    "bgcolor": "#ececec",
+    "color": ["#ef4444"],
+    "category": {
+      "img": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=400&q=80",
+      "title": "PVC Rolls & Sheeting",
+      "color": "#f1f1f3"
+    },
+    "img": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80",
+    "price": 650,
+    "description": "Pliable transparent and colored PVC thin films suitable for stationery files, rainwear, and general packaging materials.",
+    "stock": 500,
+    "images": [
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": [
+      { "label": "Thickness Range", "value": "0.08mm - 0.25mm" },
+      { "label": "Transparency", "value": "Glossy / Semi-Matte" },
+      { "label": "Supplier", "value": "Ashmita Enterprises" }
+    ]
+  },
+  {
+    "id": 1007,
+    "title": "Mounting Brackets",
+    "bgcolor": "#ececec",
+    "color": ["#374151"],
+    "category": {
+      "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=400&q=80",
+      "title": "Mounting Accessories",
+      "color": "#f1f1f3"
+    },
+    "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80",
+    "price": 1200,
+    "description": "Stainless steel and heavy-duty galvanized iron mounting brackets and hooks for easy hanging and alignment of PVC strip curtains.",
+    "stock": 600,
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": [
+      { "label": "Material", "value": "Stainless Steel / Galvanized Iron" },
+      { "label": "Fitment", "value": "Wall & Ceiling Mountable" },
+      { "label": "Supplier", "value": "Ashmita Enterprises" }
+    ]
+  },
+  {
+    "id": 1008,
+    "title": "PVC Clear Sheets",
+    "bgcolor": "#ececec",
+    "color": ["#ffffff"],
+    "category": {
+      "img": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=400&q=80",
+      "title": "PVC Rolls & Sheeting",
+      "color": "#f1f1f3"
+    },
+    "img": "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=600&q=80",
+    "price": 1400,
+    "description": "High-clarity cut-to-size PVC clear sheets designed for table protection, glass replacement, and sanitary desk barrier setup.",
+    "stock": 290,
+    "images": [
+      "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": [
+      { "label": "Finish", "value": "Crystal Clear / Glossy" },
+      { "label": "Cleanability", "value": "Easy Wipe-Clean" },
+      { "label": "Supplier", "value": "Ashmita Enterprises" }
+    ]
+  },
+  {
+    "id": 1009,
+    "title": "Soft PVC Rolls",
+    "bgcolor": "#ececec",
+    "color": ["#e2e8f0"],
+    "category": {
+      "img": "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?auto=format&fit=crop&w=400&q=80",
+      "title": "PVC Rolls & Sheeting",
+      "color": "#f1f1f3"
+    },
+    "img": "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?auto=format&fit=crop&w=600&q=80",
+    "price": 4800,
+    "description": "Highly flexible soft PVC rolls, offering excellent shock absorption, anti-scratch surface, and premium thermal resistance.",
+    "stock": 100,
+    "images": [
+      "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": [
+      { "label": "Flexibility", "value": "Ultra Soft & Pliable" },
+      { "label": "Thickness Range", "value": "1.0mm - 4.0mm" },
+      { "label": "Supplier", "value": "Ashmita Enterprises" }
+    ]
+  },
+  {
+    "id": 1010,
     "title": "Transparent PVC Rolls",
     "bgcolor": "#ececec",
-    "color": ["#f8fafc"],
+    "color": ["#cbd5e1"],
     "category": {
-      "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80",
-      "title": "PVC Product Manufacturer",
+      "img": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=400&q=80",
+      "title": "PVC Rolls & Sheeting",
       "color": "#f1f1f3"
     },
-    "img": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80",
-    "price": 4500,
-    "description": "Bulk commercial transparent PVC film rolls designed for large-scale industrial processing, fabrication, and wholesale distribution.",
-    "stock": 90,
+    "img": "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=600&q=80",
+    "price": 4990,
+    "description": "Premium industrial grade transparent PVC rolls, ideal for partitioning, welding shields, and high-visibility barrier sheets.",
+    "stock": 110,
     "images": [
-      "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80"
+      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=600&q=80"
     ],
     "specs": [
-      { "label": "Roll Length", "value": "30m / 50m Rolls" },
-      { "label": "Width", "value": "1.37m (54 inch)" },
-      { "label": "Export Quality", "value": "Shipped to USA, UAE & Bangladesh" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Transparency", "value": "99% Light Transmission" },
+      { "label": "Standards", "value": "Heavy Duty Industrial Grade" },
+      { "label": "Supplier", "value": "Ashmita Enterprises" }
     ]
   },
   {
-    "id": 1019,
-    "title": "Non-Woven Backed Printed Fabric",
+    "id": 1011,
+    "title": "PVC Rainbow Clear Sheets",
     "bgcolor": "#ececec",
-    "color": ["#d97706", "#b45309"],
+    "color": ["#ef4444", "#3b82f6", "#10b981"],
     "category": {
-      "img": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=400&q=80",
-      "title": "Fabric Manufacturer",
+      "img": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&w=400&q=80",
+      "title": "PVC Rolls & Sheeting",
       "color": "#f1f1f3"
     },
-    "img": "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?auto=format&fit=crop&w=600&q=80",
-    "price": 1300,
-    "description": "High-strength non-woven backed printed composite fabric providing extra anti-skid cushioning for luxury table cloths and protective mats.",
-    "stock": 170,
+    "img": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&w=600&q=80",
+    "price": 1650,
+    "description": "Beautiful iridescent, color-shifting rainbow PVC clear sheets, perfect for designer bags, fancy stationery, and unique retail displays.",
+    "stock": 150,
     "images": [
-      "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?auto=format&fit=crop&w=600&q=80"
+      "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&w=600&q=80"
     ],
     "specs": [
-      { "label": "Layering", "value": "Printed PVC Film + Non-Woven Fleece Backing" },
-      { "label": "Anti-Slip", "value": "Yes" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Finish", "value": "Rainbow Iridescent Glossy" },
+      { "label": "Ideal for", "value": "Fashion Accessories & Creative Crafts" },
+      { "label": "Supplier", "value": "Ashmita Enterprises" }
+    ]
+  },
+  {
+    "id": 1012,
+    "title": "Anti-Insect PVC Strip Curtains",
+    "bgcolor": "#ececec",
+    "color": ["#f59e0b"],
+    "category": {
+      "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80",
+      "title": "PVC Strip Curtains",
+      "color": "#f1f1f3"
+    },
+    "img": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80",
+    "price": 3600,
+    "description": "Amber/Yellow tinted anti-insect PVC curtains emitting a specific light wavelength that repels flying pests and mosquitoes.",
+    "stock": 130,
+    "images": [
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": [
+      { "label": "Color", "value": "Translucent Amber-Yellow" },
+      { "label": "Benefit", "value": "Pest Control & Clean Environment" },
+      { "label": "Supplier", "value": "Ashmita Enterprises" }
+    ]
+  },
+  {
+    "id": 1013,
+    "title": "Freezer Grade PVC Strip Curtains",
+    "bgcolor": "#ececec",
+    "color": ["#0ea5e9"],
+    "category": {
+      "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80",
+      "title": "PVC Strip Curtains",
+      "color": "#f1f1f3"
+    },
+    "img": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80",
+    "price": 3800,
+    "description": "Special polar freezer-grade PVC strip curtains that remain flexible down to -30°C without cracking, preserving low temperatures.",
+    "stock": 120,
+    "images": [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": [
+      { "label": "Temp Rating", "value": "-30°C to +40°C" },
+      { "label": "Application", "value": "Walk-in Freezers & Cold Stores" },
+      { "label": "Supplier", "value": "Ashmita Enterprises" }
+    ]
+  },
+  {
+    "id": 1014,
+    "title": "Cold Storage Curtains",
+    "bgcolor": "#ececec",
+    "color": ["#3b82f6"],
+    "category": {
+      "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80",
+      "title": "PVC Strip Curtains",
+      "color": "#f1f1f3"
+    },
+    "img": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=600&q=80",
+    "price": 3950,
+    "description": "Heavy-duty insulating cold storage curtains designed for walk-in chillers, refrigerated trucks, and thermal warehouse zones.",
+    "stock": 95,
+    "images": [
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": [
+      { "label": "Insulation", "value": "High Thermal Retentivity" },
+      { "label": "Material", "value": "Polar Grade PVC Compound" },
+      { "label": "Supplier", "value": "Ashmita Enterprises" }
+    ]
+  },
+  {
+    "id": 1015,
+    "title": "PVC Mattress Films",
+    "bgcolor": "#ececec",
+    "color": ["#e2e8f0"],
+    "category": {
+      "img": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=400&q=80",
+      "title": "PVC Special Films",
+      "color": "#f1f1f3"
+    },
+    "img": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=600&q=80",
+    "price": 1150,
+    "description": "Hygienic dust-proof and liquid-proof soft PVC enclosure films engineered for medical and home mattress wrapping.",
+    "stock": 350,
+    "images": [
+      "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": [
+      { "label": "Hygiene", "value": "Dust-mite & Spill Proof" },
+      { "label": "Texture", "value": "Soft Non-Crackable Film" },
+      { "label": "Supplier", "value": "Ashmita Enterprises" }
+    ]
+  },
+  {
+    "id": 1016,
+    "title": "Super Clear PVC Films",
+    "bgcolor": "#ececec",
+    "color": ["#ffffff"],
+    "category": {
+      "img": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=400&q=80",
+      "title": "PVC Rolls & Sheeting",
+      "color": "#f1f1f3"
+    },
+    "img": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80",
+    "price": 1950,
+    "description": "Premium glass-like super clear PVC films offering ultimate transparency, UV protection, and supreme outdoor durability.",
+    "stock": 200,
+    "images": [
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80"
+    ],
+    "specs": [
+      { "label": "Clarity Grade", "value": "Super Clear / Optical Grade" },
+      { "label": "Features", "value": "Anti-UV, Flexible & Heavy Duty" },
+      { "label": "Supplier", "value": "Ashmita Enterprises" }
     ]
   }
 ]

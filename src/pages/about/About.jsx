@@ -10,8 +10,8 @@ const About = () => {
   return (
     <>
       <Banner
-        title="About Wadhumal & Sons"
-        description="Established in 1951, Wadhumal & Sons is a pioneer in manufacturing PVC coated tarpaulins, transparent sheeting, table covers, strip curtains, synthetic leather, and wall panels in Mumbai, serving clients across India and exporting to UAE, USA, and Bangladesh."
+        title="About Ashmita Enterprises"
+        description="Ashmita Enterprises is a leading importer, wholesaler, trader, and retailer of PVC strip curtains, rolls, sheets, films, mounting brackets, and cold storage curtains in Mumbai, serving commercial, cold storage, and retail clients across India."
         widthClass="w-70"
       />
       <Section3 addToRef={addToRef} />

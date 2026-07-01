@@ -27,7 +27,7 @@ const Layout = () => {
   //   };
   // }, []);
 
-  const message = `Discover premium PVC products & fabrics with Wadhumal & Sons! 🛒✨`;
+  const message = `Discover premium PVC strip curtains, rolls & sheets with Ashmita Enterprises! 🛒✨`;
   const encodedMessage = encodeURIComponent(message);
   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
   const whatsappUrl = isMobile

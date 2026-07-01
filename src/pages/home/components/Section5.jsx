@@ -5,20 +5,20 @@ import CountUp from "../../../utility/Countup";
 const Section5 = ({ addToRef }) => {
   const stats = [
     {
-      value: 75,
-      label: "Years of Experience (Since 1951)",
+      value: 10,
+      label: "Years of Industry Experience",
     },
     {
-      value: 3,
-      label: "Global Export Countries (USA, UAE, BD)",
+      value: 16,
+      label: "Premium PVC Products",
     },
     {
       value: 100,
-      label: "Quality Satisfaction Rate",
+      label: "Quality Satisfaction Rate (%)",
     },
     {
-      value: 20,
-      label: "PVC Product Varieties",
+      value: 500,
+      label: "Wholesale & Retail Clients",
     },
   ];
 
@@ -30,12 +30,12 @@ const Section5 = ({ addToRef }) => {
             <div className="w-40 sm-w-full">
               <p className="text-gray headpara-text">Why Choose Us</p>
               <h4 className="large-text text-dark font-500 pt-10">
-                Wadhumal & Sons in Numbers
+                Ashmita Enterprises in Numbers
               </h4>
             </div>
             <div className="w-60 sm-w-full sm-mt-10">
               <p className="headpara-text text-gray font-400">
-                Since 1951, Wadhumal & Sons has maintained a legacy of excellence in manufacturing heavy-duty PVC tarpaulins, transparent films, wall panels, and table covers with international delivery capabilities.
+                Ashmita Enterprises is a premier importer, wholesaler, trader, and retailer of PVC strip curtains, rolls, sheets, films, and mounting brackets, offering high-quality solutions for industrial, cold storage, and retail clients.
               </p>
             </div>
           </div>

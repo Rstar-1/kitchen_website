@@ -78,10 +78,10 @@ const Section6 = ({ quantity = true, addToRef }) => {
               </div>
             </div>
             <h6 className="title-text font-500 text-dark" ref={addToRef}>
-              Outstanding PVC & Fabric Quality
+              Outstanding PVC Curtains & Rolls
             </h6>
             <p className="para-text text-gray w-90 mt-8" ref={addToRef}>
-              Wadhumal & Sons provides exceptional heavy-duty tarpaulins and table covers. Their attention to material strength and fast delivery makes them our top supplier in Mumbai!
+              Ashmita Enterprises provides exceptional PVC strip curtains and rolls. Their attention to material clarity and prompt delivery makes them our top supplier!
             </p>
           </div>
         </div>

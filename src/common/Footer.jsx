@@ -25,7 +25,7 @@ const Footer = () => {
           ))}
         </div>
         <p className="text-center para-text text-white capitalize pt-25">
-          © Copyrights 1951 - 2026. Wadhumal & Sons. All Rights Reserved.
+          © Copyrights 2026. Ashmita Enterprises. All Rights Reserved.
         </p>
       </div>
     </Container>

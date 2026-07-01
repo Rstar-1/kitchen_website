@@ -9,8 +9,8 @@ const Connect = () => {
   return (
     <>
       <Banner
-        title="Connect With Wadhumal & Sons"
-        description="Get in touch with Mumbai's trusted PVC product & fabric manufacturer. Contact us for product inquiries, catalogue requests, export detailing, or bulk pricing orders."
+        title="Connect With Ashmita Enterprises"
+        description="Get in touch with Ashmita Enterprises, a leading importer, wholesaler, trader, and retailer of PVC strip curtains, rolls, sheets, films, and mounting brackets."
         widthClass="w-70"
       />
       <Section2 addToRef={addToRef} />

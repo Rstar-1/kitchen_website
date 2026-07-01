@@ -14,13 +14,13 @@ const Section4 = ({ addToRef }) => {
               className="large-text text-dark font-600 w-90 pt-10"
               ref={addToRef}
             >
-              Partner with Wadhumal & Sons Today
+              Partner with Ashmita Enterprises Today
             </h4>
             <p
               className="headpara-text text-gray font-400 sm-w-full w-90 mt-25 sm-mt-15"
               ref={addToRef}
             >
-              Contact our sales and manufacturing team for custom PVC dimensions, wholesale orders, and export inquiries worldwide.
+              Contact our sales and customer service team for PVC roll dimensions, wholesale orders, and trader/retailer inquiries.
             </p>
           </div>
           <div className="w-50 sm-w-full pl-20 sm-pl-1 sm-mt-25">
@@ -45,18 +45,18 @@ const Section4 = ({ addToRef }) => {
           <div className="flex sm-grid-cols-1 px-30 sm-px-15 items-center gap-12">
             <div>
               <h4 className="title-text text-dark font-500">Contact Us</h4>
-              <a href="tel:+918511700544" className="para-text text-gray mt-6">
-                +91 85117 00544
+              <a href="tel:+917942562287" className="para-text text-gray mt-6">
+                +91 7942562287
               </a>
             </div>
             {/* <div className="mx-20 sm-mx-1">
               <h4 className="title-text text-dark font-500">Email Us</h4>
               <a
-                href="mailto:info@wadhumal.com"
-                aria-label="Send email to info@wadhumal.com"
+                href="mailto:info@ashmitaenterprises.com"
+                aria-label="Send email to info@ashmitaenterprises.com"
                 className="para-text text-gray mt-6"
               >
-                info@wadhumal.com
+                info@ashmitaenterprises.com
               </a>
             </div> */}
           </div>

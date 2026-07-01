@@ -37,9 +37,9 @@ const Section2 = ({ addToRef }) => {
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
               <polyline points="22,6 12,13 2,6"></polyline>
             </svg>
-            <a href="mailto:info@wadhumal.com" className="w-95">
+            <a href="mailto:info@ashmitaenterprises.com" className="w-95">
               <p className="ml-3 midpara-text text-gray">
-                info@wadhumal.com
+                info@ashmitaenterprises.com
               </p>
             </a>
           </div> */}
@@ -73,10 +73,45 @@ const Section2 = ({ addToRef }) => {
               <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
             </svg>
             <div className="w-95 flex sm-grid-cols-1 items-center gap-12">
-              <a href="tel:+918511700544">
-                <p className="ml-3 midpara-text text-gray">+91 85117 00544</p>
+              <a href="tel:+917942562287">
+                <p className="ml-3 midpara-text text-gray">+91 7942562287</p>
               </a>
             </div>
+          </div>
+        </div>
+        <div className="px-15 sm-px-5 mb-30" ref={addToRef}>
+          <h4 className="title-text text-dark font-600 mb-16">Business Profile</h4>
+          <div className="border-forth rounded-5 overflow-hidden">
+            <table className="w-full text-left border-collapse">
+              <thead>
+                <tr className="bg-tertiary">
+                  <th className="p-12 para-text text-dark font-600 border-b border-forth">Field</th>
+                  <th className="p-12 para-text text-dark font-600 border-b border-forth">Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="p-12 small-text text-dark font-600 border-b border-forth">Business Name</td>
+                  <td className="p-12 small-text text-gray border-b border-forth">Ashmita Enterprises</td>
+                </tr>
+                <tr>
+                  <td className="p-12 small-text text-dark font-600 border-b border-forth">Company CEO</td>
+                  <td className="p-12 small-text text-gray border-b border-forth">Mr. Patil</td>
+                </tr>
+                <tr>
+                  <td className="p-12 small-text text-dark font-600 border-b border-forth">Contact Person / Name</td>
+                  <td className="p-12 small-text text-gray border-b border-forth">Ashmita (Manager)</td>
+                </tr>
+                <tr>
+                  <td className="p-12 small-text text-dark font-600 border-b border-forth">Business Type</td>
+                  <td className="p-12 small-text text-gray border-b border-forth">Importer, Wholesaler, Trader & Retailer</td>
+                </tr>
+                <tr>
+                  <td className="p-12 small-text text-dark font-600">Contact Number</td>
+                  <td className="p-12 small-text text-gray">+91 7942562287</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
         <div className="px-15 sm-px-5" ref={addToRef}>

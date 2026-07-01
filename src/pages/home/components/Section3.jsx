@@ -5,24 +5,24 @@ const Section3 = ({ addToRef }) => {
   const workSteps = [
     {
       aboutText:
-        "Established in 1951, Wadhumal & Sons is a premier manufacturer, fabric manufacturer, and PVC wall panel dealer based in Mumbai, Maharashtra.",
+        "Ashmita Enterprises is a premier importer, wholesaler, trader, and retailer of premium PVC products, offering high-quality solutions for diverse industrial, storage, and decorative needs.",
     },
     {
       aboutText:
-        "We specialize in manufacturing high-grade PVC coated tarpaulins, transparent sheeting, table covers, strip curtains, and non-woven backed printed fabrics.",
+        "We specialize in providing high-grade PVC strip curtains, PVC printed rolls, PVC sheets, PVC rolls, PVC films, mounting brackets, and freezer-grade cold storage curtains.",
     },
     {
       aboutText:
-        "With active export operations serving Bangladesh, UAE, and USA, our GST-registered facility (GSTIN: 27AAAFW5495M1ZG) delivers uncompromising quality and durability.",
+        "Under the leadership of CEO Mr. Patil and Manager Ashmita, we ensure prompt national and regional wholesale supply with a focus on durability, material clarity, and competitive pricing.",
     },
   ];
   const printItems = [
-    "PVC TARPAULIN",
-    "TRANSPARENT SHEETING",
-    "TABLE COVERS",
-    "STRIP CURTAINS",
-    "ARTIFICIAL GRASS",
-    "PVC LEATHER",
+    "PVC STRIP CURTAINS",
+    "PVC PRINTED ROLLS",
+    "PVC SHEETS",
+    "PVC ROLLS",
+    "PVC FILMS",
+    "MOUNTING BRACKETS",
   ];
 
   return (
@@ -48,10 +48,10 @@ const Section3 = ({ addToRef }) => {
           </div>
           <div className="w-70 sm-w-full pl-20 sm-pl-1 sm-mt-30">
             <p className="text-gray headpara-text" ref={addToRef}>
-              About Wadhumal & Sons
+              About Ashmita Enterprises
             </p>
             <h4 className="large-text text-darkk font-600 pt-10" ref={addToRef}>
-              Manufacturing Excellence Since 1951
+              Importer, Wholesaler, Trader & Retailer
             </h4>
             <div className="grid-cols-1 gap-12 mt-40 sm-mt-30 pl-30 sm-pl-1">
               {workSteps?.map((item, index) => (

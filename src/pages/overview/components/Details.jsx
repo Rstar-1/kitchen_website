@@ -88,13 +88,13 @@ const Details = () => {
               ₹ {product?.price}
             </h3>
             <div className="grid-cols-2 w-80 sm-w-full gap-12 mt-20">
-              <a href="tel:+918511700544" className="w-full">
+              <a href="tel:+917942562287" className="w-full">
                 <button className="cursor-pointer w-full py-10 sm-py-9 para-text font-400 text-white bg-secondary border-0">
                   Call Now
                 </button>
               </a>
               <a
-                href={`https://api.whatsapp.com/send?phone=918511700544&text=${encodeURIComponent(`Hello Wadhumal & Sons, I am interested in ${product?.title || 'your product'}.`)}`}
+                href={`https://api.whatsapp.com/send?phone=917942562287&text=${encodeURIComponent(`Hello Ashmita Enterprises, I am interested in ${product?.title || 'your product'}.`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full"
