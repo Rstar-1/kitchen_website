@@ -9,6 +9,8 @@ const Footer = () => {
     { href: "/product", label: "Products" },
     { href: "/category", label: "Category" },
     { href: "/connect", label: "Connect" },
+    { href: "/terms", label: "Terms & Conditions" },
+    { href: "/privacy-policy", label: "Privacy Policy" },
   ];
   return (
     <Container version="v2" className="bg-dark">
@@ -24,9 +26,32 @@ const Footer = () => {
             </NavLink>
           ))}
         </div>
-        <p className="text-center para-text text-white capitalize pt-25">
-          © Copyrights 1951 - 2026. Wadhumal & Sons. All Rights Reserved.
+        <p className="text-center para-text text-white pt-25">
+          © 2026 ASHMITA VINYLS PRIVATE LIMITED. All rights reserved.
         </p>
+        <div className="flex justify-center items-center gap-8 pt-10">
+          <a
+            href="/GST_CERTIFICATE.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-6 para-text"
+            style={{ color: "var(--gray)", textDecoration: "none" }}
+            title="Verify GST Certificate"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              width="16"
+              height="16"
+              stroke="var(--warning)"
+              strokeWidth="2"
+              fill="none"
+              className="flex"
+            >
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <span>GSTIN: 27AAVCA8630Q1ZO (GST Verified)</span>
+          </a>
+        </div>
       </div>
     </Container>
   );

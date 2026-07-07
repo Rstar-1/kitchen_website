@@ -10,6 +10,8 @@ const Products = lazy(() => import("./pages/products/Products"));
 const Overview = lazy(() => import("./pages/overview/Overview"));
 const Category = lazy(() => import("./pages/category/Category"));
 const Connect = lazy(() => import("./pages/connect/Connect"));
+const Terms = lazy(() => import("./pages/terms/Terms"));
+const Privacy = lazy(() => import("./pages/privacy/Privacy"));
 
 function App() {
   const [enableScroll, setEnableScroll] = React.useState(
@@ -40,6 +42,8 @@ function App() {
           <Route path="product-detail" element={<Overview />} />
           <Route path="category" element={<Category />} />
           <Route path="connect" element={<Connect />} />
+          <Route path="terms" element={<Terms />} />
+          <Route path="privacy-policy" element={<Privacy />} />
         </Route>
       </Routes>
     </Suspense>

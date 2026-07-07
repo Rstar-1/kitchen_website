@@ -5,11 +5,11 @@ const Section3 = ({ addToRef }) => {
   const faqSteps = [
     {
       faqText:
-        "What products does Wadhumal & Sons manufacture? We manufacture PVC coated tarpaulins, transparent sheeting, table covers, strip curtains, synthetic leather, wall panels, and artificial grass flooring.",
+        "What products does Ashmita Vinyls Private Limited manufacture? We manufacture PVC coated tarpaulins, transparent sheeting, table covers, strip curtains, synthetic leather, wall panels, and artificial grass flooring.",
     },
     {
       faqText:
-        "Where is your manufacturing and store facility located? We are located at Shop No. 271, Next to State Bank of India, Mohammed Ali Road, Masjid Bunder, Mumbai – 400003, Maharashtra.",
+        "Where is your manufacturing and store facility located? We are located at 3rd Floor, C-304, Primus Neptune Eastern Business District, Lal Bahadur Shastri Marg, Bhandup West, Mumbai, Maharashtra 400078.",
     },
     {
       faqText:
@@ -21,7 +21,7 @@ const Section3 = ({ addToRef }) => {
     },
     {
       faqText:
-        "Do you provide tax invoices for bulk and corporate purchases? Yes, Wadhumal & Sons is GST registered (GSTIN: 27AAAFW5495M1ZG) and provides proper tax invoices.",
+        "Do you provide tax invoices for bulk and corporate purchases? Yes, Ashmita Vinyls Private Limited is GST registered (GSTIN: 27AAVCA8630Q1ZO) and provides proper tax invoices.",
     },
     {
       faqText:
@@ -58,7 +58,35 @@ const Section3 = ({ addToRef }) => {
                   <path d="M4 4v7a4 4 0 0 0 4 4h12"></path>
                 </svg>
 
-                <p className="midpara-text text-gray w-90">{item.faqText}</p>
+                <p className="midpara-text text-gray w-90">
+                  {index === 4 ? (
+                    <>
+                      Do you provide tax invoices for bulk and corporate purchases? Yes, Ashmita Vinyls Private Limited is GST registered (
+                      <a
+                        href="/GST_CERTIFICATE.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-warning font-500 inline-flex items-center gap-4 hover-underline"
+                      >
+                        <svg
+                          viewBox="0 0 24 24"
+                          width="14"
+                          height="14"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          fill="none"
+                          className="inline"
+                        >
+                          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                        GSTIN: 27AAVCA8630Q1ZO
+                      </a>
+                      ) and provides proper tax invoices.
+                    </>
+                  ) : (
+                    item.faqText
+                  )}
+                </p>
               </div>
             ))}
           </div>

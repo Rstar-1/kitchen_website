@@ -9,7 +9,7 @@ const Connect = () => {
   return (
     <>
       <Banner
-        title="Connect With Wadhumal & Sons"
+        title="Connect With Ashmita Vinyls"
         description="Get in touch with Mumbai's trusted PVC product & fabric manufacturer. Contact us for product inquiries, catalogue requests, export detailing, or bulk pricing orders."
         widthClass="w-70"
       />

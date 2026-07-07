@@ -81,7 +81,7 @@ const Section6 = ({ quantity = true, addToRef }) => {
               Outstanding PVC & Fabric Quality
             </h6>
             <p className="para-text text-gray w-90 mt-8" ref={addToRef}>
-              Wadhumal & Sons provides exceptional heavy-duty tarpaulins and table covers. Their attention to material strength and fast delivery makes them our top supplier in Mumbai!
+              Ashmita Vinyls provides exceptional heavy-duty tarpaulins and table covers. Their attention to material strength and fast delivery makes them our top supplier in Mumbai!
             </p>
           </div>
         </div>

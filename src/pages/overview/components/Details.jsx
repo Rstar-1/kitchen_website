@@ -94,7 +94,7 @@ const Details = () => {
                 </button>
               </a>
               <a
-                href={`https://api.whatsapp.com/send?phone=918511700544&text=${encodeURIComponent(`Hello Wadhumal & Sons, I am interested in ${product?.title || 'your product'}.`)}`}
+                href={`https://api.whatsapp.com/send?phone=918511700544&text=${encodeURIComponent(`Hello Ashmita Vinyls, I am interested in ${product?.title || 'your product'}.`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full"

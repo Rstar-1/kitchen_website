@@ -20,7 +20,7 @@
       { "label": "Material", "value": "Heavy Duty PVC Coated Fabric" },
       { "label": "Thickness", "value": "0.5mm - 1.2mm" },
       { "label": "Feature", "value": "100% Waterproof & UV Resistant" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -44,7 +44,7 @@
       { "label": "Application", "value": "Wall Paneling & Flooring" },
       { "label": "Durability", "value": "Termite & Water Proof" },
       { "label": "Finish", "value": "Wood Grain / Embossed" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -68,7 +68,7 @@
       { "label": "Clarity", "value": "High Transparency" },
       { "label": "Thickness Range", "value": "0.15mm - 0.5mm" },
       { "label": "Format", "value": "Roll / Sheet" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -92,7 +92,7 @@
       { "label": "Grade", "value": "Super Clear Crystal Grade" },
       { "label": "Thickness", "value": "0.5mm - 2.0mm" },
       { "label": "Feature", "value": "Anti-UV, Flexible & Scratch Resistant" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -116,7 +116,7 @@
       { "label": "Material", "value": "100% Virgin PVC" },
       { "label": "Wipe-Clean", "value": "Easy to Clean & Maintain" },
       { "label": "Shape", "value": "Rectangular / Square / Custom" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -140,7 +140,7 @@
       { "label": "Pattern", "value": "Floral / Geometric Embossed" },
       { "label": "Thickness", "value": "0.3mm" },
       { "label": "Heat Resistance", "value": "Up to 70°C" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -164,7 +164,7 @@
       { "label": "Print Type", "value": "High Definition Multi-color Print" },
       { "label": "Waterproof", "value": "Yes" },
       { "label": "Edge Finish", "value": "Lace Trimmed / Plain Cut" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -187,7 +187,7 @@
     "specs": [
       { "label": "Material Blend", "value": "PVC + Textile Backing" },
       { "label": "Style", "value": "Traditional & Contemporary Designs" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -210,7 +210,7 @@
     "specs": [
       { "label": "Roll Width", "value": "54 inches / Custom" },
       { "label": "Features", "value": "Tear Resistant & Durable" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -234,7 +234,7 @@
       { "label": "Grade", "value": "Premium Upholstery Grade" },
       { "label": "Backing", "value": "Knitted / Woven Polyester" },
       { "label": "Application", "value": "Sofa, Auto Interiors & Bags" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -258,7 +258,7 @@
       { "label": "Strip Width", "value": "200mm / 300mm" },
       { "label": "Thickness", "value": "2.0mm - 3.0mm" },
       { "label": "Benefit", "value": "Thermal Insulation & Insect Control" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -281,7 +281,7 @@
     "specs": [
       { "label": "Temperature Range", "value": "-15°C to +50°C" },
       { "label": "Transparency", "value": "Crystal Clear" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -304,7 +304,7 @@
     "specs": [
       { "label": "Properties", "value": "Dust Mite Proof & Waterproof" },
       { "label": "Feel", "value": "Soft & Non-Crackable" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -327,7 +327,7 @@
     "specs": [
       { "label": "Washable", "value": "100% Washable & Reusable" },
       { "label": "Use Case", "value": "Medical, Healthcare & Childcare" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -350,7 +350,7 @@
     "specs": [
       { "label": "Elasticity", "value": "High Flexibility" },
       { "label": "Surface Finish", "value": "Glossy / Semi-Matte" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -374,7 +374,7 @@
       { "label": "Pile Height", "value": "25mm / 35mm / 50mm" },
       { "label": "UV Protection", "value": "Weatherproof Synthetic Yarn" },
       { "label": "Maintenance", "value": "Zero Water & Low Maintenance" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -397,7 +397,7 @@
     "specs": [
       { "label": "Feature", "value": "Mold & Mildew Resistant" },
       { "label": "Included", "value": "Curtain Rings & Reinforced Header" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -421,7 +421,7 @@
       { "label": "Roll Length", "value": "30m / 50m Rolls" },
       { "label": "Width", "value": "1.37m (54 inch)" },
       { "label": "Export Quality", "value": "Shipped to USA, UAE & Bangladesh" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   },
   {
@@ -444,7 +444,7 @@
     "specs": [
       { "label": "Layering", "value": "Printed PVC Film + Non-Woven Fleece Backing" },
       { "label": "Anti-Slip", "value": "Yes" },
-      { "label": "Manufacturer", "value": "Wadhumal & Sons" }
+      { "label": "Manufacturer", "value": "Ashmita Vinyls Private Limited" }
     ]
   }
 ]

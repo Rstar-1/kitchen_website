@@ -21,10 +21,10 @@ const Section2 = ({ addToRef }) => {
               <line x1="16" y1="6" x2="16" y2="22"></line>
             </svg>
             <p className="ml-3 midpara-text text-gray w-95">
-              Shop No. 271, Next to State Bank of India, Mohammed Ali Road, Masjid Bunder, Mumbai – 400003, Maharashtra.
+              3rd Floor, C-304, Primus Neptune Eastern Business District, Lal Bahadur Shastri Marg, Bhandup West, Mumbai, Maharashtra 400078
             </p>
           </div>
-          {/* <div className="flex items-start gap-6 mt-10 sm-mt-15" ref={addToRef}>
+          <div className="flex items-start gap-6 mt-10 sm-mt-15" ref={addToRef}>
             <svg
               viewBox="0 0 24 24"
               width="20"
@@ -37,12 +37,12 @@ const Section2 = ({ addToRef }) => {
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
               <polyline points="22,6 12,13 2,6"></polyline>
             </svg>
-            <a href="mailto:info@wadhumal.com" className="w-95">
+            <a href="mailto:info@ashmitavinyls.com" className="w-95">
               <p className="ml-3 midpara-text text-gray">
-                info@wadhumal.com
+                info@ashmitavinyls.com
               </p>
             </a>
-          </div> */}
+          </div>
           <div className="flex items-start gap-6 mt-10 sm-mt-15" ref={addToRef}>
             <svg
               viewBox="0 0 24 24"
@@ -86,7 +86,7 @@ const Section2 = ({ addToRef }) => {
             height={350}
             loading="lazy"
             allowFullScreen
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.972659949589!2d72.83078450931993!3d18.932604256387375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1dca3f2ca05%3A0x2906f2a183ce8356!2s37%2C%20Cawasji%20Patel%20St%2C%20Kala%20Ghoda%2C%20Fort%2C%20Mumbai%2C%20Maharashtra%20400001!5e0!3m2!1sen!2sin!4v1765117009660!5m2!1sen!2sin"
+            src="https://maps.google.com/maps?q=Neptune%20Eastern%20Business%20District,%20Bhandup%20West,%20Mumbai&t=&z=15&ie=UTF8&iwloc=&output=embed"
           />
         </div>
       </div>

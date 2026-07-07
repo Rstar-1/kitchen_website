@@ -14,7 +14,7 @@ const Section4 = ({ addToRef }) => {
               className="large-text text-dark font-600 w-90 pt-10"
               ref={addToRef}
             >
-              Partner with Wadhumal & Sons Today
+              Partner with Ashmita Vinyls Today
             </h4>
             <p
               className="headpara-text text-gray font-400 sm-w-full w-90 mt-25 sm-mt-15"
@@ -49,16 +49,16 @@ const Section4 = ({ addToRef }) => {
                 +91 85117 00544
               </a>
             </div>
-            {/* <div className="mx-20 sm-mx-1">
+            <div className="mx-20 sm-mx-1">
               <h4 className="title-text text-dark font-500">Email Us</h4>
               <a
-                href="mailto:info@wadhumal.com"
-                aria-label="Send email to info@wadhumal.com"
+                href="mailto:info@ashmitavinyls.com"
+                aria-label="Send email to info@ashmitavinyls.com"
                 className="para-text text-gray mt-6"
               >
-                info@wadhumal.com
+                info@ashmitavinyls.com
               </a>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

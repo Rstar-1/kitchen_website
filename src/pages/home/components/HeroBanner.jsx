@@ -11,7 +11,7 @@ const HeroBanner = () => {
         <div className="flex sm-block items-center py-60 sm-py-40 px-15 sm-px-5">
           <div className="w-50 sm-w-full pr-20 sm-pr-1">
             <p className="text-warning headpara-text mb-15" ref={heroToRef}>
-              Established 1951
+              Ashmita Vinyls Private Limited
             </p>
             <h1
               className="largehead-text text-dark font-600 uppercase"
@@ -50,14 +50,14 @@ const HeroBanner = () => {
                   className="h-400 sm-h-250 w-full object-cover flex rounded-5"
                 />
                 <div className="mt-20 text-center" ref={heroToRef}>
-                  <h4 className="head-text text-dark font-600">70+ Years</h4>
+                  <h4 className="head-text text-dark font-600">Premium Grade</h4>
                   <p className="para-text text-gray font-400">Of Industry Excellence</p>
                 </div>
                 <p
                   className="text-white bg-primary w-max px-25 py-6 rounded-20 midpara-text mb-15 abs-hero"
                   ref={heroToRef}
                 >
-                  Wadhumal & Sons
+                  Ashmita Vinyls
                 </p>
               </div>
             </div>

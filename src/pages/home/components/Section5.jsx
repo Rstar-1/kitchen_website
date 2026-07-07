@@ -5,8 +5,8 @@ import CountUp from "../../../utility/Countup";
 const Section5 = ({ addToRef }) => {
   const stats = [
     {
-      value: 75,
-      label: "Years of Experience (Since 1951)",
+      value: 15,
+      label: "Industrial Machinery Setups",
     },
     {
       value: 3,
@@ -30,12 +30,12 @@ const Section5 = ({ addToRef }) => {
             <div className="w-40 sm-w-full">
               <p className="text-gray headpara-text">Why Choose Us</p>
               <h4 className="large-text text-dark font-500 pt-10">
-                Wadhumal & Sons in Numbers
+                Ashmita Vinyls in Numbers
               </h4>
             </div>
             <div className="w-60 sm-w-full sm-mt-10">
               <p className="headpara-text text-gray font-400">
-                Since 1951, Wadhumal & Sons has maintained a legacy of excellence in manufacturing heavy-duty PVC tarpaulins, transparent films, wall panels, and table covers with international delivery capabilities.
+                Ashmita Vinyls Private Limited has maintained a legacy of excellence in manufacturing heavy-duty PVC tarpaulins, transparent films, wall panels, and table covers with international delivery capabilities.
               </p>
             </div>
           </div>

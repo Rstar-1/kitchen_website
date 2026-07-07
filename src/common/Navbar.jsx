@@ -104,7 +104,7 @@ const Navbar = () => {
         <div className="bg-white b-shadow w-80 h-100 absolute right-0 top-0">
           <div className="bg-secondary p-16">
             <div className="flex items-center justify-between gap-4">
-              <p className="headpara-text text-white">Wadhumal & Sons</p>
+              <p className="headpara-text text-white">Ashmita Vinyls</p>
               <div onClick={() => setsidebarshow(false)}>
                 <svg
                   viewBox="0 0 24 24"
@@ -155,7 +155,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="bg-secondary flex sm-block justify-between items-center p-20">
+      <div className="bg-secondary flex flex-wrap gap-2 justify-between items-center p-20 sm-p-14">
         <div className="flex sm-hidden gap-8 items-center">
           <svg
             viewBox="0 0 24 24"
@@ -173,15 +173,15 @@ const Navbar = () => {
             Leading PVC Product & Fabric Manufacturer Since 1951
           </p>
         </div>
-        <div className="flex sm-block gap-8 items-center">
+        <div className="flex sm-grid-cols-2 gap-8 items-center">
           <a
             href="tel:+918511700544"
-            className="text-white para-text mr-12 sm-mr-1 flex items-center gap-8"
+            className="text-white small-text mr-12 sm-mr-1 flex items-center gap-8"
           >
             <svg
               viewBox="0 0 24 24"
-              width="20"
-              height="20"
+              width="14"
+              height="14"
               stroke="var(--white)"
               strokeWidth="2"
               fill="none"
@@ -191,16 +191,16 @@ const Navbar = () => {
             </svg>
             +91 85117 00544
           </a>
-          {/* <p className="text-white para-text sm-hidden">|</p>
+          <p className="text-white para-text sm-hidden">|</p>
           <a
-            href="mailto:info@wadhumal.com"
-            className="text-white para-text ml-12 sm-ml-1 sm-mt-12 flex items-center gap-8"
-            aria-label="Send email to info@wadhumal.com"
+            href="mailto:info@ashmitavinyls.com"
+            className="text-white small-text ml-12 sm-ml-1 flex items-center gap-8"
+            aria-label="Send email to info@ashmitavinyls.com"
           >
             <svg
               viewBox="0 0 24 24"
-              width="20"
-              height="20"
+              width="14"
+              height="14"
               stroke="var(--white)"
               strokeWidth="2"
               fill="none"
@@ -209,13 +209,34 @@ const Navbar = () => {
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
               <polyline points="22,6 12,13 2,6"></polyline>
             </svg>
-            info@wadhumal.com
-          </a> */}
+            info@ashmitavinyls.com
+          </a>
+          <p className="text-white para-text sm-hidden">|</p>
+          <a
+            href="/GST_CERTIFICATE.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white small-text ml-12 sm-ml-1 sm-mt-6 flex items-center gap-8"
+            title="View GST Certificate"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              width="14"
+              height="14"
+              stroke="var(--warning)"
+              strokeWidth="2"
+              fill="none"
+              className="flex text-warning"
+            >
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            GST Verified
+          </a>
         </div>
       </div>
       <div className="flex items-center justify-between py-12 px-20">
         <NavLink to="/home">
-          <h3 className="font-600 text-dark title-text">Wadhumal & <span className="text-warning">Sons</span></h3>
+          <h3 className="font-600 text-dark title-text">Ashmita <span className="text-warning">Vinyls</span></h3>
         </NavLink>
         <div className="flex sm-hidden items-center gap-8">
           {NavData.map((item) => (
